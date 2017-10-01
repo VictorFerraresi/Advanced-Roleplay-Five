@@ -12,6 +12,18 @@ using System.IO;
 using System.Linq;
 using System.Timers;
 
+/*
+ * 
+ * 
+git pull origin master
+Ordem:
+git add . //Adiciona todos os arquivos que vc alterou pra subir
+git commit -m "Mensagem" //Adiciona a mensagem da change
+git push origin master //Sobe todas as changes comitadas pro repositorio
+
+git pull origin master //Baixa pro respositorio os pushes que outras pessoas deram 
+
+ */
 
 public class ADRP : Script
 {
@@ -536,6 +548,8 @@ public class ADRP : Script
         API.setGamemodeName("adrp");
         API.setTime(DateTime.Now.Hour, DateTime.Now.Minute);
         API.setWeather(1);
+
+        API.setTrafficLightsInterval(3000);
 
         API.setWorldSyncedData("horario", string.Format("{0}:{1}", DateTime.Now.Hour.ToString().PadLeft(2, '0'), DateTime.Now.Minute.ToString().PadLeft(2, '0')));
 
@@ -1492,7 +1506,7 @@ public class ADRP : Script
                         API.setEntityPositionFrozen(instrutor, false);
                         API.setEntityInvincible(instrutor, false);
 
-                        API.sendNativeToAllPlayers(Hash.TASK_ENTER_VEHICLE, instrutor, jobCar, -1, 0, 1.0, 1, 0);
+                        API.sendNativeToAllPlayers(0xC20E50AA46D09CA8, instrutor, jobCar, -1, 0, 1.0, 1, 0);
 
                         API.setEntitySyncedData(player, "pedautoescola", instrutor);
 
@@ -3637,13 +3651,29 @@ public class ADRP : Script
     {
         var cmd = new MySqlCommand("SELECT * FROM veiculos WHERE Spawnado ='1'", bancodados);
         var dr = cmd.ExecuteReader();
-        int counter = 0;
+        int counter = 0, randomCars = 50; // randomCars = Veículo aleatórios que são spawnados ao abrir o server.
         while (dr.Read())
         {
-            SpawnarVeiculo(dr, null, 0);
-            counter++;
+            if (isInt(dr["Spawnado"].ToString()) == 1)
+            {
+                SpawnarVeiculo(dr, null, 0);
+                counter++;
+            }
+            else if(randomCars > 0)
+            {
+                if (isInt(dr["explodido"].ToString()) == 0)
+                {
+                    var random = new Random();
+                    int spawna = random.Next(1);
+                    if (spawna == 1)
+                    {
+                        SpawnarVeiculo(dr, null, 0);
+                        counter++;
+                        randomCars--;
+                    }
+                }
+            }
 
-            API.consoleOutput("[Spawnado] Vehicle ID: {0}", isInt(dr["ID"].ToString()));
         }
         dr.Close();
 
@@ -3842,11 +3872,8 @@ public class ADRP : Script
 
         if (API.hasEntitySyncedData(player.handle, "CarJob"))
         {
-            if (API.getPlayerVehicle(player) == API.getEntitySyncedData(player.handle, "CarJob"))
-            {
-                API.sendNotificationToPlayer(player, "~r~Você não pode ligar/desligar o motor deste veículo.");
-                return;
-            }
+            API.sendNotificationToPlayer(player, "~r~Você não pode ligar/desligar o motor deste veículo.");
+            return;
         }
 
         var veh = (Veiculo)recuperarVeiculoPorID(API.getEntitySyncedData(player.vehicle, "id"));
@@ -3875,6 +3902,7 @@ public class ADRP : Script
 
         if (status == 0)
             player.vehicle.engineStatus = !player.vehicle.engineStatus;
+
         else if (status == 1)//ligar motor
         {
             if (veh.gasolina <= 0)
@@ -7319,6 +7347,18 @@ public class ADRP : Script
     public void CMD_Motor(Client player)
     {
         MotorVeiculo(player);
+    }
+
+    [Command("amotor")]
+    public void CMD_ADMMotor(Client player)
+    {
+        if (API.getEntitySyncedData(player, "staff") < 5)
+        {
+            EnviarMensagemErro(player, MSG_SEM_AUTORIZACAO);
+            return;
+        }
+
+        player.vehicle.engineStatus = !player.vehicle.engineStatus;
     }
     #endregion
 

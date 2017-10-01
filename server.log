@@ -16434,3 +16434,83 @@ Nome do parâmetro: index
 2017-10-01 17:37:00.8379 |  Info | ADRP | Veículos para Venda: 490 
 2017-10-01 17:37:00.8614 |  Info | ADRP | Itens Dropados: 113 
 2017-10-01 17:37:00.8799 |  Info | ADRP | Pets: 1 
+2017-10-01 17:40:01.1139 |  Info | GameServer | Initiating connection: [25.1.221.26:63755] 
+2017-10-01 17:40:01.3175 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 17:40:01.6742 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 17:40:25.7867 |  Info | GameServer | Player disconnected: _whitetrash (Trevor_Harrison) [25.1.221.26], reason: Timeout 
+2017-10-01 17:41:10.5652 | Debug | GameServer | Downloading latest Assembly String failed System.Net.WebException: O tempo limite da operação foi atingido
+   em System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   em System.Net.WebClient.DownloadString(Uri address)
+   em GrandTheftMultiplayer.Server.GameServer.<UpdateLatestAssemblyString>b__63_0(Object <p0>)
+2017-10-01 17:43:20.4104 |  Info | GameServer | Initiating connection: [25.1.221.26:63755] 
+2017-10-01 17:43:20.5500 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 17:43:20.6681 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 17:44:32.3307 |  Info | GameServer | Player disconnected: _whitetrash (Trevor_Harrison) [25.1.221.26], reason: Timeout 
+2017-10-01 17:45:00.5539 | Debug | GameServer | Downloading latest Assembly String failed System.Net.WebException: O nome remoto não pôde ser resolvido: 'master.mta-v.net'
+   em System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   em System.Net.WebClient.DownloadString(Uri address)
+   em GrandTheftMultiplayer.Server.GameServer.<UpdateLatestAssemblyString>b__63_0(Object <p0>)
+2017-10-01 17:47:10.5679 | Debug | GameServer | Downloading latest Assembly String failed System.Net.WebException: O tempo limite da operação foi atingido
+   em System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   em System.Net.WebClient.DownloadString(Uri address)
+   em GrandTheftMultiplayer.Server.GameServer.<UpdateLatestAssemblyString>b__63_0(Object <p0>)
+2017-10-01 17:50:07.4752 |  Info | Program | Terminating... 
+2017-10-01 17:50:07.5115 |  Info | GameServer | Stopping animator 
+2017-10-01 17:50:07.6289 |  Info | GameServer | Stopped animator. 
+2017-10-01 17:50:07.6289 |  Info | GameServer | Stopping adrp 
+2017-10-01 18:04:56.4374 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 18:04:56.5049 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 18:04:56.5134 |  Info | Program |   Port:                 4499 
+2017-10-01 18:04:56.5134 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 18:04:56.5269 |  Info | Program |   FQDN:                      
+2017-10-01 18:04:56.5269 |  Info | Program |   Players:                20 
+2017-10-01 18:04:56.5399 |  Info | Program |   Announce:            False 
+2017-10-01 18:04:56.5399 |  Info | Program | Starting... 
+2017-10-01 18:04:57.0643 |  Info | ConstantData | Loaded Language de 
+2017-10-01 18:04:57.2699 |  Info | GameServer | Loading resources... 
+2017-10-01 18:04:57.3435 |  Info | GameServer | Starting doormanager 
+2017-10-01 18:04:57.8273 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 18:04:57.8273 |  Info | GameServer | Starting adrp 
+2017-10-01 18:04:59.0596 |  Info | GameServer | Resource adrp started. 
+2017-10-01 18:04:59.0596 |  Info | GameServer | Starting animator 
+2017-10-01 18:04:59.5219 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 18:04:59.5279 |  Info | ADRP |  
+2017-10-01 18:04:59.5279 |  Info | ADRP | -------------------------------------- 
+2017-10-01 18:04:59.5384 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 18:04:59.5384 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 18:04:59.5384 |  Info | ADRP |                  2017                  
+2017-10-01 18:04:59.5384 |  Info | ADRP | -------------------------------------- 
+2017-10-01 18:04:59.5554 |  Info | ADRP |  
+2017-10-01 18:04:59.7300 |  Info | GameServer | Resource animator started. 
+2017-10-01 18:04:59.7421 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 18:04:59.7586 |  Info | ADRP | Facções: 4 
+2017-10-01 18:04:59.7896 |  Info | ADRP | Propriedades: 30 
+2017-10-01 18:04:59.8466 |  Info | ADRP | [Spawnado] Vehicle ID: 1 
+2017-10-01 18:04:59.8531 |  Info | ADRP | [Spawnado] Vehicle ID: 3 
+2017-10-01 18:04:59.8531 |  Info | ADRP | [Spawnado] Vehicle ID: 4 
+2017-10-01 18:04:59.8661 |  Info | ADRP | [Spawnado] Vehicle ID: 201 
+2017-10-01 18:04:59.8661 |  Info | ADRP | [Spawnado] Vehicle ID: 202 
+2017-10-01 18:04:59.8661 |  Info | ADRP | [Spawnado] Vehicle ID: 203 
+2017-10-01 18:04:59.8871 |  Info | ADRP | [Spawnado] Vehicle ID: 204 
+2017-10-01 18:04:59.8871 |  Info | ADRP | [Spawnado] Vehicle ID: 205 
+2017-10-01 18:04:59.9022 |  Info | ADRP | [Spawnado] Vehicle ID: 206 
+2017-10-01 18:04:59.9022 |  Info | ADRP | [Spawnado] Vehicle ID: 207 
+2017-10-01 18:04:59.9147 |  Info | ADRP | [Spawnado] Vehicle ID: 222 
+2017-10-01 18:04:59.9147 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 18:04:59.9307 |  Info | ADRP | Armários: 1 
+2017-10-01 18:04:59.9452 |  Info | ADRP | Blips: 60 
+2017-10-01 18:04:59.9452 |  Info | ADRP | ATMs: 7 
+2017-10-01 18:04:59.9637 |  Info | ADRP | PEDs: 4 
+2017-10-01 18:04:59.9637 |  Info | ADRP | Pontos: 4 
+2017-10-01 18:04:59.9857 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 18:04:59.9922 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 18:05:00.0102 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 18:05:00.0277 |  Info | ADRP | Pets: 1 
+2017-10-01 18:10:59.8333 | Debug | GameServer | Downloading latest Assembly String failed System.Net.WebException: O nome remoto não pôde ser resolvido: 'master.mta-v.net'
+   em System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   em System.Net.WebClient.DownloadString(Uri address)
+   em GrandTheftMultiplayer.Server.GameServer.<UpdateLatestAssemblyString>b__63_0(Object <p0>)
+2017-10-01 18:24:45.4692 |  Info | Program | Terminating... 
+2017-10-01 18:24:45.4893 |  Info | GameServer | Stopping animator 
+2017-10-01 18:24:45.6038 |  Info | GameServer | Stopped animator. 
+2017-10-01 18:24:45.6038 |  Info | GameServer | Stopping adrp 
