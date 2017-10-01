@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<script src="js/jquery.js"></script>
+        <script src="js/conce.js"></script>
+		<link rel="stylesheet" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="css/ionicons.min.css"/>
+		<link href="css/adrpfive.min.css" rel="stylesheet"/>
+		<link href="css/fiveadrp.min.css" rel="stylesheet"/>
+		<link href="css/fiveconc.min.css" rel="stylesheet"/>
+	</head>
+	<body style="background-color: transparent;">
+		<nav class="fivenav-container">
+			<div class="mainfive"><div class="mainfive-menu-wrap">
+					<div class="nanofive hasfive-scrollbar">
+						<div class="nanofive-content nanofive-content-five-adrp-greenwater" tabindex="0">
+							<div class="mainfive-menu">
+								<div class="cp-featured-news-slider">
+									<div class="featured-slider owl-carousel owl-theme" style="opacity: 1; display: block;">
+										<div class="owl-wrapper-outer">
+											<div class="owl-wrapper" style="width: 5056px; left: 0px; display: block;">
+												<div class="owl-item" style="width: 640px;">
+													<div class="item">
+														<div class="cp-first-post-content five-adrp-content-greenwater">
+															<h3 class="five-conc-title">Concessionária</h3>
+														</div>
+														<div class="cp-post-thumb">
+															<img id="veiculo" style="height:320px;padding-bottom:20px;"/>
+														</div>
+														
+														<div class="cp-second-post-content">
+															<div class="page-content">
+																<div class="row">
+																	<div class="col-sm-6 no-pad-five-1">
+																		<div class="conc">
+																			<div class="conc-body">
+																				<div class="table-conc">
+																					<table class="table conc-border">
+																						<tbody>
+																							<tr>
+																								<td class="no-pad-conc-1">
+																									<div class="conc-information">
+																										<div class="options-conc-information-1 options-conc-five-adrp-greenwater">Veículo</div>
+																										<div class="options-conc-information-1 options-conc-five-adrp-greenwater">Preço</div>
+																										<div class="options-conc-information-1 options-conc-five-adrp-greenwater">Nº de assentos</div>
+																									</div>
+																								</td>
+																																																
+																								<td class="no-pad-conc-2">
+																									<div class="conc-information">
+																										<div class="options-conc-information-2" id="nomeveiculo">Veículo</div>
+																										<div class="options-conc-information-2" id="preco">$0</div>
+																										<div class="options-conc-information-2" id="lugares">0</div>
+																									</div>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	
+																	<div class="col-sm-6 no-pad-five-2">
+																		<div class="conc">
+																			<div class="conc-body">
+																				<div class="table-conc">
+																					<table class="table conc-bordered">
+																						<tbody>
+																							<tr>
+																								<td class="no-pad-conc-1">
+																									<div class="options-conc-information-3 options-conc-five-adrp-greenwater">Estatísticas</div>
+																								</td>
+																								
+																								<td class="no-pad-conc-2">
+																									<div class="conc-information">
+																										<div class="conc-information options-conc-information-2">
+																											<div class="information-name">
+																												<p>Velocidade</p>
+																												
+																												<div class="progress">
+																													<div id="velocidade" class="progress-bar progress-bar-five-conc-adrp-greenwater-1" style="width: 0%"></div>
+																												</div>
+																											</div>
+																											
+																											<div class="information-name">
+																												<p>Frenagem</p>
+																												
+																												<div class="progress">
+																													<div id="frenagem" class="progress-bar progress-bar-five-conc-adrp-greenwater-1" style="width: 0%"></div>
+																												</div>
+																											</div>
+																											
+																											<div class="information-name">
+																												<p>Aceleração</p>
+																												
+																												<div class="progress">
+																													<div id="aceleracao" class="progress-bar progress-bar-five-conc-adrp-greenwater-1" style="width: 0%"></div>
+																												</div>
+																											</div>
+																											
+																											<div class="information-name">
+																												<p>Tração</p>
+																												
+																												<div class="progress">
+																													<div id="tracao" class="progress-bar progress-bar-five-conc-adrp-greenwater-1" style="width: 0%"></div>
+																												</div>
+																											</div>
+																											
+																											<div class="information-name">
+																												<p>Geral</p>
+																												
+																												<div class="progress">
+																													<div id="geral" class="progress-bar progress-bar-five-conc-adrp-greenwater-2" style="width: 0%"></div>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																
+																<div class="row" style="margin-bottom:15px;">
+																	<div class="col-sm-6 no-pad-five-3">
+																		<div class="text-center">
+																			<a id="visualizar" href="javascript:;" style="font-weight:bold;color:#000;" onclick="visualizarVeiculo()"><i class="fa fa-fw fa-eye"></i> Visualização</a>
+																		</div>
+																	</div>
+																	
+																	<div class="col-sm-6 no-pad-five-3">
+																		<div class="text-center">
+																			<a id="cancelar" href="javascript:;" style="font-weight:bold;color:#F00;" onclick="cancelarVeiculo()"><i class="fa fa-fw fa-close"></i> Cancelar</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												
+												<div class="owl-item" style="width:640px;">
+													<div class="item">
+														<div class="cp-first-post-content five-adrp-content-greenwater">
+															<h3 class="five-conc-title" style="padding:25px;"></h3>
+														</div>
+														
+														<div class="box">
+															<div class="box-heading">
+																<div class="row fixed-five-toolbar">
+																	<h3 class="pull-left box-title">Veículos</h3>
+																	<div class="pull-right">
+																		<input id="filtro" class="form-control" type="text" placeholder="Pesquisar" onkeyup="pesquisarVeiculos()"/>
+																	</div>
+																</div>
+															</div>
+															
+															<div class="box-body">
+																<div id="veiculos" class="row list-of-vehicles">
+																	
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</body>
+</html>

@@ -1,0 +1,99 @@
+<meta>
+<info name="ADRP" author="Freeze" type="script" />        
+<script src="ADRP.cs" type="server" lang="csharp" />
+<script src="adrp.js" type="client" lang="javascript" />
+
+<file src="Client/css/AdminLTE.min.css" />
+<file src="Client/css/bootstrap.min.css" />
+<file src="Client/css/adrpfive.min.css" />
+<file src="Client/css/fiveconc.min.css" />
+<file src="Client/css/fiveadrp.min.css" />
+<file src="Client/css/font-awesome.min.css" />
+<file src="Client/css/ionicons.min.css" />
+<file src="Client/css/fiveautoescola.min.css" />
+
+<file src="Client/font/icons/fontawesome-webfont.eot" />
+<file src="Client/font/icons/fontawesome-webfont.svg" />
+<file src="Client/font/icons/fontawesome-webfont.ttf" />
+<file src="Client/font/icons/fontawesome-webfont.woff" />
+<file src="Client/font/icons/fontawesome-webfont.woff2" />
+<file src="Client/font/icons/ionicons.eot" />
+<file src="Client/font/icons/ionicons.svg" />
+<file src="Client/font/icons/ionicons.ttf" />
+<file src="Client/font/icons/ionicons.woff" />
+
+<file src="Client/font/signpainter/signpainter-housescript-webfont.eot" />
+<file src="Client/font/signpainter/signpainter-housescript-webfont.svg" />
+<file src="Client/font/signpainter/signpainter-housescript-webfont.ttf" />
+<file src="Client/font/signpainter/signpainter-housescript-webfont.woff" />
+<file src="Client/font/signpainter/signpainter-housescript-webfont.woff2" />
+
+ <file src="Client/js/jquery.js" />
+<file src="Client/js/atm.js" />
+<file src="Client/js/ban.js" />
+<file src="Client/js/conce.js" />
+<file src="Client/js/conce2.js" />
+<file src="Client/js/help.js" />
+<file src="Client/js/login.js" />
+<file src="Client/js/players.js" />
+<file src="Client/js/sos.js" />
+<file src="Client/js/stats.js" />
+<file src="Client/js/jscolor.min.js" />
+<file src="Client/js/jscolor.js" />
+<file src="Client/js/autoescola.js" />
+
+<file src="Client/img/logo.png" />
+<file src="Client/img/fleeca.png" />
+<file src="Client/img/fuel.png" />
+
+<file src="Client/img/options/doors.png" />
+<file src="Client/img/options/hood.png" />
+<file src="Client/img/options/horn.png" />
+<file src="Client/img/options/testdrive.png" />
+<file src="Client/img/options/trunk.png" />
+
+<file src="Client/atm.html" />
+<file src="Client/ban.html" />
+<file src="Client/conce.html" />
+<file src="Client/conce2.html" />
+<file src="Client/help.html" />
+<file src="Client/login.html" />
+<file src="Client/players.html" />
+<file src="Client/sos.html" />
+<file src="Client/stats.html" />
+<file src="Client/autoescola.html" />
+
+<file src="Client/img/autoescola/lic_center.fw.png" />
+
+<file src="Client/img/veiculos/jester.png" />
+<file src="Client/img/veiculos/adder.png" />
+<file src="Client/img/veiculos/t20.png" />
+<file src="Client/img/veiculos/infernus.png" />
+
+<file src="Client/img/veiculos/Dubsta2.png" />
+<file src="Client/img/veiculos/Cog552.png" />
+<file src="Client/img/veiculos/Dubsta.png" />
+<file src="Client/img/veiculos/Intruder.png" />
+<file src="Client/img/veiculos/Blista2.png" />
+<file src="Client/img/veiculos/Emperor.png" />
+
+
+
+<file src="Client/img/veiculos/Asea.png" />
+<file src="Client/img/veiculos/Asterope.png" />
+
+
+
+
+<script src="Sistemas/cef/selpers.js" type="client" lang="javascript" />
+
+<file src="Sistemas/cef/selecao_pers.html" />
+<file src="Sistemas/cef/selecao.js" />
+<file src="Sistemas/cef/fonts/Champion-Shipmate.ttf" />
+<file src="Sistemas/cef/fonts/Simple Cream.ttf" />  
+
+<assembly ref="MySql.Data.dll" />
+<assembly ref="System.Data.dll" />
+<assembly ref="Newtonsoft.Json.dll" />
+<assembly ref="BouncyCastle.Crypto.dll" />
+</meta>

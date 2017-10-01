@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<script src="js/jquery.js"></script>
+        <script src="js/atm.js"></script>
+		<title>Advanced Roleplay Five</title>
+		<style type="text/css">
+			* {
+				outline: none;
+			}
+			html, body {
+				height: 100%;
+				overflow: hidden;
+			}
+			.fivenav-container {
+				transition-property: width,padding,left,right;
+				transition-duration: .35s;
+				width: 40em;
+				height: 60%;
+				margin: 0 auto;
+				padding-top: 80px;
+				top: 0;
+				bottom: 0;
+				z-index: 4;
+				min-height: 60%;
+			}
+			.mainfive {
+				height: 100%;
+				background-color: #E8E8E8;
+				box-shadow: 5px 0px 20px 5px #000;
+			}
+			.mainfive-menu-wrap {
+				height: 100%;
+			}
+			.nanofive {
+				position: relative;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+			.nanofive-content {
+				padding-top: 0;
+				position: absolute;
+				overflow: scroll;
+				overflow-x: hidden;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+			}
+			.nanofive-content {
+				height: 100%;
+				overflow: hidden;
+				width: 40em;
+			}
+			.mainfive-menu {
+				padding-left: 0;
+				margin-bottom: 20px;
+			}
+			.box-five {
+				position: relative;
+				margin-bottom: 20px;
+				width: 100%;
+			}
+			.box-five-header-fleeca {
+				background-image: -moz-linear-gradient(#186633, #0F5228 10%, #1E8E41);
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 10% 100%, from(#186633), to(#0F5228), to(#1E8E41));
+				background-image: -webkit-linear-gradient(#186633,#0F5228 10%, #1E8E41);
+				background-image: -o-linear-gradient(#186633, #0F5228 10%, #1E8E41);
+				padding: 1%;
+			}
+			.wrapper-five {
+				margin: 0px 50px 0px 50px;
+			}
+			.box-five-header {
+				color: #444;
+				display: block;
+				padding: 10px;
+				position: relative;
+				border-bottom: 2px solid #278F45;
+			}
+			.box-five-connect {
+				float: right;
+				margin: 4.5% 0px 0px 0px;
+				font-family: Arial, Helvetica, sans-serif;
+				font-weight: bold;
+			}
+			.box-five-body {
+				border-top-left-radius: 0;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 3px;
+				border-bottom-left-radius: 3px;
+				padding: 10px 0px;
+				font-family: "Lucida Console", Monaco, monospace;
+			}
+			.box-five-fleeca-header {
+				background-image: -moz-linear-gradient(#B0B1B2, #CBCCCE 10%, #DFE0E1);
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 10% 100%, from(#B0B1B2), to(#CBCCCE), to(#DFE0E1));
+				background-image: -webkit-linear-gradient(#B0B1B2,#CBCCCE 10%, #DFE0E1);
+				background-image: -o-linear-gradient(#B0B1B2, #CBCCCE 10%, #DFE0E1);
+			}
+			.five-wrapper {
+				margin: 0px 20px 0px 20px;
+			}
+			.box-header-five {
+				color: #333;
+				display: block;
+				position: relative;
+			}
+			.box-header-five h3 {
+				padding-top: 10px;
+			}
+			.text-center {
+				text-align: center;
+				padding-bottom: 1px;
+			}
+			.wrapper-buttons-five {
+				text-align: center;
+			}
+			.fleeca-options {
+				padding: 7% 5%;
+			}
+			.btn {
+				display: inline-block;
+				padding: 6px 12px;
+				margin-bottom: 0;
+				font-family: inherit;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 1.42857143;
+				text-align: center;
+				white-space: nowrap;
+				vertical-align: middle;
+				-ms-touch-action: manipulation;
+				touch-action: manipulation;
+				cursor: pointer;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+				background-image: none;
+				border: 1px solid transparent;
+				border-radius: 4px;
+			}
+			.btn-fleeca-options {
+				background-image: -moz-linear-gradient(#186633, #0F5228 10%, #1E8E41);
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 10% 100%, from(#186633), to(#0F5228), to(#1E8E41));
+				background-image: -webkit-linear-gradient(#186633,#0F5228 10%, #1E8E41);
+				background-image: -o-linear-gradient(#186633, #0F5228 10%, #1E8E41);
+				text-transform: uppercase;
+				font-family: arial, bold;
+				color: #FFF;
+				padding: 14px 20px;
+			}
+			.btn-fleeca-options:active:focus {
+				background-image: -moz-linear-gradient(#0F4020, #135D2D 10%, #0C5022);
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 10% 100%, from(#186633), to(#0F5228), to(#0C5022));
+				background-image: -webkit-linear-gradient(#0F4020,#135D2D 10%, #0C5022);
+				background-image: -o-linear-gradient(#0F4020, #135D2D 10%, #0C5022);
+			}
+			.options-fleeca-five {
+				background-image: -moz-linear-gradient(#186633, #0F5228 10%, #1E8E41);
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 10% 100%, from(#186633), to(#0F5228), to(#1E8E41));
+				background-image: -webkit-linear-gradient(#186633,#0F5228 10%, #1E8E41);
+				background-image: -o-linear-gradient(#186633, #0F5228 10%, #1E8E41);
+				height: 3em;
+			}
+			.options-fleeca-five:active:focus {
+				background-image: -moz-linear-gradient(#0F4020, #135D2D 10%, #0C5022);
+				background-image: -webkit-gradient(linear, 0% 0%, 0% 10% 100%, from(#186633), to(#0F5228), to(#0C5022));
+				background-image: -webkit-linear-gradient(#0F4020,#135D2D 10%, #0C5022);
+				background-image: -o-linear-gradient(#0F4020, #135D2D 10%, #0C5022);
+			}
+			.form-control-five {
+				display: block;
+				width: 76.6%;
+				height: 20px;
+				position: absolute;
+				margin-top: 6.5px;
+				margin-left: 11.5px;
+				padding: 6px 12px;
+				font-size: 14px;
+				line-height: 1.42857143;
+				color: #555;
+				background-color: #fff;
+				background-image: none;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+				box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+				-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+				-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+				transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<nav class="fivenav-container">
+			<div class="mainfive">
+				<div class="mainfive-menu-wrap">
+					<div class="nanofive hasfive-scrollbar">
+						<div class="nanofive-content" tabindex="0">
+							<div class="mainfive-menu">
+								<div class="box-five">
+									<div class="box-five-header-fleeca"></div>
+									
+									<div class="wrapper-five">
+										<div class="box-five-header">
+											<img src="img/fleeca-bank.png" style="width:150px;height:auto;" onselectstart="return false" ondragstart="return false"/>
+										
+											<div class="box-five-connect">
+												<span>Saldo da Conta: $</span><span id="saldo">0</span>
+											</div>
+										</div>
+										
+										<div class="box-five-body">
+											<div class="box-five-fleeca-header">
+												<div class="five-wrapper">
+													<div class="box-header-five">
+														<h3 id="nome">Nome Sobrenome</h3>
+														
+														<div class="text-center">
+															<p id="msg">Escolha um serviço</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div id="divvalor" class="options-fleeca-five" style="display:none;">
+											<div class="wrap-fleeca-bank">
+												<input id="valor" class="form-control-five" type="number" placeholder="Valor"/>
+											</div>
+										</div>
+										
+										<div class="box-buttons-five">
+											<div class="wrapper-buttons-five">
+												<div class="fleeca-wrest fleeca-options">
+													<button type="button" id="sacar" onclick="sacarATM();" class="btn btn-fleeca-options">Sacar</button>
+													<button type="button" id="depositar" onclick="depositarATM();" class="btn btn-fleeca-options">Depositar</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</body>
+</html>

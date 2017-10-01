@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<script src="js/jquery.js"></script>
+        <script src="js/conce2.js"></script>
+        <script src="js/jscolor.js"></script>
+		<link rel="stylesheet" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="css/ionicons.min.css"/>
+		<link href="css/adrpfive.min.css" rel="stylesheet"/>
+		<link href="css/fiveadrp.min.css" rel="stylesheet"/>
+		<link href="css/fiveconc.min.css" rel="stylesheet"/>
+	</head>
+	
+	<body style="background-color: transparent;">
+		<div class="five-adrp-first-options">
+			<p><i class="fa fa-arrow-circle-up"></i> Opções de Pré-Visualização</p>
+		</div>
+		
+		<div class="five-adrp-first-conce">
+			<div class="first-main">
+				<div class="first-wrap">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="btn-group">
+								<button id="testdrive" type="button" class="btn btn-defaults btn-xs">
+									<img src="img/options/testdrive.png" style="width:16px;height:20px;" onselectstart="return false" ondragstart="return false"/>
+									
+									<span>Test Drive</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-12">
+							<div class="btn-group">
+								<button id="portas" type="button" class="btn btn-defaults btn-xs">
+									<img src="img/options/doors.png" style="width:16px;height:16px;" onselectstart="return false" ondragstart="return false"/>
+								</button>
+								
+								<button id="portamalas" type="button" class="btn btn-defaults btn-xs">
+									<img src="img/options/trunk.png" style="width:32px;height:16px;" onselectstart="return false" ondragstart="return false"/>
+								</button>
+								
+								<button id="capo" type="button" class="btn btn-defaults btn-xs">
+									<img src="img/options/hood.png" style="width:32px;height:16px;" onselectstart="return false" ondragstart="return false"/>
+								</button>
+								
+								<button id="buzina" type="button" class="btn btn-defaults btn-xs">
+									<img src="img/options/horn.png" style="width:28px;height:16px;" onselectstart="return false" ondragstart="return false"/>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-6">
+							<button id="comprar" type="button" class="btn btn-block btn-successs btn-xs"><i class="fa fa-shopping-cart"></i> Comprar</button>
+						</div>
+						
+						<div class="col-md-6">
+							<button id="cancelar" type="button" class="btn btn-block btn-dangers btn-xs"><i class="fa fa-close"></i> Cancelar</button>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-12">
+							<a href="javascript:;" class="choose-colour-text"><i class="fa fa-chevron-down"></i> Escolha as cores <i class="fa fa-chevron-down"></i></a>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-6">
+							<label>Cor Primária</label>
+							<button class="jscolor {valueElement:null,value:'000000',onFineChange:'updateCor1(this)'}" style="width:50px; height:20px;">
+						</div>
+						<div class="col-md-6">
+							<label>Cor Secundária</label>
+							<button class="jscolor {valueElement:null,value:'000000',onFineChange:'updateCor2(this)'}" style="width:50px; height:20px;"> 
+						</div>
+					</div>
+
+					<input id="r1" type="hidden">
+					<input id="g1" type="hidden">
+					<input id="b1" type="hidden">
+					<input id="r2" type="hidden">
+					<input id="g2" type="hidden">
+					<input id="b2" type="hidden">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

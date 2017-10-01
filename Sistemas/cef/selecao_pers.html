@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>Clothe Store</title>
+<meta charset="UTF8" />
+<script src="selecao.js"></script>
+
+<style>
+	@font-face { font-family: Champion Shipmate; src: url('fonts/Champion-Shipmate.ttf'); } 
+	@font-face { font-family: Simple Cream; src: url('fonts/Simple Cream.ttf'); } 
+	
+	html, body {
+		  height: 100%;
+		background-color: transparent;
+	  }
+	.container{
+		margin:-10px;
+		width:297px; 
+		height:auto; 
+		min-height:100%;
+		background-color:rgba(0, 0, 0, 0.7);
+		position:relative;
+	  }
+	  .container_back_t{
+		  position:absolute;
+		  background-color: black;
+		  height:55px;
+		  width: 280px;
+		  margin: 8px;
+	  }
+	.container_tittle{
+		color:white;
+		margin-top: -9px;
+		text-align: center;
+		font-family: Champion Shipmate, sans-serif;
+		font-size: 50px;
+	}
+	.botao-l{
+		margin-top: 5px;
+		background-color: grey;
+		height: 40px;
+		width: 40px;
+		border-radius: 6px;
+		text-align: center;
+		float: left;
+		cursor: pointer;
+		
+	}
+	.botao-r{
+		margin-top: 5px;
+		background-color: grey;
+		height: 40px;
+		width: 40px;
+		border-radius: 6px;
+		text-align: center;
+		float: right;
+		cursor: pointer;
+		
+	}
+	.botao-f{
+		margin-top: 5px;
+		background-color: grey;
+		height: 40px;
+		width: 100%;
+		border-radius: 6px;
+		text-align: center;
+		float: right;
+		cursor: pointer;
+		
+	}
+	.btn-tittle{
+		float: left;
+		font-family: Simple Cream, sans-serif;
+		color: white;
+		padding-top:17px;
+		
+		text-align: center;
+	}
+	.botaoText{
+		padding-top:12px;
+		font-family: Simple Cream, sans-serif;
+		color: white;
+		cursor: pointer;
+		
+	}
+	.spacer{
+		height: 10px;
+	}
+	.spacer-1{
+		height: 1px;
+		width: 290px;
+	}
+	.itemlist{
+		height: 45px;
+	}
+	</style>
+</head>
+
+<body>
+  
+   	<div class="container">
+   		<div class="container_back_t">
+	 		<div class="container_tittle">
+	 			Personagem
+ 		  </div>
+ 		  
+ 		  <div class="spacer"></div>
+ 		  
+ 		  <!--Genero-->
+ 		  <div class="itemlist">
+ 		  <div class="botao-l" onclick="Genero(1)"><div class="botaoText">M</div></div> 
+ 		  <div class="btn-tittle" style="padding-left:70px;">Gênero</div>
+ 		  <div class="botao-r" onclick="Genero(2)"><div class="botaoText">H</div></div>
+ 		  </div>
+ 		  <hr>
+ 		  <!--MIX -->
+ 		  <div class="itemlist">
+ 		  <div class="botao-l" onClick="ShapeMix_Face(0)"><div class="botaoText">-</div></div> 
+ 		  <div class="btn-tittle" style="padding-left:70px;">Shape mix</div>
+ 		  <div class="botao-r" onClick="ShapeMix_Face(1)"><div class="botaoText">+</div></div>
+ 		  </div>
+ 		  <!--Face Shape-->
+ 		  <div class="itemlist">
+ 		  <div class="botao-l" onclick="Shape_Face_one(0)"><div class="botaoText">-</div></div> 
+ 		  <div class="btn-tittle" style="padding-left:45px;">Face shape one</div>
+ 		  <div class="botao-r" onclick="Shape_Face_one(1)"><div class="botaoText">+</div></div>
+ 		  </div>
+ 		  <div class="itemlist">
+ 		  <div class="botao-l" onclick="Shape_Face_two(0)"><div class="botaoText">-</div></div> 
+ 		  <div class="btn-tittle" style="padding-left:45px;">Face shape two</div>
+ 		  <div class="botao-r" onclick="Shape_Face_two(1)"><div class="botaoText">+</div></div>
+ 		  </div>
+ 		  <hr>
+ 		  <!--MIX -->
+ 		  <div class="itemlist">
+ 		  <div class="botao-l" onclick="Skin_mix(0)"><div class="botaoText">-</div></div> 
+ 		  <div class="btn-tittle" style="padding-left:70px;">Skin mix</div>
+ 		  <div class="botao-r" onclick="Skin_mix(1)"><div class="botaoText">+</div></div>
+ 		  </div>
+ 		  <!--Skin-->
+ 		  <div class="itemlist">
+ 		  <div class="botao-l" onclick="Skin_one(0)"><div class="botaoText">-</div></div> 
+ 		  <div class="btn-tittle" style="padding-left:70px;">Skin one</div>
+ 		  <div class="botao-r" onclick="Skin_one(1)"><div class="botaoText">+</div></div>
+ 		  </div>
+ 		  <div class="itemlist">
+ 		  <div class="botao-l" onclick="Skin_two(0)"><div class="botaoText">-</div></div> 
+ 		  <div class="btn-tittle" style="padding-left:70px;">Skin two</div>
+ 		  <div class="botao-r" onclick="Skin_two(1)"><div class="botaoText">+</div></div>
+ 		  </div>
+ 		  <hr>
+ 		  <!--Hair Style -->
+ 		  <div class="itemlist">
+ 		  <div class="botao-l" onClick="Cabelo_Style(0)"><div class="botaoText">-</div></div> 
+ 		  <div class="btn-tittle" style="padding-left:70px;">Cabelo</div>
+ 		  <div class="botao-r" onClick="Cabelo_Style(1)"><div class="botaoText">+</div></div>
+ 		  </div>
+ 		  <!--Hair Color-->
+ 		  <div class="itemlist">
+ 		  <div class="botao-l" onClick="Hair_Color(0)"><div class="botaoText">-</div></div> 
+ 		  <div class="btn-tittle" style="padding-left:70px;">Cor</div>
+ 		  <div class="botao-r" onClick="Hair_Color(1)"><div class="botaoText">+</div></div>
+ 		  </div>
+ 		  <div class="itemlist">
+ 		  <div class="botao-l" onClick="Hair_Light(0)"><div class="botaoText">-</div></div> 
+ 		  <div class="btn-tittle" style="padding-left:70px;">Tom da cor</div>
+ 		  <div class="botao-r" onClick="Hair_Light(1)"><div class="botaoText">+</div></div>
+ 		  </div>
+ 		  <hr>
+ 		  <div class="botao-f" onClick="FecharMenuCriacao()"><div class="botaoText">Criar personagem</div></div>
+ 		  
+	  </div>
+	</div>
+
+</body>
+
+</html>
