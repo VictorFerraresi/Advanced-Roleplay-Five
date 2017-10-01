@@ -1,0 +1,34 @@
+(368.6469, -1715.496, 29.28554, 0, 0, -50.98004) // 
+API.createVehicle((VehicleHash)-344943009, new Vector3(118.8341, -1698.233, 28.97441), new Vector3(0.3626092, -1.767728, 140.703), 0, 0, 0); // AutoEscola Spawn \n
+API.createVehicle((VehicleHash)-344943009, new Vector3(84.26405, -1683.661, 29.02724), new Vector3(0.6457418, -0.4806079, 50.33288), 0, 0, 0); // auto escola 1
+API.createVehicle((VehicleHash)-344943009, new Vector3(162.4349, -1608.058, 29.1667), new Vector3(0.003164466, -0.09782233, -59.34132), 0, 0, 0); // auto escola 2
+API.createVehicle((VehicleHash)-344943009, new Vector3(84.56377, -1518.733, 29.11484), new Vector3(0.09689548, 1.656172, 49.02794), 0, 0, 0); // auto escola 3
+API.createVehicle((VehicleHash)-344943009, new Vector3(142.2847, -1417.315, 29.12225), new Vector3(-0.7383021, 0.1161041, -37.91566), 0, 0, 0); // auto escola 4
+API.createVehicle((VehicleHash)-344943009, new Vector3(209.643, -1327.473, 29.16601), new Vector3(-0.04126655, -0.1595038, -25.95642), 0, 0, 0); // auto escola 5
+API.createVehicle((VehicleHash)-344943009, new Vector3(218.0594, -1145.901, 29.15763), new Vector3(0.1284461, -0.03452815, 8.503171), 0, 0, 0); // auto escola 6
+API.createVehicle((VehicleHash)-344943009, new Vector3(218.8582, -1067.438, 29.05661), new Vector3(-1.388843, 0.2142213, -9.750823), 0, 0, 0); // auto escola 7
+API.createVehicle((VehicleHash)-344943009, new Vector3(258.7469, -968.0418, 29.09279), new Vector3(-0.3356689, 1.847343, -21.45121), 0, 0, 0); // auto escola 8
+API.createVehicle((VehicleHash)-344943009, new Vector3(385.9974, -957.0882, 29.21109), new Vector3(-0.1305129, 0.3387249, -88.33589), 0, 0, 0); // auto escola 9
+API.createVehicle((VehicleHash)-344943009, new Vector3(424.6748, -958.7374, 29.04519), new Vector3(-0.9772867, 2.732874, -91.82589), 0, 0, 0); // auto escola 10
+API.createVehicle((VehicleHash)-344943009, new Vector3(485.1207, -956.8425, 27.18902), new Vector3(-1.579311, 1.105882, -90.38193), 0, 0, 0); // auto escola 11
+API.createVehicle((VehicleHash)-344943009, new Vector3(498.6256, -1115.417, 29.18084), new Vector3(0.7926462, 1.766024, 178.9425), 0, 0, 0); // auto escola 12
+API.createVehicle((VehicleHash)-344943009, new Vector3(498.2493, -1191.854, 29.0621), new Vector3(0.4509143, 1.654892, -177.5753), 0, 0, 0); // auto escola 13
+API.createVehicle((VehicleHash)-344943009, new Vector3(352.9987, -1307.172, 32.12413), new Vector3(0.03690128, 3.032073, 139.4773), 0, 0, 0); // auto escola 14
+API.createVehicle((VehicleHash)-344943009, new Vector3(304.8849, -1363.792, 31.76526), new Vector3(0.004774478, 1.719868, 140.0122), 0, 0, 0); // auto escola 15
+API.createVehicle((VehicleHash)-344943009, new Vector3(252.1195, -1426.917, 29.0915), new Vector3(-0.6472, 2.148746, 140.3424), 0, 0, 0); // auto escola 16
+API.createVehicle((VehicleHash)-344943009, new Vector3(178.1175, -1401.26, 29.1635), new Vector3(0.04314125, 0.002913418, 58.99649), 0, 0, 0); // auto escola 17
+API.createVehicle((VehicleHash)-344943009, new Vector3(63.14182, -1281.713, 29.15909), new Vector3(-0.02579684, -0.04532275, 5.70432), 0, 0, 0); // auto escola 18
+API.createVehicle((VehicleHash)-344943009, new Vector3(66.93449, -1182.522, 29.16342), new Vector3(0.06789746, -0.003906207, 4.79354), 0, 0, 0); // auto escola 19
+API.createVehicle((VehicleHash)-344943009, new Vector3(-80.41808, -1175.437, 37.14357), new Vector3(-0.01287022, -0.0006624419, 91.99339), 0, 0, 0); // auto escola 20 - Auto Estrada
+API.createVehicle((VehicleHash)-344943009, new Vector3(-284.2386, -1198.128, 36.99305), new Vector3(-0.06463185, 1.952148, 89.33499), 0, 0, 0); // auto escola 21
+API.createVehicle((VehicleHash)-344943009, new Vector3(-399.1624, -1212.912, 45.65979), new Vector3(0.5683085, -2.435168, 122.9958), 0, 0, 0); // auto escola 22
+API.createVehicle((VehicleHash)-344943009, new Vector3(-425.7299, -1397.63, 38.0625), new Vector3(1.931372, -0.2081016, -174.488), 0, 0, 0); // auto escola 23
+API.createVehicle((VehicleHash)-344943009, new Vector3(-424.2075, -1222.691, 45.69675), new Vector3(-0.1101554, 1.684952, 133.7371), 0, 0, 0); // auto escola 22
+API.createVehicle((VehicleHash)-344943009, new Vector3(-457.6598, -1394.63, 29.34849), new Vector3(-1.943406, -0.3997482, 174.11), 0, 0, 0); // auto escola 23
+API.createVehicle((VehicleHash)-344943009, new Vector3(-392.0289, -1440.383, 29.08196), new Vector3(0.1115965, 2.358226, -97.70488), 0, 0, 0); // auto escola 24
+API.createVehicle((VehicleHash)-344943009, new Vector3(-231.649, -1451.124, 31.19447), new Vector3(-0.1683777, 2.811477, -126.5767), 0, 0, 0); // auto escola 25
+API.createVehicle((VehicleHash)-344943009, new Vector3(-52.23782, -1600.996, 29.06773), new Vector3(-0.24291, 2.646668, -131.3151), 0, 0, 0); // auto escola 26
+API.createVehicle((VehicleHash)-344943009, new Vector3(153.2217, -1768.029, 28.78787), new Vector3(-0.1056874, -2.149831, -128.277), 0, 0, 0); // auto escola 27
+API.createVehicle((VehicleHash)-344943009, new Vector3(165.9049, -1750.722, 28.90826), new Vector3(-0.2178707, 3.393307, 46.43068), 0, 0, 0); // auto escola 28
+API.createVehicle((VehicleHash)-344943009, new Vector3(116.1116, -1705.121, 28.97182), new Vector3(3.499907, -0.8380719, -16.85286), 0, 0, 0); // auto escola 29
+(117.5829, -1696.912, 29.23483, 0, 0, -144.9772) // instrutor pos

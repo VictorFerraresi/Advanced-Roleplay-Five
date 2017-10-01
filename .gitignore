@@ -1,0 +1,13 @@
+/resources/bin
+/resources/obj
+*.csproj
+/resources/LICENSE.txt
+acl.xml
+assemblyinfo.txt
+*.dll
+EULA.txt
+GrandTheftMultiplayer.Server.exe
+NLog.config
+server.txt
+settings.xml
+vehicleData.json
