@@ -16386,3 +16386,51 @@ Nome do parâmetro: index
 2017-10-01 17:00:22.5302 |  Info | GameServer | Initiating connection: [25.1.221.26:49402] 
 2017-10-01 17:00:22.6603 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
 2017-10-01 17:00:22.7212 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 17:36:57.3826 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 17:36:57.4431 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 17:36:57.4491 |  Info | Program |   Port:                 4499 
+2017-10-01 17:36:57.4491 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 17:36:57.4491 |  Info | Program |   FQDN:                      
+2017-10-01 17:36:57.4637 |  Info | Program |   Players:                20 
+2017-10-01 17:36:57.4637 |  Info | Program |   Announce:            False 
+2017-10-01 17:36:57.4637 |  Info | Program | Starting... 
+2017-10-01 17:36:57.9665 |  Info | ConstantData | Loaded Language de 
+2017-10-01 17:36:58.1776 |  Info | GameServer | Loading resources... 
+2017-10-01 17:36:58.2622 |  Info | GameServer | Starting doormanager 
+2017-10-01 17:36:58.8941 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 17:36:58.8996 |  Info | GameServer | Starting adrp 
+2017-10-01 17:36:59.8332 |  Info | GameServer | Resource adrp started. 
+2017-10-01 17:36:59.8403 |  Info | GameServer | Starting animator 
+2017-10-01 17:37:00.3256 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 17:37:00.3256 |  Info | ADRP |  
+2017-10-01 17:37:00.3366 |  Info | ADRP | -------------------------------------- 
+2017-10-01 17:37:00.3366 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 17:37:00.3366 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 17:37:00.3366 |  Info | ADRP |                  2017                  
+2017-10-01 17:37:00.3521 |  Info | ADRP | -------------------------------------- 
+2017-10-01 17:37:00.3521 |  Info | ADRP |  
+2017-10-01 17:37:00.4702 |  Info | GameServer | Resource animator started. 
+2017-10-01 17:37:00.4767 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 17:37:00.5802 |  Info | ADRP | Facções: 4 
+2017-10-01 17:37:00.6108 |  Info | ADRP | Propriedades: 30 
+2017-10-01 17:37:00.6518 |  Info | ADRP | [Spawnado] Vehicle ID: 1 
+2017-10-01 17:37:00.6518 |  Info | ADRP | [Spawnado] Vehicle ID: 3 
+2017-10-01 17:37:00.6633 |  Info | ADRP | [Spawnado] Vehicle ID: 4 
+2017-10-01 17:37:00.6633 |  Info | ADRP | [Spawnado] Vehicle ID: 201 
+2017-10-01 17:37:00.6633 |  Info | ADRP | [Spawnado] Vehicle ID: 202 
+2017-10-01 17:37:00.6823 |  Info | ADRP | [Spawnado] Vehicle ID: 203 
+2017-10-01 17:37:00.6823 |  Info | ADRP | [Spawnado] Vehicle ID: 204 
+2017-10-01 17:37:00.6953 |  Info | ADRP | [Spawnado] Vehicle ID: 205 
+2017-10-01 17:37:00.6953 |  Info | ADRP | [Spawnado] Vehicle ID: 206 
+2017-10-01 17:37:00.6953 |  Info | ADRP | [Spawnado] Vehicle ID: 207 
+2017-10-01 17:37:00.7158 |  Info | ADRP | [Spawnado] Vehicle ID: 222 
+2017-10-01 17:37:00.7158 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 17:37:00.7438 |  Info | ADRP | Armários: 1 
+2017-10-01 17:37:00.7624 |  Info | ADRP | Blips: 60 
+2017-10-01 17:37:00.7784 |  Info | ADRP | ATMs: 7 
+2017-10-01 17:37:00.7964 |  Info | ADRP | PEDs: 4 
+2017-10-01 17:37:00.8139 |  Info | ADRP | Pontos: 4 
+2017-10-01 17:37:00.8379 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 17:37:00.8379 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 17:37:00.8614 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 17:37:00.8799 |  Info | ADRP | Pets: 1 

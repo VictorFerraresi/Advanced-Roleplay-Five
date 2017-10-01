@@ -1,0 +1,11 @@
+﻿<meta>
+  <info name="Animator - Animation Viewer [v1.0]" author="Kamil Hazes"/>
+
+  <assembly ref="GrandTheftMultiplayer.Shared.dll"/>
+  <assembly ref="System.IO.dll"/>
+
+  <script src="animator.cs" type="server" lang="csharp" />
+  <script src="animations.cs" type="server" lang="csharp" />
+  <script src="animator.js" type="client" lang="javascript" />
+  
+</meta>
