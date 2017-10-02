@@ -16514,3 +16514,1502 @@ Nome do parâmetro: index
 2017-10-01 18:24:45.4893 |  Info | GameServer | Stopping animator 
 2017-10-01 18:24:45.6038 |  Info | GameServer | Stopped animator. 
 2017-10-01 18:24:45.6038 |  Info | GameServer | Stopping adrp 
+2017-10-01 18:35:37.9432 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 18:35:38.0117 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 18:35:38.0117 |  Info | Program |   Port:                 4499 
+2017-10-01 18:35:38.0262 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 18:35:38.0262 |  Info | Program |   FQDN:                      
+2017-10-01 18:35:38.0392 |  Info | Program |   Players:                20 
+2017-10-01 18:35:38.0392 |  Info | Program |   Announce:            False 
+2017-10-01 18:35:38.0552 |  Info | Program | Starting... 
+2017-10-01 18:35:38.5476 |  Info | ConstantData | Loaded Language de 
+2017-10-01 18:35:38.7412 |  Info | GameServer | Loading resources... 
+2017-10-01 18:35:38.8067 |  Info | GameServer | Starting doormanager 
+2017-10-01 18:35:39.2906 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 18:35:39.2906 |  Info | GameServer | Starting adrp 
+2017-10-01 18:35:40.5539 |  Info | GameServer | Resource adrp started. 
+2017-10-01 18:35:40.5539 |  Info | GameServer | Starting animator 
+2017-10-01 18:35:41.0407 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 18:35:41.0407 |  Info | ADRP |  
+2017-10-01 18:35:41.0407 |  Info | ADRP | -------------------------------------- 
+2017-10-01 18:35:41.0562 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 18:35:41.0562 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 18:35:41.0562 |  Info | ADRP |                  2017                  
+2017-10-01 18:35:41.0722 |  Info | ADRP | -------------------------------------- 
+2017-10-01 18:35:41.0722 |  Info | ADRP |  
+2017-10-01 18:35:41.1573 |  Info | GameServer | Resource animator started. 
+2017-10-01 18:35:41.1573 |  Info | GameServer | Starting AntiModProtection 
+2017-10-01 18:35:41.2764 |  Info | ADRP | Facções: 4 
+2017-10-01 18:35:41.2979 |  Info | ADRP | Propriedades: 30 
+2017-10-01 18:35:41.3469 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 18:35:41.3564 |  Info | ADRP | Armários: 1 
+2017-10-01 18:35:41.3704 |  Info | ADRP | Blips: 60 
+2017-10-01 18:35:41.3704 |  Info | ADRP | ATMs: 7 
+2017-10-01 18:35:41.3884 |  Info | ADRP | PEDs: 4 
+2017-10-01 18:35:41.3975 |  Info | ADRP | Pontos: 4 
+2017-10-01 18:35:41.3975 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 18:35:41.4165 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 18:35:41.4560 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 18:35:41.4745 |  Info | ADRP | Pets: 1 
+2017-10-01 18:35:41.7672 |  Info | GameServer | Resource AntiModProtection started. 
+2017-10-01 18:35:41.7737 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 18:36:02.5714 |  Info | GameServer | Initiating connection: [25.1.221.26:63755] 
+2017-10-01 18:36:02.7815 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:36:03.0732 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:36:03.1278 |  Info | GameServer | Player disconnected: _whitetrash (Trevor_Harrison) [25.1.221.26], reason: Usage of Custom Asi Files not allowed! 
+2017-10-01 18:36:20.9244 |  Info | GameServer | Initiating connection: [25.1.221.26:63755] 
+2017-10-01 18:36:21.0860 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:36:21.1440 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:36:21.1626 |  Info | GameServer | Player disconnected: _whitetrash (Trevor_Harrison) [25.1.221.26], reason: Usage of Custom Asi Files not allowed! 
+2017-10-01 18:39:17.4474 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 18:39:17.6661 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 18:39:20.2915 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 18:39:24.7768 |  Info | GameServer | Initiating connection: [25.1.221.26:60217] 
+2017-10-01 18:39:24.9906 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:39:25.1093 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:39:25.1393 |  Info | GameServer | Player disconnected: _whitetrash (Trevor_Harrison) [25.1.221.26], reason: Usage of Custom Asi Files not allowed! 
+2017-10-01 18:42:22.8753 |  Info | GameServer | Initiating connection: [25.1.221.26:54048] 
+2017-10-01 18:42:23.1149 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:42:24.6768 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:42:24.7508 |  Info | GameServer | Player disconnected: _whitetrash (Trevor_Harrison) [25.1.221.26], reason: Usage of Custom Asi Files not allowed! 
+2017-10-01 18:42:32.7053 |  Info | GameServer | Initiating connection: [25.1.221.26:54048] 
+2017-10-01 18:42:32.9185 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:42:32.9745 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:42:33.0040 |  Info | GameServer | Player disconnected: _whitetrash (Trevor_Harrison) [25.1.221.26], reason: Usage of Custom Asi Files not allowed! 
+2017-10-01 18:44:31.0132 |  Info | Program | Terminating... 
+2017-10-01 18:44:31.0562 |  Info | GameServer | Stopping AntiModProtection 
+2017-10-01 18:44:31.1988 |  Info | GameServer | Stopped AntiModProtection. 
+2017-10-01 18:44:31.1988 |  Info | GameServer | Stopping animator 
+2017-10-01 18:44:31.3134 |  Info | GameServer | Stopped animator. 
+2017-10-01 18:44:31.3204 |  Info | GameServer | Stopping adrp 
+2017-10-01 18:45:11.6675 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 18:45:11.7951 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 18:45:11.7951 |  Info | Program |   Port:                 4499 
+2017-10-01 18:45:11.8126 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 18:45:11.8256 |  Info | Program |   FQDN:                      
+2017-10-01 18:45:11.8256 |  Info | Program |   Players:                20 
+2017-10-01 18:45:11.8421 |  Info | Program |   Announce:            False 
+2017-10-01 18:45:11.8421 |  Info | Program | Starting... 
+2017-10-01 18:45:12.7062 |  Info | ConstantData | Loaded Language de 
+2017-10-01 18:45:13.1044 |  Info | GameServer | Loading resources... 
+2017-10-01 18:45:13.2205 |  Info | GameServer | Starting doormanager 
+2017-10-01 18:45:14.7050 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 18:45:14.7160 |  Info | GameServer | Starting adrp 
+2017-10-01 18:45:16.2965 |  Info | GameServer | Resource adrp started. 
+2017-10-01 18:45:16.3411 |  Info | GameServer | Starting animator 
+2017-10-01 18:45:17.0580 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 18:45:17.0580 |  Info | ADRP |  
+2017-10-01 18:45:17.0765 |  Info | ADRP | -------------------------------------- 
+2017-10-01 18:45:17.0765 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 18:45:17.0871 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 18:45:17.0871 |  Info | ADRP |                  2017                  
+2017-10-01 18:45:17.0871 |  Info | ADRP | -------------------------------------- 
+2017-10-01 18:45:17.1026 |  Info | ADRP |  
+2017-10-01 18:45:17.1711 |  Info | GameServer | Resource animator started. 
+2017-10-01 18:45:17.1896 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 18:45:17.3647 |  Info | ADRP | Facções: 4 
+2017-10-01 18:45:17.3913 |  Info | ADRP | Propriedades: 30 
+2017-10-01 18:45:17.4478 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 18:45:17.4758 |  Info | ADRP | Armários: 1 
+2017-10-01 18:45:17.4958 |  Info | ADRP | Blips: 60 
+2017-10-01 18:45:17.5218 |  Info | ADRP | ATMs: 7 
+2017-10-01 18:45:17.5334 |  Info | ADRP | PEDs: 4 
+2017-10-01 18:45:17.5499 |  Info | ADRP | Pontos: 4 
+2017-10-01 18:45:17.5689 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 18:45:17.5769 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 18:45:17.6044 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 18:45:17.6229 |  Info | ADRP | Pets: 1 
+2017-10-01 18:45:23.1026 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 18:45:23.5414 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 18:45:23.9781 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 18:45:38.8323 |  Info | GameServer | Player disconnected: LoveStreets (LoveStreets) [127.0.0.1], reason: Quit 
+2017-10-01 18:47:08.5873 |  Info | GameServer | Initiating connection: [25.1.221.26:50035] 
+2017-10-01 18:47:08.8699 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:47:08.9945 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 18:49:10.2619 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 18:49:10.5796 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 18:49:10.6477 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 18:55:17.0030 | Error | GameServer | UNHANDLED EXCEPTION DURING PLAYER DISCONNECTION -> Trevor Harrison. System.AggregateException: Um ou mais erros. ---> MySql.Data.MySqlClient.MySqlException: There is already an open DataReader associated with this Connection which must be closed first.
+   em MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   em MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   em ADRP.SalvarPersonagem(Client player)
+   em ADRP.API_onPlayerDisconnected(Client player, String reason)
+   em System.Threading.Tasks.Task.Execute()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   em GrandTheftMultiplayer.Server.GameServer.ProcessConnectionStatusChange(NetIncomingMessage msg, Client client)
+---> (Exceção Interna N° 0) MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   em MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   em MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   em ADRP.SalvarPersonagem(Client player)
+   em ADRP.API_onPlayerDisconnected(Client player, String reason)
+   em System.Threading.Tasks.Task.Execute()<---
+
+2017-10-01 18:55:20.4239 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Timeout 
+2017-10-01 18:58:49.7439 |  Info | GameServer | Player disconnected: LoveStreets (Frank Morello) [127.0.0.1], reason: Quit 
+2017-10-01 18:58:59.1769 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 18:58:59.4090 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 18:59:00.8189 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 18:59:20.5441 |  Info | GameServer | Player disconnected: LoveStreets (LoveStreets) [127.0.0.1], reason: Quit 
+2017-10-01 18:59:58.4091 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 18:59:58.7979 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 18:59:58.8509 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 19:03:14.6245 |  Info | GameServer | Initiating connection: [25.1.221.26:62795] 
+2017-10-01 19:03:14.9167 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:03:15.1303 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:04:29.9961 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Quit 
+2017-10-01 19:07:14.8884 |  Info | GameServer | Initiating connection: [25.1.221.26:50337] 
+2017-10-01 19:07:15.1421 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:07:15.2657 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:09:10.4100 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Quit 
+2017-10-01 19:09:20.9569 |  Info | GameServer | Initiating connection: [25.1.221.26:50337] 
+2017-10-01 19:09:21.2466 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:09:21.3011 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:10:09.1993 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Quit 
+2017-10-01 19:10:12.3012 |  Info | GameServer | Initiating connection: [25.1.221.26:50337] 
+2017-10-01 19:10:12.5603 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:10:12.6114 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:10:55.9438 | Error | ServerAPI | EXCEPTION IN SHARED API Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Não é possível converter o valor nulo em 'GrandTheftMultiplayer.Shared.NetHandle' porque ele não é um tipo de valor não nulo
+   em CallSite.Target(Closure , CallSite , Object )
+   em System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   em ADRP.<>c__DisplayClass6a.<API_onPlayerExitVehicle>b__66()
+   em GrandTheftMultiplayer.Server.API.ServerAPI.<>c__DisplayClass452_0.<delay>b__0(Object sender, ElapsedEventArgs args)
+2017-10-01 19:13:57.3695 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Timeout 
+2017-10-01 19:14:29.1615 |  Info | Program | Terminating... 
+2017-10-01 19:14:29.1975 |  Info | GameServer | Stopping animator 
+2017-10-01 19:14:29.3661 |  Info | GameServer | Stopped animator. 
+2017-10-01 19:14:29.3661 |  Info | GameServer | Stopping adrp 
+2017-10-01 19:14:41.5308 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 19:14:41.6419 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 19:14:41.6819 |  Info | Program |   Port:                 4499 
+2017-10-01 19:14:41.6985 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 19:14:41.7145 |  Info | Program |   FQDN:                      
+2017-10-01 19:14:41.7145 |  Info | Program |   Players:                20 
+2017-10-01 19:14:41.7320 |  Info | Program |   Announce:            False 
+2017-10-01 19:14:41.7320 |  Info | Program | Starting... 
+2017-10-01 19:14:42.6681 |  Info | ConstantData | Loaded Language de 
+2017-10-01 19:14:43.0168 |  Info | GameServer | Loading resources... 
+2017-10-01 19:14:43.2565 |  Info | GameServer | Starting doormanager 
+2017-10-01 19:14:44.8225 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 19:14:44.8380 |  Info | GameServer | Starting adrp 
+2017-10-01 19:14:46.7588 |  Info | GameServer | Resource adrp started. 
+2017-10-01 19:14:46.8684 |  Info | GameServer | Starting animator 
+2017-10-01 19:14:47.9151 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 19:14:47.9151 |  Info | ADRP |  
+2017-10-01 19:14:47.9381 |  Info | ADRP | -------------------------------------- 
+2017-10-01 19:14:47.9381 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 19:14:47.9526 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 19:14:47.9636 |  Info | ADRP |                  2017                  
+2017-10-01 19:14:47.9636 |  Info | ADRP | -------------------------------------- 
+2017-10-01 19:14:48.0221 |  Info | ADRP |  
+2017-10-01 19:14:48.4124 |  Info | ADRP | Facções: 4 
+2017-10-01 19:14:48.4444 |  Info | ADRP | Propriedades: 30 
+2017-10-01 19:14:48.5270 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 19:14:48.6040 |  Info | ADRP | Armários: 1 
+2017-10-01 19:14:48.6291 |  Info | ADRP | Blips: 60 
+2017-10-01 19:14:48.6666 |  Info | ADRP | ATMs: 7 
+2017-10-01 19:14:48.7196 |  Info | ADRP | PEDs: 4 
+2017-10-01 19:14:48.7621 |  Info | ADRP | Pontos: 4 
+2017-10-01 19:14:48.8147 |  Info | GameServer | Resource animator started. 
+2017-10-01 19:14:48.8287 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 19:14:48.8427 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 19:14:48.8687 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 19:14:48.9423 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 19:14:48.9678 |  Info | ADRP | Pets: 1 
+2017-10-01 19:15:27.9196 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 19:15:28.4616 |  Info | GameServer | Player connection refused: Wrong password. (127.0.0.1) 
+2017-10-01 19:15:35.3182 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 19:15:35.6224 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 19:15:36.0307 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 19:20:48.9906 |  Info | GameServer | Initiating connection: [25.1.221.26:49956] 
+2017-10-01 19:20:49.2738 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:20:49.4174 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:22:08.6364 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Quit 
+2017-10-01 19:22:25.3810 |  Info | GameServer | Initiating connection: [25.1.221.26:49956] 
+2017-10-01 19:22:25.6622 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:22:25.7127 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:25:08.4224 |  Info | Program | Terminating... 
+2017-10-01 19:25:08.4584 |  Info | GameServer | Stopping animator 
+2017-10-01 19:25:08.5965 |  Info | GameServer | Stopped animator. 
+2017-10-01 19:25:08.6075 |  Info | GameServer | Stopping adrp 
+2017-10-01 19:25:16.5847 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 19:25:16.7333 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 19:25:16.7423 |  Info | Program |   Port:                 4499 
+2017-10-01 19:25:16.7643 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 19:25:16.7753 |  Info | Program |   FQDN:                      
+2017-10-01 19:25:16.7888 |  Info | Program |   Players:                20 
+2017-10-01 19:25:16.7888 |  Info | Program |   Announce:            False 
+2017-10-01 19:25:16.8079 |  Info | Program | Starting... 
+2017-10-01 19:25:17.6479 |  Info | ConstantData | Loaded Language de 
+2017-10-01 19:25:17.9516 |  Info | GameServer | Loading resources... 
+2017-10-01 19:25:18.0452 |  Info | GameServer | Starting doormanager 
+2017-10-01 19:25:19.0353 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 19:25:19.0498 |  Info | GameServer | Starting adrp 
+2017-10-01 19:25:20.8816 |  Info | GameServer | Resource adrp started. 
+2017-10-01 19:25:20.8876 |  Info | GameServer | Starting animator 
+2017-10-01 19:25:21.5290 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 19:25:21.5400 |  Info | ADRP |  
+2017-10-01 19:25:21.5400 |  Info | ADRP | -------------------------------------- 
+2017-10-01 19:25:21.5545 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 19:25:21.5545 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 19:25:21.5545 |  Info | ADRP |                  2017                  
+2017-10-01 19:25:21.5705 |  Info | ADRP | -------------------------------------- 
+2017-10-01 19:25:21.5705 |  Info | ADRP |  
+2017-10-01 19:25:21.8647 |  Info | ADRP | Facções: 4 
+2017-10-01 19:25:21.9238 |  Info | ADRP | Propriedades: 30 
+2017-10-01 19:25:22.0328 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 19:25:22.0759 |  Info | ADRP | Armários: 1 
+2017-10-01 19:25:22.0914 |  Info | ADRP | Blips: 60 
+2017-10-01 19:25:22.1014 |  Info | ADRP | ATMs: 7 
+2017-10-01 19:25:22.1014 |  Info | ADRP | PEDs: 4 
+2017-10-01 19:25:22.1279 |  Info | ADRP | Pontos: 4 
+2017-10-01 19:25:22.1424 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 19:25:22.1489 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 19:25:22.1704 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 19:25:22.1894 |  Info | ADRP | Pets: 1 
+2017-10-01 19:25:22.3580 |  Info | GameServer | Resource animator started. 
+2017-10-01 19:25:22.3660 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 19:25:27.2908 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 19:25:27.5810 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 19:25:27.9573 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 19:28:20.7612 |  Info | GameServer | Initiating connection: [25.1.221.26:60827] 
+2017-10-01 19:28:21.0009 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:28:21.1275 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:32:53.0011 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Timeout 
+2017-10-01 19:35:07.5129 |  Info | GameServer | Initiating connection: [25.1.221.26:60842] 
+2017-10-01 19:35:07.8061 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:35:07.9162 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:47:33.7566 |  Info | Program | Terminating... 
+2017-10-01 19:47:33.8702 |  Info | GameServer | Stopping animator 
+2017-10-01 19:47:34.0438 |  Info | GameServer | Stopped animator. 
+2017-10-01 19:47:34.0563 |  Info | GameServer | Stopping adrp 
+2017-10-01 19:47:42.1664 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 19:47:42.3175 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 19:47:42.3350 |  Info | Program |   Port:                 4499 
+2017-10-01 19:47:42.3550 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 19:47:42.3550 |  Info | Program |   FQDN:                      
+2017-10-01 19:47:42.3715 |  Info | Program |   Players:                20 
+2017-10-01 19:47:42.3855 |  Info | Program |   Announce:            False 
+2017-10-01 19:47:42.3855 |  Info | Program | Starting... 
+2017-10-01 19:47:43.1330 |  Info | ConstantData | Loaded Language de 
+2017-10-01 19:47:43.4357 |  Info | GameServer | Loading resources... 
+2017-10-01 19:47:43.5373 |  Info | GameServer | Starting doormanager 
+2017-10-01 19:47:45.5364 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 19:47:45.5564 |  Info | GameServer | Starting adrp 
+2017-10-01 19:47:49.2937 |  Info | GameServer | Resource adrp started. 
+2017-10-01 19:47:49.3297 |  Info | GameServer | Starting animator 
+2017-10-01 19:47:50.5055 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 19:47:50.5695 |  Info | ADRP |  
+2017-10-01 19:47:50.5855 |  Info | ADRP | -------------------------------------- 
+2017-10-01 19:47:50.5855 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 19:47:50.6015 |  Info | GameServer | Resource animator started. 
+2017-10-01 19:47:50.6015 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 19:47:50.6015 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 19:47:50.6236 |  Info | ADRP |                  2017                  
+2017-10-01 19:47:50.6356 |  Info | ADRP | -------------------------------------- 
+2017-10-01 19:47:50.6356 |  Info | ADRP |  
+2017-10-01 19:47:50.9533 |  Info | ADRP | Facções: 4 
+2017-10-01 19:47:50.9853 |  Info | ADRP | Propriedades: 30 
+2017-10-01 19:47:51.0584 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 19:47:51.1289 |  Info | ADRP | Armários: 1 
+2017-10-01 19:47:51.1614 |  Info | ADRP | Blips: 60 
+2017-10-01 19:47:51.1844 |  Info | ADRP | ATMs: 7 
+2017-10-01 19:47:51.2120 |  Info | ADRP | PEDs: 4 
+2017-10-01 19:47:51.2445 |  Info | ADRP | Pontos: 4 
+2017-10-01 19:47:51.2935 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 19:47:51.2935 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 19:47:51.3515 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 19:47:51.3921 |  Info | ADRP | Pets: 1 
+2017-10-01 19:48:05.7258 |  Info | GameServer | Initiating connection: [25.1.221.26:60842] 
+2017-10-01 19:48:05.9935 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:48:06.3662 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 19:48:06.5664 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 19:48:06.7110 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 19:48:06.7595 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 19:51:23.2501 | Error | CommandParser | UNHANDLED EXCEPTION WHEN PARSING COMMAND /irpos -564.6385, 277.7336, 83.13632 FROM PLAYER LoveStreets System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   em System.String.System.IConvertible.ToSingle(IFormatProvider provider)
+   em System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   em GrandTheftMultiplayer.Server.Managers.CommandParser.Parse(Client sender, String cmdRaw)
+2017-10-01 20:07:16.3782 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Timeout 
+2017-10-01 20:09:57.4443 |  Info | GameServer | Initiating connection: [25.1.221.26:63470] 
+2017-10-01 20:09:57.7535 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:09:59.3302 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:15:57.6861 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Timeout 
+2017-10-01 20:18:20.8117 |  Info | GameServer | Initiating connection: [25.1.221.26:61330] 
+2017-10-01 20:18:21.2365 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:18:21.4036 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:28:22.0249 |  Info | Program | Terminating... 
+2017-10-01 20:28:22.0459 |  Info | GameServer | Stopping animator 
+2017-10-01 20:28:22.1940 |  Info | GameServer | Stopped animator. 
+2017-10-01 20:28:22.2040 |  Info | GameServer | Stopping adrp 
+2017-10-01 20:28:34.1439 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 20:28:34.2865 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 20:28:34.3270 |  Info | Program |   Port:                 4499 
+2017-10-01 20:28:34.3426 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 20:28:34.3571 |  Info | Program |   FQDN:                      
+2017-10-01 20:28:34.3761 |  Info | Program |   Players:                20 
+2017-10-01 20:28:34.3846 |  Info | Program |   Announce:            False 
+2017-10-01 20:28:34.3846 |  Info | Program | Starting... 
+2017-10-01 20:28:35.0830 |  Info | ConstantData | Loaded Language de 
+2017-10-01 20:28:35.5208 |  Info | GameServer | Loading resources... 
+2017-10-01 20:28:35.6419 |  Info | GameServer | Starting doormanager 
+2017-10-01 20:28:35.9293 |  Info | Program | Terminating... 
+2017-10-01 20:28:37.4059 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 20:28:37.4059 |  Info | GameServer | Starting adrp 
+2017-10-01 20:28:39.4898 | Error | GameServer | Error/warning while compiling script! 
+2017-10-01 20:28:39.4968 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:234: 'ADRP.Propriedade.Furnitures.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:28:39.5314 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15403: 'ADRP.Furniture.Name.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:28:39.5519 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15404: 'ADRP.Furniture.ModelName.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:28:39.6615 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15405: 'ADRP.Furniture.Price.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:28:39.6865 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15417: 'ADRP.HouseFurniture.Model.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:28:39.6985 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15421: 'ADRP.HouseFurniture.Name.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:28:39.7150 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15422: 'ADRP.HouseFurniture.Price.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:28:39.7275 |  Info | GameServer | Resource adrp started. 
+2017-10-01 20:28:39.7275 |  Info | GameServer | Starting animator 
+2017-10-01 20:29:02.3578 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 20:29:02.5094 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 20:29:02.5485 |  Info | Program |   Port:                 4499 
+2017-10-01 20:29:02.5560 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 20:29:02.5560 |  Info | Program |   FQDN:                      
+2017-10-01 20:29:02.5695 |  Info | Program |   Players:                20 
+2017-10-01 20:29:02.5860 |  Info | Program |   Announce:            False 
+2017-10-01 20:29:02.5860 |  Info | Program | Starting... 
+2017-10-01 20:29:03.1864 |  Info | ConstantData | Loaded Language de 
+2017-10-01 20:29:03.4080 |  Info | GameServer | Loading resources... 
+2017-10-01 20:29:03.5616 |  Info | GameServer | Starting doormanager 
+2017-10-01 20:29:04.0440 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 20:29:04.0440 |  Info | GameServer | Starting adrp 
+2017-10-01 20:29:05.1806 | Error | GameServer | Error/warning while compiling script! 
+2017-10-01 20:29:05.1806 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:234: 'ADRP.Propriedade.Furnitures.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:29:05.1806 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15403: 'ADRP.Furniture.Name.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:29:05.1996 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15404: 'ADRP.Furniture.ModelName.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:29:05.1996 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15405: 'ADRP.Furniture.Price.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:29:05.2121 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15417: 'ADRP.HouseFurniture.Model.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:29:05.2121 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15421: 'ADRP.HouseFurniture.Name.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:29:05.2121 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:15422: 'ADRP.HouseFurniture.Price.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 20:29:05.2336 |  Info | GameServer | Resource adrp started. 
+2017-10-01 20:29:05.2416 |  Info | GameServer | Starting animator 
+2017-10-01 20:29:06.1752 |  Info | GameServer | Resource animator started. 
+2017-10-01 20:29:06.1822 |  Info | GameServer | Starting Furniture 
+2017-10-01 20:29:06.2002 |  Info | GameServer | Starting MoneyAPI 
+2017-10-01 20:29:06.2002 | Error | GameServer | ERROR STARTING RESOURCE MoneyAPI System.IO.FileNotFoundException: Resource does not exist.
+   em GrandTheftMultiplayer.Server.GameServer.StartResource(String resourceName, String father)
+2017-10-01 20:29:06.6861 |  Info | GameServer | Resource Furniture started. 
+2017-10-01 20:29:06.6976 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 20:29:06.7121 |  Info | Main | -> Player House Limit: 3 
+2017-10-01 20:29:06.7121 |  Info | Main | -> House Safe Limit: $5.000.000 
+2017-10-01 20:29:06.7121 |  Info | Main | -> House Weapon Limit: 10 
+2017-10-01 20:29:06.7341 |  Info | Main | -> House Furniture Limit: 25 
+2017-10-01 20:29:06.7436 |  Info | Main | -> Dimension Reset On Death: Enabled 
+2017-10-01 20:29:06.7436 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE HouseTypes System.MissingMethodException: Método não encontrado: 'GrandTheftMultiplayer.Server.Elements.Marker GrandTheftMultiplayer.Server.API.ServerAPI.createMarker(Int32, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, Int32, Int32, Int32, Int32, Int32)'.
+   em HouseScript.HouseType.Create()
+   em HouseScript.HouseTypes.HouseTypes_Init()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStart>b__26_0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:29:06.7581 |  Info | Main | -> Save Interval: 00:02:00 
+2017-10-01 20:29:06.7581 |  Info | Main | Loaded 0 houses. 
+2017-10-01 20:29:06.7871 |  Info | GameServer | Initiating connection: [25.1.221.26:61330] 
+2017-10-01 20:29:07.2589 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:29:07.2915 |  Info | GameServer | Player disconnected: _whitetrash (Trevor_Harrison) [25.1.221.26], reason: Failed to establish connection - no response from remote host 
+2017-10-01 20:29:12.2657 |  Info | GameServer | Initiating connection: [25.1.221.26:61330] 
+2017-10-01 20:29:12.5589 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:29:12.9616 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:29:17.2951 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:29:40.7634 |  Info | Program | Terminating... 
+2017-10-01 20:29:40.7770 |  Info | GameServer | Stopping Furniture 
+2017-10-01 20:29:41.2042 | Error | ScriptingEngine | Unhandled exception caught in HouseTypes from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.HouseType.Destroy()
+   em HouseScript.HouseTypes.HouseTypes_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 20:29:41.3223 |  Info | GameServer | Stopped Furniture. 
+2017-10-01 20:29:41.3348 |  Info | GameServer | Stopping animator 
+2017-10-01 20:29:41.4464 |  Info | GameServer | Stopped animator. 
+2017-10-01 20:29:41.7631 |  Info | GameServer | Stopping adrp 
+2017-10-01 20:29:41.7786 |  Info | GameServer | Stopped adrp. 
+2017-10-01 20:29:41.8091 |  Info | GameServer | Stopping doormanager 
+2017-10-01 20:29:41.9207 |  Info | GameServer | Stopped doormanager. 
+2017-10-01 20:30:22.8023 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 20:30:22.9709 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 20:30:23.0755 |  Info | Program |   Port:                 4499 
+2017-10-01 20:30:23.0965 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 20:30:23.1085 |  Info | Program |   FQDN:                      
+2017-10-01 20:30:23.1245 |  Info | Program |   Players:                20 
+2017-10-01 20:30:23.1390 |  Info | Program |   Announce:            False 
+2017-10-01 20:30:23.1475 |  Info | Program | Starting... 
+2017-10-01 20:30:24.0406 |  Info | ConstantData | Loaded Language de 
+2017-10-01 20:30:24.4038 |  Info | GameServer | Loading resources... 
+2017-10-01 20:30:24.5389 |  Info | GameServer | Starting doormanager 
+2017-10-01 20:30:25.6747 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 20:30:25.6917 |  Info | GameServer | Starting adrp 
+2017-10-01 20:30:26.9522 | Error | GameServer | Error/warning while compiling script! 
+2017-10-01 20:30:26.9522 | Error | GameServer | Error (CS0246) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:234: O nome de namespace ou o tipo 'HouseFurniture' não pôde ser encontrado. Precisa de uma diretiva using ou de uma referência de assembly? 
+2017-10-01 20:30:26.9698 |  Info | GameServer | Resource adrp started. 
+2017-10-01 20:30:26.9778 |  Info | GameServer | Starting animator 
+2017-10-01 20:30:28.4516 |  Info | GameServer | Resource animator started. 
+2017-10-01 20:30:28.4626 |  Info | GameServer | Starting Furniture 
+2017-10-01 20:30:28.5066 |  Info | GameServer | Resource Furniture started. 
+2017-10-01 20:30:28.5296 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE HouseTypes System.MissingMethodException: Método não encontrado: 'GrandTheftMultiplayer.Server.Elements.Marker GrandTheftMultiplayer.Server.API.ServerAPI.createMarker(Int32, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, Int32, Int32, Int32, Int32, Int32)'.
+   em HouseScript.HouseType.Create()
+   em HouseScript.HouseTypes.HouseTypes_Init()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStart>b__26_0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:30:28.5506 |  Info | Main | -> Player House Limit: 3 
+2017-10-01 20:30:28.5736 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 20:30:29.5074 |  Info | Main | -> House Safe Limit: $5.000.000 
+2017-10-01 20:30:29.5074 |  Info | Main | -> House Weapon Limit: 10 
+2017-10-01 20:30:29.5395 |  Info | Main | -> House Furniture Limit: 25 
+2017-10-01 20:30:29.5635 |  Info | Main | -> Dimension Reset On Death: Enabled 
+2017-10-01 20:30:29.5955 |  Info | Main | -> Save Interval: 00:02:00 
+2017-10-01 20:30:29.6160 |  Info | Main | Loaded 0 houses. 
+2017-10-01 20:30:55.0774 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 20:30:55.8314 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 20:30:56.3427 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 20:30:57.5408 |  Info | GameServer | Initiating connection: [25.1.221.26:61330] 
+2017-10-01 20:30:57.9726 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:30:58.0942 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:31:01.9203 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:31:02.2970 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:33:37.5392 |  Info | Program | Terminating... 
+2017-10-01 20:33:37.5657 |  Info | GameServer | Stopping Furniture 
+2017-10-01 20:33:37.9885 | Error | ScriptingEngine | Unhandled exception caught in HouseTypes from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.HouseType.Destroy()
+   em HouseScript.HouseTypes.HouseTypes_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 20:33:38.1051 |  Info | GameServer | Stopped Furniture. 
+2017-10-01 20:33:38.1181 |  Info | GameServer | Stopping animator 
+2017-10-01 20:33:38.2292 |  Info | GameServer | Stopped animator. 
+2017-10-01 20:33:38.2292 |  Info | GameServer | Stopping adrp 
+2017-10-01 20:33:38.2437 |  Info | GameServer | Stopped adrp. 
+2017-10-01 20:33:38.2437 |  Info | GameServer | Stopping doormanager 
+2017-10-01 20:33:38.3592 |  Info | GameServer | Stopped doormanager. 
+2017-10-01 20:33:43.5561 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 20:33:43.6277 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 20:33:43.6392 |  Info | Program |   Port:                 4499 
+2017-10-01 20:33:43.6392 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 20:33:43.6507 |  Info | Program |   FQDN:                      
+2017-10-01 20:33:43.6507 |  Info | Program |   Players:                20 
+2017-10-01 20:33:43.6507 |  Info | Program |   Announce:            False 
+2017-10-01 20:33:43.6647 |  Info | Program | Starting... 
+2017-10-01 20:33:44.2471 |  Info | ConstantData | Loaded Language de 
+2017-10-01 20:33:44.5193 |  Info | GameServer | Loading resources... 
+2017-10-01 20:33:44.6138 |  Info | GameServer | Starting doormanager 
+2017-10-01 20:33:45.2347 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 20:33:45.2448 |  Info | GameServer | Starting adrp 
+2017-10-01 20:33:46.5616 | Error | GameServer | Error/warning while compiling script! 
+2017-10-01 20:33:46.5616 | Error | GameServer | Error (CS0103) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:421: O nome 'HouseFurnitures_ClientEvent' não existe no contexto atual 
+2017-10-01 20:33:46.5741 |  Warn | GameServer | Warning (CS0162) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:13712: Código inacessível detectado 
+2017-10-01 20:33:46.5886 |  Warn | GameServer | Warning (CS0162) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:13713: Código inacessível detectado 
+2017-10-01 20:33:46.5886 |  Warn | GameServer | Warning (CS0162) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:13714: Código inacessível detectado 
+2017-10-01 20:33:46.6047 |  Info | GameServer | Resource adrp started. 
+2017-10-01 20:33:46.6047 |  Info | GameServer | Starting animator 
+2017-10-01 20:33:47.9766 |  Info | GameServer | Resource animator started. 
+2017-10-01 20:33:47.9766 |  Info | GameServer | Starting Furniture 
+2017-10-01 20:33:48.0166 |  Info | GameServer | Resource Furniture started. 
+2017-10-01 20:33:48.0231 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 20:33:48.0411 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE HouseTypes System.MissingMethodException: Método não encontrado: 'GrandTheftMultiplayer.Server.Elements.Marker GrandTheftMultiplayer.Server.API.ServerAPI.createMarker(Int32, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, Int32, Int32, Int32, Int32, Int32)'.
+   em HouseScript.HouseType.Create()
+   em HouseScript.HouseTypes.HouseTypes_Init()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStart>b__26_0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:33:48.0411 |  Info | Main | -> Player House Limit: 3 
+2017-10-01 20:33:48.9248 |  Info | Main | -> House Safe Limit: $5.000.000 
+2017-10-01 20:33:48.9343 |  Info | Main | -> House Weapon Limit: 10 
+2017-10-01 20:33:48.9343 |  Info | Main | -> House Furniture Limit: 25 
+2017-10-01 20:33:48.9473 |  Info | Main | -> Dimension Reset On Death: Enabled 
+2017-10-01 20:33:48.9473 |  Info | Main | -> Save Interval: 00:02:00 
+2017-10-01 20:33:48.9613 |  Info | Main | Loaded 0 houses. 
+2017-10-01 20:33:50.4906 |  Info | Program | Terminating... 
+2017-10-01 20:33:50.5167 |  Info | GameServer | Stopping Furniture 
+2017-10-01 20:33:50.9720 | Error | ScriptingEngine | Unhandled exception caught in HouseTypes from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.HouseType.Destroy()
+   em HouseScript.HouseTypes.HouseTypes_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 20:33:51.0986 |  Info | GameServer | Stopped Furniture. 
+2017-10-01 20:33:51.1066 |  Info | GameServer | Stopping animator 
+2017-10-01 20:33:51.2132 |  Info | GameServer | Stopped animator. 
+2017-10-01 20:33:51.2132 |  Info | GameServer | Stopping adrp 
+2017-10-01 20:33:51.2322 |  Info | GameServer | Stopped adrp. 
+2017-10-01 20:33:51.2322 |  Info | GameServer | Stopping doormanager 
+2017-10-01 20:33:51.3472 |  Info | GameServer | Stopped doormanager. 
+2017-10-01 20:35:07.8915 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 20:35:08.0216 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 20:35:08.0526 |  Info | Program |   Port:                 4499 
+2017-10-01 20:35:08.0621 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 20:35:08.0856 |  Info | Program |   FQDN:                      
+2017-10-01 20:35:08.0856 |  Info | Program |   Players:                20 
+2017-10-01 20:35:08.1086 |  Info | Program |   Announce:            False 
+2017-10-01 20:35:08.1221 |  Info | Program | Starting... 
+2017-10-01 20:35:08.9422 |  Info | ConstantData | Loaded Language de 
+2017-10-01 20:35:09.2724 |  Info | GameServer | Loading resources... 
+2017-10-01 20:35:09.3995 |  Info | GameServer | Starting doormanager 
+2017-10-01 20:35:10.3120 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 20:35:10.3420 |  Info | GameServer | Starting adrp 
+2017-10-01 20:35:12.4771 |  Info | GameServer | Resource adrp started. 
+2017-10-01 20:35:12.4771 |  Info | GameServer | Starting animator 
+2017-10-01 20:35:13.4512 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 20:35:13.4512 |  Info | ADRP |  
+2017-10-01 20:35:13.4687 |  Info | ADRP | -------------------------------------- 
+2017-10-01 20:35:13.4687 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 20:35:13.4838 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 20:35:13.4838 |  Info | ADRP |                  2017                  
+2017-10-01 20:35:13.4978 |  Info | ADRP | -------------------------------------- 
+2017-10-01 20:35:13.4978 |  Info | ADRP |  
+2017-10-01 20:35:13.9025 |  Info | ADRP | Facções: 4 
+2017-10-01 20:35:13.9471 |  Info | ADRP | Propriedades: 30 
+2017-10-01 20:35:14.0361 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 20:35:14.0787 |  Info | ADRP | Armários: 1 
+2017-10-01 20:35:14.1037 |  Info | ADRP | Blips: 60 
+2017-10-01 20:35:14.1177 |  Info | ADRP | ATMs: 7 
+2017-10-01 20:35:14.2273 |  Info | ADRP | PEDs: 4 
+2017-10-01 20:35:14.2518 |  Info | ADRP | Pontos: 4 
+2017-10-01 20:35:14.2588 |  Info | GameServer | Resource animator started. 
+2017-10-01 20:35:14.2723 |  Info | GameServer | Starting Furniture 
+2017-10-01 20:35:14.2723 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 20:35:14.2923 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 20:35:14.3188 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 20:35:14.3198 |  Info | GameServer | Resource Furniture started. 
+2017-10-01 20:35:14.3198 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE HouseTypes System.MissingMethodException: Método não encontrado: 'GrandTheftMultiplayer.Server.Elements.Marker GrandTheftMultiplayer.Server.API.ServerAPI.createMarker(Int32, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, Int32, Int32, Int32, Int32, Int32)'.
+   em HouseScript.HouseType.Create()
+   em HouseScript.HouseTypes.HouseTypes_Init()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStart>b__26_0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:35:14.3198 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 20:35:14.3518 |  Info | ADRP | Pets: 1 
+2017-10-01 20:35:14.3463 |  Info | Main | -> Player House Limit: 3 
+2017-10-01 20:35:15.4468 |  Info | Main | -> House Safe Limit: $5.000.000 
+2017-10-01 20:35:15.4468 |  Info | Main | -> House Weapon Limit: 10 
+2017-10-01 20:35:15.4618 |  Info | Main | -> House Furniture Limit: 25 
+2017-10-01 20:35:15.4868 |  Info | Main | -> Dimension Reset On Death: Enabled 
+2017-10-01 20:35:15.4959 |  Info | Main | -> Save Interval: 00:02:00 
+2017-10-01 20:35:15.4959 |  Info | Main | Loaded 0 houses. 
+2017-10-01 20:35:27.3011 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 20:35:27.6243 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 20:35:28.0501 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 20:35:31.8078 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:36:33.3159 |  Info | Program | Terminating... 
+2017-10-01 20:36:33.3429 |  Info | GameServer | Stopping Furniture 
+2017-10-01 20:36:33.7777 | Error | ScriptingEngine | Unhandled exception caught in HouseTypes from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.HouseType.Destroy()
+   em HouseScript.HouseTypes.HouseTypes_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 20:36:33.8928 |  Info | GameServer | Stopped Furniture. 
+2017-10-01 20:36:33.9033 |  Info | GameServer | Stopping animator 
+2017-10-01 20:36:34.0094 |  Info | GameServer | Stopped animator. 
+2017-10-01 20:36:34.0094 |  Info | GameServer | Stopping adrp 
+2017-10-01 20:36:49.3770 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 20:36:49.5086 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 20:36:49.5301 |  Info | Program |   Port:                 4499 
+2017-10-01 20:36:49.5822 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 20:36:49.5972 |  Info | Program |   FQDN:                      
+2017-10-01 20:36:49.6067 |  Info | Program |   Players:                20 
+2017-10-01 20:36:49.6067 |  Info | Program |   Announce:            False 
+2017-10-01 20:36:49.6242 |  Info | Program | Starting... 
+2017-10-01 20:36:50.4803 |  Info | ConstantData | Loaded Language de 
+2017-10-01 20:36:50.8325 |  Info | GameServer | Loading resources... 
+2017-10-01 20:36:50.9276 |  Info | GameServer | Starting doormanager 
+2017-10-01 20:36:51.9817 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 20:36:51.9927 |  Info | GameServer | Starting adrp 
+2017-10-01 20:36:53.8525 |  Info | GameServer | Resource adrp started. 
+2017-10-01 20:36:53.8760 |  Info | GameServer | Starting animator 
+2017-10-01 20:36:54.6215 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 20:36:54.6215 |  Info | ADRP |  
+2017-10-01 20:36:54.6356 |  Info | ADRP | -------------------------------------- 
+2017-10-01 20:36:54.6356 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 20:36:54.6356 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 20:36:54.6506 |  Info | ADRP |                  2017                  
+2017-10-01 20:36:54.6506 |  Info | ADRP | -------------------------------------- 
+2017-10-01 20:36:54.6656 |  Info | ADRP |  
+2017-10-01 20:36:54.9242 |  Info | ADRP | Facções: 4 
+2017-10-01 20:36:54.9493 |  Info | ADRP | Propriedades: 30 
+2017-10-01 20:36:55.0398 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 20:36:55.0398 |  Info | ADRP | Armários: 1 
+2017-10-01 20:36:55.0728 |  Info | ADRP | Blips: 60 
+2017-10-01 20:36:55.0728 |  Info | ADRP | ATMs: 7 
+2017-10-01 20:36:55.0959 |  Info | ADRP | PEDs: 4 
+2017-10-01 20:36:55.1069 |  Info | ADRP | Pontos: 4 
+2017-10-01 20:36:55.1234 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 20:36:55.1234 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 20:36:55.1519 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 20:36:55.1814 |  Info | ADRP | Pets: 1 
+2017-10-01 20:36:55.4541 |  Info | GameServer | Resource animator started. 
+2017-10-01 20:36:55.4776 |  Info | GameServer | Starting Furniture 
+2017-10-01 20:36:55.5522 |  Info | GameServer | Resource Furniture started. 
+2017-10-01 20:36:55.5647 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE HouseTypes System.MissingMethodException: Método não encontrado: 'GrandTheftMultiplayer.Server.Elements.Marker GrandTheftMultiplayer.Server.API.ServerAPI.createMarker(Int32, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, Int32, Int32, Int32, Int32, Int32)'.
+   em HouseScript.HouseType.Create()
+   em HouseScript.HouseTypes.HouseTypes_Init()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStart>b__26_0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:36:55.5647 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 20:36:55.5747 |  Info | Main | -> Player House Limit: 3 
+2017-10-01 20:36:56.4666 |  Info | Main | -> House Safe Limit: $5.000.000 
+2017-10-01 20:36:56.4666 |  Info | Main | -> House Weapon Limit: 10 
+2017-10-01 20:36:56.6147 |  Info | Main | -> House Furniture Limit: 25 
+2017-10-01 20:36:56.6267 |  Info | Main | -> Dimension Reset On Death: Enabled 
+2017-10-01 20:36:56.6392 |  Info | Main | -> Save Interval: 00:02:00 
+2017-10-01 20:36:56.6512 |  Info | Main | Loaded 0 houses. 
+2017-10-01 20:37:06.2986 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 20:37:06.6008 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 20:37:06.9676 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 20:37:09.9672 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:37:35.6498 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Commands System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.MissingMethodException: Método não encontrado: 'GrandTheftMultiplayer.Server.Elements.Marker GrandTheftMultiplayer.Server.API.ServerAPI.createMarker(Int32, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, Int32, Int32, Int32, Int32, Int32)'.
+   em HouseScript.House..ctor(Guid id, String owner, Int32 type, Vector3 position, Int32 price, Boolean locked, String name, List`1 furnitures, Int64 money, List`1 weapons)
+   em HouseScript.Commands.CMD_CreateHouse(Client player, Int32 type, Int32 price)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   em System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass22_0.<InvokeVoidMethod>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:37:56.1364 |  Info | GameServer | Initiating connection: [25.1.221.26:57694] 
+2017-10-01 20:37:56.5247 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:37:56.6853 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:38:01.8454 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:38:30.7518 |  Info | Program | Terminating... 
+2017-10-01 20:38:30.7948 |  Info | GameServer | Stopping Furniture 
+2017-10-01 20:38:31.2298 | Error | ScriptingEngine | Unhandled exception caught in HouseTypes from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.HouseType.Destroy()
+   em HouseScript.HouseTypes.HouseTypes_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 20:38:31.3403 |  Info | GameServer | Stopped Furniture. 
+2017-10-01 20:38:31.3403 |  Info | GameServer | Stopping animator 
+2017-10-01 20:38:31.4557 |  Info | GameServer | Stopped animator. 
+2017-10-01 20:38:31.4622 |  Info | GameServer | Stopping adrp 
+2017-10-01 20:38:48.4709 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 20:38:48.6095 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 20:38:48.6335 |  Info | Program |   Port:                 4499 
+2017-10-01 20:38:48.6335 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 20:38:48.6576 |  Info | Program |   FQDN:                      
+2017-10-01 20:38:48.6651 |  Info | Program |   Players:                20 
+2017-10-01 20:38:48.6651 |  Info | Program |   Announce:            False 
+2017-10-01 20:38:48.6846 |  Info | Program | Starting... 
+2017-10-01 20:38:49.4666 |  Info | ConstantData | Loaded Language de 
+2017-10-01 20:38:49.7898 |  Info | GameServer | Loading resources... 
+2017-10-01 20:38:49.9154 |  Info | GameServer | Starting doormanager 
+2017-10-01 20:38:51.1082 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 20:38:51.1172 |  Info | GameServer | Starting adrp 
+2017-10-01 20:38:53.1565 |  Info | GameServer | Resource adrp started. 
+2017-10-01 20:38:53.1781 |  Info | GameServer | Starting animator 
+2017-10-01 20:38:54.0632 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 20:38:54.0797 |  Info | ADRP |  
+2017-10-01 20:38:54.0882 |  Info | ADRP | -------------------------------------- 
+2017-10-01 20:38:54.0882 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 20:38:54.1022 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 20:38:54.1022 |  Info | ADRP |                  2017                  
+2017-10-01 20:38:54.1177 |  Info | ADRP | -------------------------------------- 
+2017-10-01 20:38:54.1177 |  Info | ADRP |  
+2017-10-01 20:38:54.4334 |  Info | ADRP | Facções: 4 
+2017-10-01 20:38:54.4589 |  Info | ADRP | Propriedades: 30 
+2017-10-01 20:38:54.6550 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 20:38:54.7251 |  Info | ADRP | Armários: 1 
+2017-10-01 20:38:54.7471 |  Info | ADRP | Blips: 60 
+2017-10-01 20:38:54.7471 |  Info | ADRP | ATMs: 7 
+2017-10-01 20:38:54.7721 |  Info | ADRP | PEDs: 4 
+2017-10-01 20:38:54.7846 |  Info | ADRP | Pontos: 4 
+2017-10-01 20:38:54.8141 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 20:38:54.8332 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 20:38:54.8567 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 20:38:54.8797 |  Info | ADRP | Pets: 1 
+2017-10-01 20:38:55.0813 |  Info | GameServer | Resource animator started. 
+2017-10-01 20:38:55.0903 |  Info | GameServer | Starting Furniture 
+2017-10-01 20:38:55.1759 |  Info | GameServer | Resource Furniture started. 
+2017-10-01 20:38:55.1914 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE HouseTypes System.MissingMethodException: Método não encontrado: 'GrandTheftMultiplayer.Server.Elements.Marker GrandTheftMultiplayer.Server.API.ServerAPI.createMarker(Int32, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, GrandTheftMultiplayer.Shared.Math.Vector3, Int32, Int32, Int32, Int32, Int32)'.
+   em HouseScript.HouseType.Create()
+   em HouseScript.HouseTypes.HouseTypes_Init()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStart>b__26_0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:38:55.1914 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 20:38:55.2009 |  Info | Main | -> Player House Limit: 3 
+2017-10-01 20:38:56.2486 |  Info | Main | -> House Safe Limit: $5.000.000 
+2017-10-01 20:38:56.2611 |  Info | Main | -> House Weapon Limit: 10 
+2017-10-01 20:38:56.2611 |  Info | Main | -> House Furniture Limit: 25 
+2017-10-01 20:38:56.2791 |  Info | Main | -> Dimension Reset On Death: Enabled 
+2017-10-01 20:38:56.2886 |  Info | Main | -> Save Interval: 00:02:00 
+2017-10-01 20:38:56.2886 |  Info | Main | Loaded 0 houses. 
+2017-10-01 20:40:25.8054 |  Info | Program | Terminating... 
+2017-10-01 20:40:25.8384 |  Info | GameServer | Stopping Furniture 
+2017-10-01 20:40:26.2852 | Error | ScriptingEngine | Unhandled exception caught in HouseTypes from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.HouseType.Destroy()
+   em HouseScript.HouseTypes.HouseTypes_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 20:40:26.4068 |  Info | GameServer | Stopped Furniture. 
+2017-10-01 20:40:26.4193 |  Info | GameServer | Stopping animator 
+2017-10-01 20:40:26.5269 |  Info | GameServer | Stopped animator. 
+2017-10-01 20:40:26.5389 |  Info | GameServer | Stopping adrp 
+2017-10-01 20:40:43.8373 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 20:40:43.9739 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 20:40:43.9849 |  Info | Program |   Port:                 4499 
+2017-10-01 20:40:44.1075 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 20:40:44.1160 |  Info | Program |   FQDN:                      
+2017-10-01 20:40:44.1160 |  Info | Program |   Players:                20 
+2017-10-01 20:40:44.1516 |  Info | Program |   Announce:            False 
+2017-10-01 20:40:44.1516 |  Info | Program | Starting... 
+2017-10-01 20:40:45.1362 |  Info | ConstantData | Loaded Language de 
+2017-10-01 20:40:45.6450 |  Info | GameServer | Loading resources... 
+2017-10-01 20:40:45.7681 |  Info | GameServer | Starting doormanager 
+2017-10-01 20:40:46.6227 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 20:40:46.6382 |  Info | GameServer | Starting adrp 
+2017-10-01 20:40:48.2872 |  Info | GameServer | Resource adrp started. 
+2017-10-01 20:40:48.3157 |  Info | GameServer | Starting animator 
+2017-10-01 20:40:49.2248 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 20:40:49.2338 |  Info | ADRP |  
+2017-10-01 20:40:49.2458 |  Info | ADRP | -------------------------------------- 
+2017-10-01 20:40:49.2458 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 20:40:49.2613 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 20:40:49.2613 |  Info | ADRP |                  2017                  
+2017-10-01 20:40:49.2744 |  Info | ADRP | -------------------------------------- 
+2017-10-01 20:40:49.2744 |  Info | ADRP |  
+2017-10-01 20:40:49.5575 |  Info | ADRP | Facções: 4 
+2017-10-01 20:40:49.5821 |  Info | ADRP | Propriedades: 30 
+2017-10-01 20:40:49.6541 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 20:40:49.6861 |  Info | ADRP | Armários: 1 
+2017-10-01 20:40:49.7081 |  Info | ADRP | Blips: 60 
+2017-10-01 20:40:49.7151 |  Info | ADRP | ATMs: 7 
+2017-10-01 20:40:49.7492 |  Info | ADRP | PEDs: 4 
+2017-10-01 20:40:49.7587 |  Info | ADRP | Pontos: 4 
+2017-10-01 20:40:49.7587 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 20:40:49.7862 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 20:40:49.8042 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 20:40:49.8292 |  Info | ADRP | Pets: 1 
+2017-10-01 20:40:49.8983 |  Info | GameServer | Resource animator started. 
+2017-10-01 20:40:49.8983 |  Info | GameServer | Starting Furniture 
+2017-10-01 20:40:50.1274 |  Info | GameServer | Resource Furniture started. 
+2017-10-01 20:40:50.1429 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 20:40:50.1534 |  Info | Main | -> Player House Limit: 3 
+2017-10-01 20:40:50.1534 |  Info | Main | -> House Safe Limit: $5.000.000 
+2017-10-01 20:40:50.1674 |  Info | Main | -> House Weapon Limit: 10 
+2017-10-01 20:40:50.1674 |  Info | Main | -> House Furniture Limit: 25 
+2017-10-01 20:40:50.1875 |  Info | Main | -> Dimension Reset On Death: Enabled 
+2017-10-01 20:40:50.1950 |  Info | Main | -> Save Interval: 00:02:00 
+2017-10-01 20:40:50.1950 |  Info | Main | Loaded 0 houses. 
+2017-10-01 20:40:57.1152 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 20:40:57.6416 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 20:40:58.0488 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 20:41:01.7416 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:41:49.7100 |  Info | GameServer | Initiating connection: [25.1.221.26:57694] 
+2017-10-01 20:41:49.9837 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:41:50.0752 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:41:54.4515 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:43:44.4845 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Timeout 
+2017-10-01 20:45:44.5032 |  Info | Program | Terminating... 
+2017-10-01 20:45:44.5257 |  Info | GameServer | Stopping Furniture 
+2017-10-01 20:45:44.8569 | Error | ScriptingEngine | Unhandled exception caught in Main from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.House.Destroy(Boolean exit)
+   em HouseScript.Main.House_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 20:45:44.9660 | Error | ScriptingEngine | Unhandled exception caught in HouseTypes from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.HouseType.Destroy()
+   em HouseScript.HouseTypes.HouseTypes_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 20:45:45.0835 |  Info | GameServer | Stopped Furniture. 
+2017-10-01 20:45:45.0905 |  Info | GameServer | Stopping animator 
+2017-10-01 20:45:45.2011 |  Info | GameServer | Stopped animator. 
+2017-10-01 20:45:45.2011 |  Info | GameServer | Stopping adrp 
+2017-10-01 20:46:34.0247 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 20:46:34.1548 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 20:46:34.1633 |  Info | Program |   Port:                 4499 
+2017-10-01 20:46:34.1633 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 20:46:34.1993 |  Info | Program |   FQDN:                      
+2017-10-01 20:46:34.1993 |  Info | Program |   Players:                20 
+2017-10-01 20:46:34.2148 |  Info | Program |   Announce:            False 
+2017-10-01 20:46:34.2148 |  Info | Program | Starting... 
+2017-10-01 20:46:34.8983 |  Info | ConstantData | Loaded Language de 
+2017-10-01 20:46:35.1675 |  Info | GameServer | Loading resources... 
+2017-10-01 20:46:35.2835 |  Info | GameServer | Starting doormanager 
+2017-10-01 20:46:36.3955 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 20:46:36.4185 |  Info | GameServer | Starting adrp 
+2017-10-01 20:46:38.7218 |  Info | GameServer | Resource adrp started. 
+2017-10-01 20:46:38.7293 |  Info | GameServer | Starting animator 
+2017-10-01 20:46:39.4143 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 20:46:39.4143 |  Info | ADRP |  
+2017-10-01 20:46:39.4143 |  Info | ADRP | -------------------------------------- 
+2017-10-01 20:46:39.4323 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 20:46:39.4323 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 20:46:39.4448 |  Info | ADRP |                  2017                  
+2017-10-01 20:46:39.4448 |  Info | ADRP | -------------------------------------- 
+2017-10-01 20:46:39.4448 |  Info | ADRP |  
+2017-10-01 20:46:39.7005 |  Info | ADRP | Facções: 4 
+2017-10-01 20:46:39.7280 |  Info | ADRP | Propriedades: 30 
+2017-10-01 20:46:39.8100 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 20:46:39.8230 |  Info | ADRP | Armários: 1 
+2017-10-01 20:46:39.8420 |  Info | ADRP | Blips: 60 
+2017-10-01 20:46:39.8420 |  Info | ADRP | ATMs: 7 
+2017-10-01 20:46:39.9386 |  Info | ADRP | PEDs: 4 
+2017-10-01 20:46:40.0367 |  Info | ADRP | Pontos: 4 
+2017-10-01 20:46:40.0707 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 20:46:40.0942 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 20:46:40.1192 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 20:46:40.1483 |  Info | ADRP | Pets: 1 
+2017-10-01 20:46:40.2903 |  Info | GameServer | Resource animator started. 
+2017-10-01 20:46:40.2903 |  Info | GameServer | Starting Furniture 
+2017-10-01 20:46:40.3384 |  Info | GameServer | Resource Furniture started. 
+2017-10-01 20:46:40.3384 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 20:46:40.3584 |  Info | Main | -> Player House Limit: 3 
+2017-10-01 20:46:40.3719 |  Info | Main | -> House Safe Limit: $5.000.000 
+2017-10-01 20:46:40.3719 |  Info | Main | -> House Weapon Limit: 10 
+2017-10-01 20:46:40.3869 |  Info | Main | -> House Furniture Limit: 25 
+2017-10-01 20:46:40.3869 |  Info | Main | -> Dimension Reset On Death: Enabled 
+2017-10-01 20:46:40.4009 |  Info | Main | -> Save Interval: 00:02:00 
+2017-10-01 20:46:40.4660 |  Info | Main | Loaded 1 houses. 
+2017-10-01 20:46:45.7516 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 20:46:46.1624 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 20:46:46.5537 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 20:46:50.2188 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 20:52:34.6724 |  Info | GameServer | Initiating connection: [25.1.221.26:49461] 
+2017-10-01 20:52:34.9221 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:52:35.0556 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 20:52:39.8482 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 21:00:38.1712 | Error | CommandParser | UNHANDLED EXCEPTION WHEN PARSING COMMAND /editarprop interior 1 FROM PLAYER LoveStreets System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   em System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   em GrandTheftMultiplayer.Server.Managers.CommandParser.Parse(Client sender, String cmdRaw)
+2017-10-01 21:15:16.0487 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Timeout 
+2017-10-01 21:17:37.7316 |  Info | GameServer | Initiating connection: [25.1.221.26:53850] 
+2017-10-01 21:17:37.9883 |  Info | GameServer | Processing connection: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 21:17:38.2140 |  Info | GameServer | Connection established: _whitetrash (Trevor_Harrison) [25.1.221.26] 
+2017-10-01 21:17:43.2709 | Error | ScriptingEngine | EXCEPTION IN RESOURCE Furniture INSIDE SCRIPTENGINE Main System.MissingMethodException: Método não encontrado: 'Void GrandTheftMultiplayer.Server.API.ServerAPI.delay(Int32, Boolean, System.Action)'.
+   em HouseScript.Main.House_PlayerJoin(Client player)
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<>c__DisplayClass53_0.<InvokePlayerDownloadFinished>b__0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-01 21:36:10.0987 |  Info | GameServer | Player disconnected: _whitetrash (Trevor Harrison) [25.1.221.26], reason: Timeout 
+2017-10-01 21:37:11.0982 |  Info | Program | Terminating... 
+2017-10-01 21:37:11.1167 |  Info | GameServer | Stopping Furniture 
+2017-10-01 21:37:11.4464 | Error | ScriptingEngine | Unhandled exception caught in Main from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.House.Destroy(Boolean exit)
+   em HouseScript.Main.House_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 21:37:11.5565 | Error | ScriptingEngine | Unhandled exception caught in HouseTypes from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.HouseType.Destroy()
+   em HouseScript.HouseTypes.HouseTypes_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 21:37:11.6695 |  Info | GameServer | Stopped Furniture. 
+2017-10-01 21:37:11.6695 |  Info | GameServer | Stopping animator 
+2017-10-01 21:37:11.7841 |  Info | GameServer | Stopped animator. 
+2017-10-01 21:37:11.7906 |  Info | GameServer | Stopping adrp 
+2017-10-01 21:37:30.9449 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 21:37:31.0655 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 21:37:31.0755 |  Info | Program |   Port:                 4499 
+2017-10-01 21:37:31.0920 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 21:37:31.1155 |  Info | Program |   FQDN:                      
+2017-10-01 21:37:31.1276 |  Info | Program |   Players:                20 
+2017-10-01 21:37:31.1401 |  Info | Program |   Announce:            False 
+2017-10-01 21:37:31.1501 |  Info | Program | Starting... 
+2017-10-01 21:37:31.7690 |  Info | ConstantData | Loaded Language de 
+2017-10-01 21:37:31.9936 |  Info | GameServer | Loading resources... 
+2017-10-01 21:37:32.0997 |  Info | GameServer | Starting doormanager 
+2017-10-01 21:37:32.6060 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 21:37:32.6060 |  Info | GameServer | Starting adrp 
+2017-10-01 21:37:33.3755 | Error | GameServer | Error/warning while compiling script! 
+2017-10-01 21:37:33.3820 | Error | GameServer | Error (CS0103) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:421: O nome 'HouseFurnitures_ClientEvent' não existe no contexto atual 
+2017-10-01 21:37:33.3820 | Error | GameServer | Error (CS0103) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:422: O nome 'House_ClientEvent' não existe no contexto atual 
+2017-10-01 21:37:33.4041 |  Warn | GameServer | Warning (CS0162) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:13713: Código inacessível detectado 
+2017-10-01 21:37:33.4136 |  Warn | GameServer | Warning (CS0162) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:13714: Código inacessível detectado 
+2017-10-01 21:37:33.4136 |  Warn | GameServer | Warning (CS0162) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:13715: Código inacessível detectado 
+2017-10-01 21:37:33.4346 |  Info | GameServer | Resource adrp started. 
+2017-10-01 21:37:33.4346 |  Info | GameServer | Starting animator 
+2017-10-01 21:37:34.5063 |  Info | GameServer | Resource animator started. 
+2017-10-01 21:37:34.5133 |  Info | GameServer | Starting Furniture 
+2017-10-01 21:37:34.5333 |  Info | GameServer | Starting ADRP 
+2017-10-01 21:37:35.4564 | Error | GameServer | Error/warning while compiling script! 
+2017-10-01 21:37:35.4629 | Error | GameServer | Error (CS0103) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:421: O nome 'HouseFurnitures_ClientEvent' não existe no contexto atual 
+2017-10-01 21:37:35.4764 | Error | GameServer | Error (CS0103) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:422: O nome 'House_ClientEvent' não existe no contexto atual 
+2017-10-01 21:37:35.4949 |  Warn | GameServer | Warning (CS0162) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:13713: Código inacessível detectado 
+2017-10-01 21:37:35.5390 |  Warn | GameServer | Warning (CS0162) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:13714: Código inacessível detectado 
+2017-10-01 21:37:35.5685 |  Warn | GameServer | Warning (CS0162) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:13715: Código inacessível detectado 
+2017-10-01 21:37:35.5865 |  Info | GameServer | Resource ADRP started. 
+2017-10-01 21:37:35.6901 |  Info | GameServer | Resource Furniture started. 
+2017-10-01 21:37:35.7141 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 21:37:35.7141 |  Info | Main | -> Player House Limit: 3 
+2017-10-01 21:37:35.7326 |  Info | Main | -> House Safe Limit: $5.000.000 
+2017-10-01 21:37:35.7421 |  Info | Main | -> House Weapon Limit: 10 
+2017-10-01 21:37:35.7421 |  Info | Main | -> House Furniture Limit: 25 
+2017-10-01 21:37:35.7586 |  Info | Main | -> Dimension Reset On Death: Enabled 
+2017-10-01 21:37:35.7586 |  Info | Main | -> Save Interval: 00:02:00 
+2017-10-01 21:37:36.0978 |  Info | Main | Loaded 3 houses. 
+2017-10-01 21:37:42.2453 |  Info | Program | Terminating... 
+2017-10-01 21:37:42.2708 |  Info | GameServer | Stopping Furniture 
+2017-10-01 21:37:42.7151 | Error | ScriptingEngine | Unhandled exception caught in Main from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.House.Destroy(Boolean exit)
+   em HouseScript.Main.House_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 21:37:43.3831 | Error | ScriptingEngine | Unhandled exception caught in HouseTypes from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.HouseType.Destroy()
+   em HouseScript.HouseTypes.HouseTypes_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 21:37:43.4971 |  Info | GameServer | Stopped Furniture. 
+2017-10-01 21:37:43.4971 |  Info | GameServer | Stopping ADRP 
+2017-10-01 21:37:43.5132 |  Info | GameServer | Stopped ADRP. 
+2017-10-01 21:37:43.5452 |  Info | GameServer | Stopping animator 
+2017-10-01 21:37:43.6547 |  Info | GameServer | Stopped animator. 
+2017-10-01 21:37:43.6547 |  Info | GameServer | Stopping adrp 
+2017-10-01 21:37:43.6733 |  Info | GameServer | Stopped adrp. 
+2017-10-01 21:37:43.6863 |  Info | GameServer | Stopping doormanager 
+2017-10-01 21:37:43.7973 |  Info | GameServer | Stopped doormanager. 
+2017-10-01 21:37:55.0411 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 21:37:55.1497 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 21:37:55.1657 |  Info | Program |   Port:                 4499 
+2017-10-01 21:37:55.1932 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 21:37:55.2002 |  Info | Program |   FQDN:                      
+2017-10-01 21:37:55.2122 |  Info | Program |   Players:                20 
+2017-10-01 21:37:55.2122 |  Info | Program |   Announce:            False 
+2017-10-01 21:37:55.2312 |  Info | Program | Starting... 
+2017-10-01 21:37:56.2019 |  Info | ConstantData | Loaded Language de 
+2017-10-01 21:37:56.5451 |  Info | GameServer | Loading resources... 
+2017-10-01 21:37:56.6236 |  Info | GameServer | Starting doormanager 
+2017-10-01 21:37:57.8244 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 21:37:57.8409 |  Info | GameServer | Starting adrp 
+2017-10-01 21:37:59.7442 |  Info | GameServer | Resource adrp started. 
+2017-10-01 21:37:59.8808 |  Info | GameServer | Starting animator 
+2017-10-01 21:38:00.4662 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 21:38:00.4762 |  Info | ADRP |  
+2017-10-01 21:38:00.4762 |  Info | ADRP | -------------------------------------- 
+2017-10-01 21:38:00.4762 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 21:38:00.4927 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 21:38:00.4927 |  Info | ADRP |                  2017                  
+2017-10-01 21:38:00.4927 |  Info | ADRP | -------------------------------------- 
+2017-10-01 21:38:00.5387 |  Info | ADRP |  
+2017-10-01 21:38:00.8204 |  Info | ADRP | Facções: 4 
+2017-10-01 21:38:01.0114 |  Info | ADRP | Propriedades: 32 
+2017-10-01 21:38:02.5644 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 21:38:02.6639 |  Info | ADRP | Armários: 1 
+2017-10-01 21:38:02.6794 |  Info | GameServer | Resource animator started. 
+2017-10-01 21:38:02.7069 |  Info | GameServer | Starting Furniture 
+2017-10-01 21:38:02.7069 |  Info | ADRP | Blips: 60 
+2017-10-01 21:38:02.7235 |  Info | GameServer | Starting ADRP 
+2017-10-01 21:38:02.7280 |  Info | ADRP | ATMs: 7 
+2017-10-01 21:38:02.7570 |  Info | ADRP | PEDs: 4 
+2017-10-01 21:38:02.7570 |  Info | ADRP | Pontos: 4 
+2017-10-01 21:38:02.8120 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 21:38:02.8210 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 21:38:02.8726 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 21:38:02.9216 |  Info | ADRP | Pets: 1 
+2017-10-01 21:38:04.7268 |  Info | GameServer | Resource ADRP started. 
+2017-10-01 21:38:04.7778 |  Info | GameServer | Resource Furniture started. 
+2017-10-01 21:38:04.7898 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 21:38:04.7898 |  Info | Main | -> Player House Limit: 3 
+2017-10-01 21:38:04.8188 |  Info | Main | -> House Safe Limit: $5.000.000 
+2017-10-01 21:38:04.8319 |  Info | Main | -> House Weapon Limit: 10 
+2017-10-01 21:38:04.8419 |  Info | Main | -> House Furniture Limit: 25 
+2017-10-01 21:38:04.8519 |  Info | Main | -> Dimension Reset On Death: Enabled 
+2017-10-01 21:38:04.8739 |  Info | Main | -> Save Interval: 00:02:00 
+2017-10-01 21:38:04.9084 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 21:38:04.9249 |  Info | ADRP |  
+2017-10-01 21:38:04.9329 |  Info | ADRP | -------------------------------------- 
+2017-10-01 21:38:04.9329 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 21:38:04.9544 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 21:38:04.9654 |  Info | Main | Loaded 3 houses. 
+2017-10-01 21:38:04.9654 |  Info | ADRP |                  2017                  
+2017-10-01 21:38:04.9820 |  Info | ADRP | -------------------------------------- 
+2017-10-01 21:38:04.9820 |  Info | ADRP |  
+2017-10-01 21:38:05.1921 |  Info | ADRP | Facções: 4 
+2017-10-01 21:38:05.2096 |  Info | ADRP | Propriedades: 32 
+2017-10-01 21:38:05.2476 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 21:38:05.2621 |  Info | ADRP | Armários: 1 
+2017-10-01 21:38:05.2762 |  Info | ADRP | Blips: 60 
+2017-10-01 21:38:05.2897 |  Info | ADRP | ATMs: 7 
+2017-10-01 21:38:05.2897 |  Info | ADRP | PEDs: 4 
+2017-10-01 21:38:05.3127 |  Info | ADRP | Pontos: 4 
+2017-10-01 21:38:05.3302 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 21:38:05.3412 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 21:38:05.3617 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 21:38:05.3772 |  Info | ADRP | Pets: 1 
+2017-10-01 21:38:06.6878 |  Info | Program | Terminating... 
+2017-10-01 21:38:06.7018 |  Info | GameServer | Stopping Furniture 
+2017-10-01 21:38:07.1041 | Error | ScriptingEngine | Unhandled exception caught in Main from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.House.Destroy(Boolean exit)
+   em HouseScript.Main.House_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 21:38:07.6796 | Error | ScriptingEngine | Unhandled exception caught in HouseTypes from resource Furniture System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em HouseScript.HouseType.Destroy()
+   em HouseScript.HouseTypes.HouseTypes_Exit()
+   em GrandTheftMultiplayer.Server.API.API.invokeResourceStop()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStop>b__28_2()
+2017-10-01 21:38:07.8076 |  Info | GameServer | Stopped Furniture. 
+2017-10-01 21:38:07.8076 |  Info | GameServer | Stopping ADRP 
+2017-10-01 21:42:44.7144 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 21:42:44.7960 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 21:42:44.8090 |  Info | Program |   Port:                 4499 
+2017-10-01 21:42:44.8090 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 21:42:44.8250 |  Info | Program |   FQDN:                      
+2017-10-01 21:42:44.8250 |  Info | Program |   Players:                20 
+2017-10-01 21:42:44.8375 |  Info | Program |   Announce:            False 
+2017-10-01 21:42:44.8375 |  Info | Program | Starting... 
+2017-10-01 21:42:45.4214 |  Info | ConstantData | Loaded Language de 
+2017-10-01 21:42:45.7896 |  Info | GameServer | Loading resources... 
+2017-10-01 21:42:45.9217 |  Info | GameServer | Starting doormanager 
+2017-10-01 21:42:46.7706 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 21:42:46.7806 |  Info | GameServer | Starting adrp 
+2017-10-01 21:42:47.4717 | Error | GameServer | Error/warning while compiling script! 
+2017-10-01 21:42:47.4787 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:235: 'ADRP.Propriedade.Furnitures.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 21:42:47.4787 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:246: 'ADRP.Furniture.Name.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 21:42:47.4912 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:247: 'ADRP.Furniture.ModelName.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 21:42:47.4912 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:248: 'ADRP.Furniture.Price.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 21:42:47.4912 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:260: 'ADRP.HouseFurniture.Model.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 21:42:47.5072 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:264: 'ADRP.HouseFurniture.Name.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 21:42:47.5072 | Error | GameServer | Error (CS0840) at c:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\adrp\ADRP.cs:265: 'ADRP.HouseFurniture.Price.get' deve declarar um corpo porque ele não está marcado como abstrato ou externo. Propriedades implementadas automaticamente devem definir ambos os acessadores get e set. 
+2017-10-01 21:42:47.5267 |  Info | GameServer | Resource adrp started. 
+2017-10-01 21:42:47.5267 |  Info | GameServer | Starting animator 
+2017-10-01 21:42:48.4807 |  Info | GameServer | Resource animator started. 
+2017-10-01 21:42:48.4807 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 21:44:42.7917 |  Info | Program | Terminating... 
+2017-10-01 21:44:42.8367 |  Info | GameServer | Stopping animator 
+2017-10-01 21:44:42.9918 |  Info | GameServer | Stopped animator. 
+2017-10-01 21:44:43.0254 |  Info | GameServer | Stopping adrp 
+2017-10-01 21:44:43.0254 |  Info | GameServer | Stopped adrp. 
+2017-10-01 21:44:43.0554 |  Info | GameServer | Stopping doormanager 
+2017-10-01 21:44:43.1680 |  Info | GameServer | Stopped doormanager. 
+2017-10-01 21:45:02.2717 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 21:45:02.5644 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 21:45:02.6740 |  Info | Program |   Port:                 4499 
+2017-10-01 21:45:02.6950 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 21:45:02.7175 |  Info | Program |   FQDN:                      
+2017-10-01 21:45:02.7175 |  Info | Program |   Players:                20 
+2017-10-01 21:45:02.7315 |  Info | Program |   Announce:            False 
+2017-10-01 21:45:02.7315 |  Info | Program | Starting... 
+2017-10-01 21:45:03.4765 |  Info | ConstantData | Loaded Language de 
+2017-10-01 21:45:03.8948 |  Info | GameServer | Loading resources... 
+2017-10-01 21:45:04.0364 |  Info | GameServer | Starting doormanager 
+2017-10-01 21:45:05.1666 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 21:45:05.1936 |  Info | GameServer | Starting adrp 
+2017-10-01 21:45:06.7262 |  Info | GameServer | Resource adrp started. 
+2017-10-01 21:45:06.7262 |  Info | GameServer | Starting animator 
+2017-10-01 21:45:07.3471 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 21:45:07.3531 |  Info | ADRP |  
+2017-10-01 21:45:07.3531 |  Info | ADRP | -------------------------------------- 
+2017-10-01 21:45:07.3531 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 21:45:07.3716 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 21:45:07.3851 |  Info | ADRP |                  2017                  
+2017-10-01 21:45:07.3851 |  Info | ADRP | -------------------------------------- 
+2017-10-01 21:45:07.3851 |  Info | ADRP |  
+2017-10-01 21:45:07.6117 |  Info | ADRP | Facções: 4 
+2017-10-01 21:45:07.6363 |  Info | ADRP | Propriedades: 32 
+2017-10-01 21:45:07.6873 |  Info | GameServer | Resource animator started. 
+2017-10-01 21:45:07.6873 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 21:45:07.6943 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 21:45:07.7103 |  Info | ADRP | Armários: 1 
+2017-10-01 21:45:07.7258 |  Info | ADRP | Blips: 60 
+2017-10-01 21:45:07.7258 |  Info | ADRP | ATMs: 7 
+2017-10-01 21:45:07.7638 |  Info | ADRP | PEDs: 4 
+2017-10-01 21:45:07.7723 |  Info | ADRP | Pontos: 4 
+2017-10-01 21:45:07.7723 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 21:45:07.7929 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 21:45:07.8114 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 21:45:07.8289 |  Info | ADRP | Pets: 1 
+2017-10-01 21:45:14.2110 |  Info | Program | Terminating... 
+2017-10-01 21:45:14.2345 |  Info | GameServer | Stopping animator 
+2017-10-01 21:45:14.3654 |  Info | GameServer | Stopped animator. 
+2017-10-01 21:45:14.3729 |  Info | GameServer | Stopping adrp 
+2017-10-01 21:47:21.5943 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 21:47:21.7304 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 21:47:21.7429 |  Info | Program |   Port:                 4499 
+2017-10-01 21:47:21.7869 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 21:47:21.8094 |  Info | Program |   FQDN:                      
+2017-10-01 21:47:21.8094 |  Info | Program |   Players:                20 
+2017-10-01 21:47:21.8244 |  Info | Program |   Announce:            False 
+2017-10-01 21:47:21.8365 |  Info | Program | Starting... 
+2017-10-01 21:48:09.7115 |  Info | Program | Terminating... 
+2017-10-01 21:48:20.4800 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 21:48:20.5981 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 21:48:20.6116 |  Info | Program |   Port:                 4499 
+2017-10-01 21:48:20.6201 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 21:48:20.6201 |  Info | Program |   FQDN:                      
+2017-10-01 21:48:20.6201 |  Info | Program |   Players:                20 
+2017-10-01 21:48:20.6446 |  Info | Program |   Announce:            False 
+2017-10-01 21:48:20.6592 |  Info | Program | Starting... 
+2017-10-01 21:48:21.5367 |  Info | ConstantData | Loaded Language de 
+2017-10-01 21:48:21.8444 |  Info | GameServer | Loading resources... 
+2017-10-01 21:48:21.9875 |  Info | GameServer | Starting doormanager 
+2017-10-01 21:48:22.7000 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 21:48:22.7130 |  Info | GameServer | Starting adrp 
+2017-10-01 21:48:24.7384 |  Info | GameServer | Resource adrp started. 
+2017-10-01 21:48:24.7464 |  Info | GameServer | Starting animator 
+2017-10-01 21:48:25.5319 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 21:48:25.5394 |  Info | ADRP |  
+2017-10-01 21:48:25.5394 |  Info | ADRP | -------------------------------------- 
+2017-10-01 21:48:25.5629 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 21:48:25.6194 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 21:48:25.6194 |  Info | ADRP |                  2017                  
+2017-10-01 21:48:25.6545 |  Info | ADRP | -------------------------------------- 
+2017-10-01 21:48:25.6660 |  Info | ADRP |  
+2017-10-01 21:48:25.7010 |  Info | GameServer | Resource animator started. 
+2017-10-01 21:48:25.7010 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 21:48:25.9532 |  Info | ADRP | Facções: 4 
+2017-10-01 21:48:25.9802 |  Info | ADRP | Propriedades: 32 
+2017-10-01 21:48:26.0472 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 21:48:26.0602 |  Info | ADRP | Armários: 1 
+2017-10-01 21:48:26.1013 |  Info | ADRP | Blips: 60 
+2017-10-01 21:48:26.1243 |  Info | ADRP | ATMs: 7 
+2017-10-01 21:48:26.1363 |  Info | ADRP | PEDs: 4 
+2017-10-01 21:48:26.1363 |  Info | ADRP | Pontos: 4 
+2017-10-01 21:48:26.1618 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 21:48:26.1718 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 21:48:26.1913 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 21:48:26.2123 |  Info | ADRP | Pets: 1 
+2017-10-01 21:48:31.0557 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 21:48:31.4124 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 21:48:31.8467 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 22:08:17.6634 |  Info | Program | Terminating... 
+2017-10-01 22:08:17.6984 |  Info | GameServer | Stopping animator 
+2017-10-01 22:08:17.8195 |  Info | GameServer | Stopped animator. 
+2017-10-01 22:08:17.8195 |  Info | GameServer | Stopping adrp 
+2017-10-01 22:09:12.3343 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 22:09:12.4764 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 22:09:12.5049 |  Info | Program |   Port:                 4499 
+2017-10-01 22:09:12.5124 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 22:09:12.5124 |  Info | Program |   FQDN:                      
+2017-10-01 22:09:12.5340 |  Info | Program |   Players:                20 
+2017-10-01 22:09:12.5480 |  Info | Program |   Announce:            False 
+2017-10-01 22:09:12.5620 |  Info | Program | Starting... 
+2017-10-01 22:09:13.3995 |  Info | ConstantData | Loaded Language de 
+2017-10-01 22:09:13.7618 |  Info | GameServer | Loading resources... 
+2017-10-01 22:09:13.8754 |  Info | GameServer | Starting doormanager 
+2017-10-01 22:09:14.5128 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 22:09:14.5128 |  Info | GameServer | Starting adrp 
+2017-10-01 22:09:16.4846 |  Info | GameServer | Resource adrp started. 
+2017-10-01 22:09:16.5116 |  Info | GameServer | Starting animator 
+2017-10-01 22:09:17.3717 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 22:09:17.3852 |  Info | ADRP |  
+2017-10-01 22:09:17.3852 |  Info | ADRP | -------------------------------------- 
+2017-10-01 22:09:17.3852 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 22:09:17.3997 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 22:09:17.3997 |  Info | ADRP |                  2017                  
+2017-10-01 22:09:17.4222 |  Info | ADRP | -------------------------------------- 
+2017-10-01 22:09:17.4352 |  Info | ADRP |  
+2017-10-01 22:09:17.5448 |  Info | GameServer | Resource animator started. 
+2017-10-01 22:09:17.5448 |  Info | GameServer | Starting MenuManager 
+2017-10-01 22:09:17.5688 | Error | GameServer | ERROR STARTING RESOURCE MenuManager System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'file:///C:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\MenuManager\MenuManager.dll' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+Nome do arquivo: 'file:///C:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\MenuManager\MenuManager.dll'
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   em System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   em GrandTheftMultiplayer.Server.GameServer.StartResource(String resourceName, String father)
+
+AVI: o log de associações de assembly está desativado.
+Para ativar o log de  falhas de assembly, defina o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) como 1.
+Observação: há alguma penalidade para o desempenho associada ao log de falha de associação de assembly.
+Para desativar esse recurso, remova o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2017-10-01 22:09:17.7634 |  Info | ADRP | Facções: 4 
+2017-10-01 22:09:18.0972 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 22:09:18.1487 |  Info | ADRP | Propriedades: 32 
+2017-10-01 22:09:18.2247 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 22:09:18.2813 |  Info | ADRP | Armários: 1 
+2017-10-01 22:09:18.3063 |  Info | ADRP | Blips: 60 
+2017-10-01 22:09:18.3203 |  Info | ADRP | ATMs: 7 
+2017-10-01 22:09:18.3388 |  Info | ADRP | PEDs: 4 
+2017-10-01 22:09:18.3558 |  Info | ADRP | Pontos: 4 
+2017-10-01 22:09:18.3863 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 22:09:18.3863 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 22:09:18.4199 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 22:09:18.4404 |  Info | ADRP | Pets: 1 
+2017-10-01 22:09:22.9989 |  Info | Program | Terminating... 
+2017-10-01 22:09:23.0199 |  Info | GameServer | Stopping animator 
+2017-10-01 22:09:23.1680 |  Info | GameServer | Stopped animator. 
+2017-10-01 22:09:23.1680 |  Info | GameServer | Stopping adrp 
+2017-10-01 22:22:17.3388 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 22:22:17.5439 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 22:22:17.6010 |  Info | Program |   Port:                 4499 
+2017-10-01 22:22:17.6325 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 22:22:17.6325 |  Info | Program |   FQDN:                      
+2017-10-01 22:22:17.6485 |  Info | Program |   Players:                20 
+2017-10-01 22:22:17.6485 |  Info | Program |   Announce:            False 
+2017-10-01 22:22:17.6630 |  Info | Program | Starting... 
+2017-10-01 22:22:18.4615 |  Info | ConstantData | Loaded Language de 
+2017-10-01 22:22:18.7472 |  Info | GameServer | Loading resources... 
+2017-10-01 22:22:18.8423 |  Info | GameServer | Starting doormanager 
+2017-10-01 22:22:20.4101 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 22:22:20.4181 |  Info | GameServer | Starting adrp 
+2017-10-01 22:22:22.6939 |  Info | GameServer | Resource adrp started. 
+2017-10-01 22:22:22.7719 |  Info | GameServer | Starting animator 
+2017-10-01 22:22:23.4519 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 22:22:23.4614 |  Info | ADRP |  
+2017-10-01 22:22:23.4614 |  Info | ADRP | -------------------------------------- 
+2017-10-01 22:22:23.4614 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 22:22:23.4849 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 22:22:23.4984 |  Info | ADRP |                  2017                  
+2017-10-01 22:22:23.4984 |  Info | ADRP | -------------------------------------- 
+2017-10-01 22:22:23.5114 |  Info | ADRP |  
+2017-10-01 22:22:23.7881 |  Info | ADRP | Facções: 4 
+2017-10-01 22:22:23.8146 |  Info | ADRP | Propriedades: 32 
+2017-10-01 22:22:23.8872 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 22:22:23.9057 |  Info | ADRP | Armários: 1 
+2017-10-01 22:22:23.9252 |  Info | ADRP | Blips: 60 
+2017-10-01 22:22:23.9652 |  Info | ADRP | ATMs: 7 
+2017-10-01 22:22:24.0343 |  Info | ADRP | PEDs: 4 
+2017-10-01 22:22:24.0553 |  Info | ADRP | Pontos: 4 
+2017-10-01 22:22:24.0708 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 22:22:24.0708 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 22:22:24.1018 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 22:22:24.2634 |  Info | ADRP | Pets: 1 
+2017-10-01 22:22:24.3014 |  Info | GameServer | Resource animator started. 
+2017-10-01 22:22:24.3360 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 22:22:28.2371 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 22:22:28.4788 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 22:22:28.8060 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 22:48:04.7607 |  Info | Program | Terminating... 
+2017-10-01 22:49:47.4965 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 22:49:47.6471 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 22:49:47.6586 |  Info | Program |   Port:                 4499 
+2017-10-01 22:49:47.6701 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 22:49:47.6916 |  Info | Program |   FQDN:                      
+2017-10-01 22:49:47.7011 |  Info | Program |   Players:                20 
+2017-10-01 22:49:47.7111 |  Info | Program |   Announce:            False 
+2017-10-01 22:49:47.7301 |  Info | Program | Starting... 
+2017-10-01 22:49:48.7558 |  Info | ConstantData | Loaded Language de 
+2017-10-01 22:49:49.0905 |  Info | GameServer | Loading resources... 
+2017-10-01 22:49:49.2336 |  Info | GameServer | Starting doormanager 
+2017-10-01 22:49:51.0061 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 22:49:51.0146 |  Info | GameServer | Starting adrp 
+2017-10-01 22:49:54.4759 |  Info | GameServer | Resource adrp started. 
+2017-10-01 22:49:54.5145 |  Info | GameServer | Starting animator 
+2017-10-01 22:49:55.8934 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 22:49:55.9144 |  Info | ADRP |  
+2017-10-01 22:49:55.9144 |  Info | ADRP | -------------------------------------- 
+2017-10-01 22:49:55.9144 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 22:49:55.9354 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 22:49:55.9524 |  Info | ADRP |                  2017                  
+2017-10-01 22:49:55.9654 |  Info | ADRP | -------------------------------------- 
+2017-10-01 22:49:55.9654 |  Info | ADRP |  
+2017-10-01 22:49:56.0935 |  Info | GameServer | Resource animator started. 
+2017-10-01 22:49:56.1050 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 22:49:56.2781 |  Info | ADRP | Facções: 4 
+2017-10-01 22:49:56.3061 |  Info | ADRP | Propriedades: 32 
+2017-10-01 22:49:56.3747 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 22:49:56.3862 |  Info | ADRP | Armários: 1 
+2017-10-01 22:49:56.4512 |  Info | ADRP | Blips: 60 
+2017-10-01 22:49:56.4678 |  Info | ADRP | ATMs: 7 
+2017-10-01 22:49:56.4803 |  Info | ADRP | PEDs: 4 
+2017-10-01 22:49:56.4803 |  Info | ADRP | Pontos: 4 
+2017-10-01 22:49:56.5138 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 22:49:56.5138 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 22:49:56.5438 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 22:49:56.5688 |  Info | ADRP | Pets: 1 
+2017-10-01 22:49:58.8005 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 22:49:59.1918 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 22:49:59.6746 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 22:51:26.4684 |  Info | GameServer | Player disconnected: LoveStreets (LoveStreets) [127.0.0.1], reason: Você não autenticou em 80 segundos. 
+2017-10-01 23:09:04.2203 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 23:09:04.4835 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 23:09:04.5405 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 23:09:15.3545 |  Info | Program | Terminating... 
+2017-10-01 23:09:15.3780 |  Info | GameServer | Stopping animator 
+2017-10-01 23:09:15.5406 |  Info | GameServer | Stopped animator. 
+2017-10-01 23:09:15.5406 |  Info | GameServer | Stopping adrp 
+2017-10-01 23:11:19.4423 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 23:11:19.5854 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 23:11:19.6044 |  Info | Program |   Port:                 4499 
+2017-10-01 23:11:19.6169 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 23:11:19.6169 |  Info | Program |   FQDN:                      
+2017-10-01 23:11:19.6319 |  Info | Program |   Players:                20 
+2017-10-01 23:11:19.6484 |  Info | Program |   Announce:            False 
+2017-10-01 23:11:19.6484 |  Info | Program | Starting... 
+2017-10-01 23:11:20.3544 |  Info | ConstantData | Loaded Language de 
+2017-10-01 23:11:20.7702 |  Info | GameServer | Loading resources... 
+2017-10-01 23:11:20.9048 |  Info | GameServer | Starting doormanager 
+2017-10-01 23:11:22.6265 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 23:11:22.6515 |  Info | GameServer | Starting adrp 
+2017-10-01 23:11:24.7212 |  Info | GameServer | Resource adrp started. 
+2017-10-01 23:11:24.7612 |  Info | GameServer | Starting animator 
+2017-10-01 23:11:25.4922 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 23:11:25.4922 |  Info | ADRP |  
+2017-10-01 23:11:25.5082 |  Info | ADRP | -------------------------------------- 
+2017-10-01 23:11:25.5082 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 23:11:25.5292 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 23:11:25.5292 |  Info | ADRP |                  2017                  
+2017-10-01 23:11:25.5437 |  Info | ADRP | -------------------------------------- 
+2017-10-01 23:11:25.5437 |  Info | ADRP |  
+2017-10-01 23:11:25.8104 |  Info | ADRP | Facções: 4 
+2017-10-01 23:11:25.8104 |  Info | GameServer | Resource animator started. 
+2017-10-01 23:11:25.8284 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 23:11:25.8364 |  Info | ADRP | Propriedades: 32 
+2017-10-01 23:11:25.9095 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 23:11:25.9470 |  Info | ADRP | Armários: 1 
+2017-10-01 23:11:25.9890 |  Info | ADRP | Blips: 60 
+2017-10-01 23:11:26.0025 |  Info | ADRP | ATMs: 7 
+2017-10-01 23:11:26.0195 |  Info | ADRP | PEDs: 4 
+2017-10-01 23:11:26.0316 |  Info | ADRP | Pontos: 4 
+2017-10-01 23:11:26.0466 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 23:11:26.0546 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 23:11:26.0771 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 23:11:26.0976 |  Info | ADRP | Pets: 1 
+2017-10-01 23:11:29.9946 |  Info | Program | Terminating... 
+2017-10-01 23:11:30.0161 |  Info | GameServer | Stopping animator 
+2017-10-01 23:11:30.1547 |  Info | GameServer | Stopped animator. 
+2017-10-01 23:11:30.1828 |  Info | GameServer | Stopping adrp 
+2017-10-01 23:12:20.1160 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 23:12:20.2430 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 23:12:20.2430 |  Info | Program |   Port:                 4499 
+2017-10-01 23:12:20.2430 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 23:12:20.2616 |  Info | Program |   FQDN:                      
+2017-10-01 23:12:20.2616 |  Info | Program |   Players:                20 
+2017-10-01 23:12:20.2756 |  Info | Program |   Announce:            False 
+2017-10-01 23:12:20.2756 |  Info | Program | Starting... 
+2017-10-01 23:12:20.8399 |  Info | ConstantData | Loaded Language de 
+2017-10-01 23:12:21.1076 |  Info | GameServer | Loading resources... 
+2017-10-01 23:12:21.2057 |  Info | GameServer | Starting doormanager 
+2017-10-01 23:12:21.8761 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 23:12:21.8821 |  Info | GameServer | Starting adrp 
+2017-10-01 23:12:23.2881 |  Info | GameServer | Resource adrp started. 
+2017-10-01 23:12:23.2881 |  Info | GameServer | Starting animator 
+2017-10-01 23:12:23.8890 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 23:12:23.8890 |  Info | ADRP |  
+2017-10-01 23:12:23.8995 |  Info | ADRP | -------------------------------------- 
+2017-10-01 23:12:23.8995 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 23:12:23.9150 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 23:12:23.9150 |  Info | ADRP |                  2017                  
+2017-10-01 23:12:23.9150 |  Info | ADRP | -------------------------------------- 
+2017-10-01 23:12:23.9325 |  Info | ADRP |  
+2017-10-01 23:12:24.0020 |  Info | GameServer | Resource animator started. 
+2017-10-01 23:12:24.0110 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 23:12:24.1436 |  Info | ADRP | Facções: 4 
+2017-10-01 23:12:24.1651 |  Info | ADRP | Propriedades: 32 
+2017-10-01 23:12:24.2187 |  Info | ADRP | Veículos: 11 | Spawnados: 11 
+2017-10-01 23:12:24.2367 |  Info | ADRP | Armários: 1 
+2017-10-01 23:12:24.2722 |  Info | ADRP | Blips: 60 
+2017-10-01 23:12:24.2852 |  Info | ADRP | ATMs: 7 
+2017-10-01 23:12:24.2952 |  Info | ADRP | PEDs: 4 
+2017-10-01 23:12:24.3037 |  Info | ADRP | Pontos: 4 
+2017-10-01 23:12:24.3408 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 23:12:24.3408 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 23:12:24.3643 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 23:12:24.3858 |  Info | ADRP | Pets: 1 
+2017-10-01 23:12:26.0451 |  Info | Program | Terminating... 
+2017-10-01 23:12:26.0586 |  Info | GameServer | Stopping animator 
+2017-10-01 23:12:26.1818 |  Info | GameServer | Stopped animator. 
+2017-10-01 23:12:26.1818 |  Info | GameServer | Stopping adrp 
+2017-10-01 23:12:42.8722 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 23:12:42.9998 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 23:12:43.0288 |  Info | Program |   Port:                 4499 
+2017-10-01 23:12:43.0864 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 23:12:43.1159 |  Info | Program |   FQDN:                      
+2017-10-01 23:12:43.1234 |  Info | Program |   Players:                20 
+2017-10-01 23:12:43.1339 |  Info | Program |   Announce:            False 
+2017-10-01 23:12:43.1559 |  Info | Program | Starting... 
+2017-10-01 23:12:43.9770 |  Info | ConstantData | Loaded Language de 
+2017-10-01 23:12:44.2997 |  Info | GameServer | Loading resources... 
+2017-10-01 23:12:44.4017 |  Info | GameServer | Starting doormanager 
+2017-10-01 23:12:45.2213 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 23:12:45.2443 |  Info | GameServer | Starting adrp 
+2017-10-01 23:12:46.9414 |  Info | GameServer | Resource adrp started. 
+2017-10-01 23:12:46.9479 |  Info | GameServer | Starting animator 
+2017-10-01 23:12:47.9361 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 23:12:47.9361 |  Info | ADRP |  
+2017-10-01 23:12:47.9566 |  Info | ADRP | -------------------------------------- 
+2017-10-01 23:12:47.9566 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 23:12:47.9631 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 23:12:47.9631 |  Info | ADRP |                  2017                  
+2017-10-01 23:12:47.9631 |  Info | ADRP | -------------------------------------- 
+2017-10-01 23:12:47.9791 |  Info | ADRP |  
+2017-10-01 23:12:48.1197 |  Info | GameServer | Resource animator started. 
+2017-10-01 23:12:48.1197 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 23:12:48.2153 |  Info | ADRP | Facções: 4 
+2017-10-01 23:12:48.2373 |  Info | ADRP | Propriedades: 32 
+2017-10-01 23:12:48.3444 |  Info | ADRP | Veículos: 52 | Spawnados: 52 
+2017-10-01 23:12:48.3559 |  Info | ADRP | Armários: 1 
+2017-10-01 23:12:48.3719 |  Info | ADRP | Blips: 60 
+2017-10-01 23:12:48.3719 |  Info | ADRP | ATMs: 7 
+2017-10-01 23:12:48.3919 |  Info | ADRP | PEDs: 4 
+2017-10-01 23:12:48.4004 |  Info | ADRP | Pontos: 4 
+2017-10-01 23:12:48.4139 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 23:12:48.4139 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 23:12:48.4394 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 23:12:48.4584 |  Info | ADRP | Pets: 1 
+2017-10-01 23:12:51.7897 |  Info | Program | Terminating... 
+2017-10-01 23:12:51.8147 |  Info | GameServer | Stopping animator 
+2017-10-01 23:12:51.9613 |  Info | GameServer | Stopped animator. 
+2017-10-01 23:12:51.9613 |  Info | GameServer | Stopping adrp 
+2017-10-01 23:13:04.3426 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-01 23:13:04.4497 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-01 23:13:04.4642 |  Info | Program |   Port:                 4499 
+2017-10-01 23:13:04.4642 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-01 23:13:04.4807 |  Info | Program |   FQDN:                      
+2017-10-01 23:13:04.4807 |  Info | Program |   Players:                20 
+2017-10-01 23:13:04.5007 |  Info | Program |   Announce:            False 
+2017-10-01 23:13:04.5107 |  Info | Program | Starting... 
+2017-10-01 23:13:05.3303 |  Info | ConstantData | Loaded Language de 
+2017-10-01 23:13:05.6495 |  Info | GameServer | Loading resources... 
+2017-10-01 23:13:05.7556 |  Info | GameServer | Starting doormanager 
+2017-10-01 23:13:07.1350 |  Info | GameServer | Resource doormanager started. 
+2017-10-01 23:13:07.1350 |  Info | GameServer | Starting adrp 
+2017-10-01 23:13:09.1766 |  Info | GameServer | Resource adrp started. 
+2017-10-01 23:13:09.1846 |  Info | GameServer | Starting animator 
+2017-10-01 23:13:09.9487 |  Info | ADRP | Conexão com o banco de dados estabelecida com sucesso! 
+2017-10-01 23:13:09.9487 |  Info | ADRP |  
+2017-10-01 23:13:09.9682 |  Info | ADRP | -------------------------------------- 
+2017-10-01 23:13:09.9762 |  Info | ADRP |       Advanced Roleplay Network        
+2017-10-01 23:13:09.9762 |  Info | ADRP |   Desenvolvido por TR3V1Z4 And Freeze  
+2017-10-01 23:13:09.9762 |  Info | ADRP |                  2017                  
+2017-10-01 23:13:09.9957 |  Info | ADRP | -------------------------------------- 
+2017-10-01 23:13:09.9957 |  Info | ADRP |  
+2017-10-01 23:13:10.2554 |  Info | ADRP | Facções: 4 
+2017-10-01 23:13:10.2834 |  Info | ADRP | Propriedades: 32 
+2017-10-01 23:13:10.4465 |  Info | ADRP | Veículos: 56 | Spawnados: 56 
+2017-10-01 23:13:10.5621 |  Info | ADRP | Armários: 1 
+2017-10-01 23:13:10.5811 |  Info | ADRP | Blips: 60 
+2017-10-01 23:13:10.6596 |  Info | ADRP | ATMs: 7 
+2017-10-01 23:13:10.6801 |  Info | ADRP | PEDs: 4 
+2017-10-01 23:13:10.6986 |  Info | ADRP | Pontos: 4 
+2017-10-01 23:13:10.7162 |  Info | ADRP | Concessionárias: 5 
+2017-10-01 23:13:10.7307 |  Info | ADRP | Veículos para Venda: 490 
+2017-10-01 23:13:10.7532 |  Info | ADRP | Itens Dropados: 113 
+2017-10-01 23:13:10.7822 |  Info | ADRP | Pets: 1 
+2017-10-01 23:13:10.9998 |  Info | GameServer | Resource animator started. 
+2017-10-01 23:13:11.0089 |  Info | Program | Started! Waiting for connections. 
+2017-10-01 23:13:17.8863 |  Info | GameServer | Initiating connection: [127.0.0.1:54836] 
+2017-10-01 23:13:18.2175 |  Info | GameServer | Processing connection: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 23:13:18.6458 |  Info | GameServer | Connection established: LoveStreets (LoveStreets) [127.0.0.1] 
+2017-10-01 23:23:56.9547 |  Info | GameServer | Player disconnected: LoveStreets (Frank Morello) [127.0.0.1], reason: Quit 
+2017-10-01 23:24:00.2473 |  Info | Program | Terminating... 
+2017-10-01 23:24:00.2598 |  Info | GameServer | Stopping animator 
+2017-10-01 23:24:00.4003 |  Info | GameServer | Stopped animator. 
+2017-10-01 23:24:00.4003 |  Info | GameServer | Stopping adrp 

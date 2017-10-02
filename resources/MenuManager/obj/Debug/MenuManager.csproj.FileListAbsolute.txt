@@ -1,0 +1,2 @@
+C:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\MenuManager\obj\Debug\MenuManager.csprojResolveAssemblyReference.cache
+C:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\MenuManager\obj\Debug\MenuManager.csproj.CoreCompileInputs.cache

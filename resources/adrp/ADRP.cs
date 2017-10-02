@@ -415,7 +415,9 @@ public class ADRP : Script
         API.onPlayerExitVehicle += API_onPlayerExitVehicle;
 
         API.onEntityEnterColShape += OnEntityEnterColShapeHandler;
+        API.onEntityExitColShape += OnEntityExitColShapeHandler;
         API.onPlayerWeaponSwitch += OnPlayerWeaponSwitchHandler;
+        
     }
 
     private void OnPlayerWeaponSwitchHandler(Client player, WeaponHash oldWeapon)
@@ -592,21 +594,25 @@ public class ADRP : Script
 
         //Celas da LSPD
         doorID[2] = API.exported.doormanager.registerDoor(631614199, new Vector3(461.8065, -994.4086, 25.06443));
-        API.exported.doormanager.setDoorState(doorID[2], true, 0);
         doorID[3] = API.exported.doormanager.registerDoor(631614199, new Vector3(461.8065, -997.6583, 25.06443));
-        API.exported.doormanager.setDoorState(doorID[3], true, 0);
         doorID[4] = API.exported.doormanager.registerDoor(631614199, new Vector3(461.8065, -1001.302, 25.06443));
+        
+
+        API.exported.doormanager.setDoorState(doorID[2], true, 0);
+        API.exported.doormanager.setDoorState(doorID[3], true, 0);
         API.exported.doormanager.setDoorState(doorID[4], true, 0);
 
         //Premium Deluxe Motorsport
         doorID[5] = API.exported.doormanager.registerDoor(2059227086, new Vector3(-59.89302, -1092.952, 26.88362));
-        API.exported.doormanager.setDoorState(doorID[5], false, 0);
         doorID[6] = API.exported.doormanager.registerDoor(1417577297, new Vector3(-60.54582, -1094.749, 26.88872));
-        API.exported.doormanager.setDoorState(doorID[6], false, 0);
 
         doorID[7] = API.exported.doormanager.registerDoor(2059227086, new Vector3(-39.13366, -1108.218, 26.7198));
-        API.exported.doormanager.setDoorState(doorID[7], false, 0);
         doorID[8] = API.exported.doormanager.registerDoor(1417577297, new Vector3(-37.33113, -1108.873, 26.7198));
+
+
+        API.exported.doormanager.setDoorState(doorID[5], false, 0);
+        API.exported.doormanager.setDoorState(doorID[6], false, 0);
+        API.exported.doormanager.setDoorState(doorID[7], false, 0);
         API.exported.doormanager.setDoorState(doorID[8], false, 0);
 
         //Portao fundo da LSPD
@@ -3649,7 +3655,7 @@ public class ADRP : Script
     #region Veículos
     private void CarregarVeiculos()
     {
-        var cmd = new MySqlCommand("SELECT * FROM veiculos WHERE Spawnado ='1'", bancodados);
+        var cmd = new MySqlCommand("SELECT * FROM veiculos", bancodados);
         var dr = cmd.ExecuteReader();
         int counter = 0, randomCars = 50; // randomCars = Veículo aleatórios que são spawnados ao abrir o server.
         while (dr.Read())
@@ -3664,7 +3670,7 @@ public class ADRP : Script
                 if (isInt(dr["explodido"].ToString()) == 0)
                 {
                     var random = new Random();
-                    int spawna = random.Next(1);
+                    int spawna = random.Next(2);
                     if (spawna == 1)
                     {
                         SpawnarVeiculo(dr, null, 0);
@@ -6722,7 +6728,7 @@ public class ADRP : Script
             }
 
             EnviarMensagemSucesso(player, "Você prendeu " + target.name);
-            EnviarMensagemSucesso(player, player.name + " te prendeu por " + tempo + " minutos.");
+            EnviarMensagemSucesso(target, player.name + " te prendeu por " + tempo + " minutos.");
         }
         else
         {
@@ -11741,8 +11747,29 @@ public class ADRP : Script
     public ColShape Loja_Casmole;
     public ColShape Loja_Calcados;
 
+    List<ColShape> Lojas_Barbearia = new List<ColShape>();
+    List<Vector3> PosicaooBarbearias = new List<Vector3>();
+
+    public void CriarBarbearias()
+    {
+        //Criando Rota 1
+        PosicaooBarbearias.Add(new Vector3(133.9883, -1709.268, 29.29162));
+
+        for (int i = 0; i < PosicaooBarbearias.Count; i++)
+            Lojas_Barbearia.Add(API.createCylinderColShape(PosicaooBarbearias[i], 2f, 1f));
+    }
+
     public void CriarIconsLojaDeRoupas()
     {
+        //
+        Blip BarbariaGanton = API.createBlip(new Vector3(133.9883, -1709.268, 29.29162));
+        API.setBlipSprite(BarbariaGanton, 71);
+        API.setBlipName(BarbariaGanton, "Barbearia");
+        API.setBlipShortRange(BarbariaGanton, true);
+
+        API.createTextLabel("[Barbearia]", new Vector3(133.9883, -1709.268, 30.29162), 8f, 0.6f);
+        API.createMarker(1, new Vector3(133.9883, -1709.268, 30.29162), new Vector3(), new Vector3(), new Vector3(1f, 1f, 1f), 255, 50, 153, 204);
+
         //======================================================================================
         //Binco - Ganton
         Blip BincoGanton = API.createBlip(new Vector3(81.90916, -1391.526, 29.38765));
@@ -13200,37 +13227,58 @@ public class ADRP : Script
         };
     }
 
+    private void OnEntityExitColShapeHandler(ColShape shape, NetHandle entity)
+    {
+        Client player;
+        if ((player = API.getPlayerFromHandle(entity)) != null)
+        {
+            for (int i = 0; i < Lojas_Barbearia.Count; i++)
+            {
+                if (shape == Lojas_Barbearia[i])
+                {
+                    API.setEntitySyncedData(player.handle, "CheckpointBarbearia", 0);
+                    break;
+                }
+            }
+        }
+    }
+
     private void OnEntityEnterColShapeHandler(ColShape shape, NetHandle entity)
     {
         Client player;
         if ((player = API.getPlayerFromHandle(entity)) != null)
         {
-            int TaEmPosto = 0;
-            for(int i = 0; i < PostoDeGasolina.Count; i++)
+            for (int i = 0; i < Lojas_Barbearia.Count; i++)
             {
-                if (shape == PostoDeGasolina[i]){
-                    TaEmPosto = 1;
+                if (shape == Lojas_Barbearia[i])
+                {
+                    API.sendNotificationToPlayer(player, "~b~Pressione 'Y' para interagir.");
+                    API.setEntitySyncedData(player.handle, "CheckpointBarbearia", 1);
                     break;
                 }
             }
-            if (TaEmPosto == 1)
+            //
+            for(int i = 0; i < PostoDeGasolina.Count; i++)
             {
-                if (API.isPlayerInAnyVehicle(player))
-                {
-                    var vehh = recuperarVeiculo(player.vehicle);
-                    if (vehh != null)
+                if (shape == PostoDeGasolina[i]){
+                    if (API.isPlayerInAnyVehicle(player))
                     {
-                        if (!API.hasEntitySyncedData(player.handle, "EmPostoDeGasolina"))
+                        var vehh = recuperarVeiculo(player.vehicle);
+                        if (vehh != null)
                         {
+                            if (!API.hasEntitySyncedData(player.handle, "EmPostoDeGasolina"))
+                            {
+                                EnviarMensagemSucesso(player, "Pressione Y para abastecer seu veículo.");
+                                API.setEntitySyncedData(player.handle, "EmPostoDeGasolina", 1);
+                            }
+
                             EnviarMensagemSucesso(player, "Pressione Y para abastecer seu veículo.");
                             API.setEntitySyncedData(player.handle, "EmPostoDeGasolina", 1);
                         }
-
-                        EnviarMensagemSucesso(player, "Pressione Y para abastecer seu veículo.");
-                        API.setEntitySyncedData(player.handle, "EmPostoDeGasolina", 1);
+                        else
+                            API.sendNotificationToPlayer(player, "ERRO #00032");
                     }
-                    else
-                        API.sendNotificationToPlayer(player, "ERRO #00032");
+                    break;
                 }
             }
 
@@ -13328,13 +13376,12 @@ public class ADRP : Script
                             API.setEntitySyncedData(player.handle, "Parte", atualParte + 1);
 
                             API.triggerClientEvent(player, "remove_job_marker", "bus");
-
-
+                            
                             API.setEntitySyncedData(player.handle, "NaoPodePararAnim", 1);
 
                             API.playPlayerScenario(player, "WORLD_HUMAN_CONST_DRILL");
 
-                            API.delay(12000, true, () =>
+                            API.delay(20000, true, () =>
                             {
                                 API.triggerClientEvent(player, "bus_checkpoint", GetNextPoint_LSS(player, rota, atualParte), atualParte, player);
                                 API.triggerClientEvent(player, "update_bus_job", true, atualParte, Tamanho);
@@ -13342,8 +13389,6 @@ public class ADRP : Script
                                 API.stopPlayerAnimation(player);
                                 API.setEntitySyncedData(player.handle, "NaoPodePararAnim", 0);
                             });
-
-                            API.setPlayerVelocity(player, new Vector3(0, 0, 0));
                         }
                         else if ((shape == Rota_2[AtualTeste] || shape == Rota_3[AtualTeste] || shape == Rota_1[AtualTeste]) && API.getEntitySyncedData(player.handle, "Parte") == GetTamanhoRota_LSS(rota))
                         {
@@ -15179,24 +15224,35 @@ public class ADRP : Script
         return litros;
     }
     #endregion
+
     public void SalvarVeiculos()
     {
         foreach (var veh in veiculos)
         {
             if(veh.Veh == null) continue;
 
-            var strUpdate = string.Format("UPDATE veiculos SET PosX={0},PosZ={1},PosY={2},RotX={3},RotZ={4},RotY={5},gasolina={6} WHERE ID={7}",
-                        aFlt(veh.Veh.position.X),
-                        aFlt(veh.Veh.position.Z),
-                        aFlt(veh.Veh.position.Y),
-                        aFlt(veh.Veh.rotation.X),
-                        aFlt(veh.Veh.rotation.Z),
-                        aFlt(veh.Veh.rotation.Y),
-                        aFlt(veh.gasolina),
-                        veh.ID);
-            var cmd = new MySqlCommand(strUpdate, bancodados);
-            cmd.ExecuteNonQuery();
-
+            if (veh.IDFaccao == 0)
+            {
+                var strUpdate = string.Format("UPDATE veiculos SET PosX={0},PosZ={1},PosY={2},RotX={3},RotZ={4},RotY={5},gasolina={6} WHERE ID={7}",
+                            aFlt(veh.Veh.position.X),
+                            aFlt(veh.Veh.position.Z),
+                            aFlt(veh.Veh.position.Y),
+                            aFlt(veh.Veh.rotation.X),
+                            aFlt(veh.Veh.rotation.Z),
+                            aFlt(veh.Veh.rotation.Y),
+                            aFlt(veh.gasolina),
+                            veh.ID);
+                var cmd = new MySqlCommand(strUpdate, bancodados);
+                cmd.ExecuteNonQuery();
+            }
+            else
+            {
+                var strUpdate = string.Format("UPDATE veiculos SET gasolina={0} WHERE ID={1}",
+                            aFlt(veh.gasolina),
+                            veh.ID);
+                var cmd = new MySqlCommand(strUpdate, bancodados);
+                cmd.ExecuteNonQuery();
+            }
             veh.Veh.delete();
         }
         API.consoleOutput("[SAVE]: Veiculos salvos.");
@@ -15370,6 +15426,10 @@ public class ADRP : Script
                 API.sendNativeToAllPlayers(Hash.REMOVE_IPL, "CS1_02_cf_onmission3");
                 API.sendNativeToAllPlayers(Hash.REMOVE_IPL, "CS1_02_cf_onmission4");
                 API.setEntityPosition(player, new Vector3(-72.68752, 6253.72656, 31.08991));
+                break;
+            case 7:
+                API.sendNotificationToAll("Lost MC Clubhouse");
+                API.sendNativeToAllPlayers(Hash.REQUEST_IPL, "bkr_bi_hw1_13_int");
                 break;
         }
     }

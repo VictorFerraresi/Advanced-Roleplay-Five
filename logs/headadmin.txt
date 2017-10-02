@@ -1,0 +1,5 @@
+01/10/2017 19:37:31 - Cortez /arma Trevor Harrison GrenadeLauncher 5
+01/10/2017 21:21:31 - Cortez /arma Trevor Harrison Flashlight 1
+01/10/2017 21:22:11 - Cortez /arma Trevor Harrison CombatPistol 350
+01/10/2017 21:22:19 - Cortez /arma Trevor Harrison Nightstick 1
+01/10/2017 21:22:29 - Cortez /arma Trevor Harrison CarbineRifle 450

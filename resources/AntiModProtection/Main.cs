@@ -46,7 +46,7 @@ namespace AntiModProtection
 						foundWrongAsi = true;
 					}
 					else
-					{
+					
 						if(AllowedAsis.FirstOrDefault(x => x.Key == asi.Key).Value != asi.Value)
 						{ 
 							// Wrong Hash of Whitelisted asi found
@@ -54,7 +54,6 @@ namespace AntiModProtection
 						}
 						
 					}
-					
 				}
 				if (foundWrongAsi) API.kickPlayer(player, "Usage of Custom Asi Files not allowed!");
 			}

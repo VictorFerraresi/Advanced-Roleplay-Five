@@ -1,0 +1,47 @@
+{
+  "ID": "c715eeba-c6f1-4eff-a0b2-bae9847beff1",
+  "Owner": "LoveStreets",
+  "Type": 1,
+  "Position": {
+    "X": 378.4573,
+    "Y": -997.377563,
+    "Z": 29.4501476
+  },
+  "Price": 0,
+  "Locked": true,
+  "Name": "",
+  "Furnitures": [
+    {
+      "Model": -464691988,
+      "Position": {
+        "X": 338.152679,
+        "Y": -997.371,
+        "Z": -100.176254
+      },
+      "Rotation": {
+        "X": -0.3000003,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Name": "Cash Pile",
+      "Price": 5000
+    },
+    {
+      "Model": 1089807209,
+      "Position": {
+        "X": 338.0249,
+        "Y": -994.079956,
+        "Z": -99.49575
+      },
+      "Rotation": {
+        "X": -3.66855843E-08,
+        "Y": -0.0999968946,
+        "Z": 36.5593529
+      },
+      "Name": "Safe",
+      "Price": 1000
+    }
+  ],
+  "Money": 0,
+  "Weapons": []
+}

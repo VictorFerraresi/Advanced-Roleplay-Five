@@ -1,1 +1,2 @@
 | Variacao | Saved Coordenates: 75.51679, -1392.671, 29.37615 Saved Rotation: 0, 0, -81.69032
+| barbearia | Saved Coordenates: 133.9883, -1709.268, 29.29162 Saved Rotation: 0, 0, -52.11421

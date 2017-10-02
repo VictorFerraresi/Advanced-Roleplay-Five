@@ -1,0 +1,6 @@
+C:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\Furniture\Source\bin\Release\HouseScript.dll
+C:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\Furniture\Source\bin\Release\HouseScript.pdb
+C:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\Furniture\Source\obj\Release\HouseScript.csprojResolveAssemblyReference.cache
+C:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\Furniture\Source\obj\Release\HouseScript.csproj.CoreCompileInputs.cache
+C:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\Furniture\Source\obj\Release\HouseScript.dll
+C:\Users\youse\Desktop\Advanced-Roleplay-Five\resources\Furniture\Source\obj\Release\HouseScript.pdb

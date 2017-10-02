@@ -1,0 +1,32 @@
+{
+  "ID": "fd205d47-2605-49d9-823d-47c2e56d001c",
+  "Owner": "_whitetrash",
+  "Type": 1,
+  "Position": {
+    "X": 312.061462,
+    "Y": -1005.56232,
+    "Z": 29.3125286
+  },
+  "Price": 0,
+  "Locked": false,
+  "Name": "",
+  "Furnitures": [
+    {
+      "Model": -464691988,
+      "Position": {
+        "X": 338.329773,
+        "Y": -997.869751,
+        "Z": -100.196915
+      },
+      "Rotation": {
+        "X": 0.2,
+        "Y": 0.500000536,
+        "Z": 0.203999445
+      },
+      "Name": "Cash Pile",
+      "Price": 5000
+    }
+  ],
+  "Money": 0,
+  "Weapons": []
+}

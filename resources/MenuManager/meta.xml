@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<meta>
+  <info name="MenuManager" author="Le Shred" type="gamemode"/>
+  <script src="MenuManager.dll" type="server" lang="compiled" />
+
+  <script src="Client\MenuManager.js" type="client" lang="javascript" />
+  <script src="Client\Shop.js" type="client" lang="javascript" />
+  <file src="Client\MyMenu.png" />
+</meta>

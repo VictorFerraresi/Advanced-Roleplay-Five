@@ -385,6 +385,34 @@ API.onUpdate.connect(function()
     API.disableControlThisFrame(15);
     API.disableControlThisFrame(16);
     API.disableControlThisFrame(17);
+
+    //VehicleFly
+    API.disableControlThisFrame(87);
+    API.disableControlThisFrame(88);
+    API.disableControlThisFrame(89);
+    API.disableControlThisFrame(90);
+
+    API.disableControlThisFrame(94);//VehicleStuntUpDown
+
+    //VehicleCinematic
+    API.disableControlThisFrame(95);
+    API.disableControlThisFrame(96);
+    API.disableControlThisFrame(97);
+    API.disableControlThisFrame(98);
+
+    //
+    API.disableControlThisFrame(107);
+    API.disableControlThisFrame(108);
+    API.disableControlThisFrame(109);
+    API.disableControlThisFrame(110);
+    API.disableControlThisFrame(111);
+    API.disableControlThisFrame(112);
+    API.disableControlThisFrame(113);
+
+    if (API.isEntityUpsidedown(API.getPlayerVehicle(player)))
+    {
+        API.disableControlThisFrame(59);
+    }
     //=================================================
     API.drawText("$" + API.getEntitySyncedData(player, "dinheiro"), resR.Width - 15, 45, 0.5, 115, 186, 131, 255, 7, 2, false, true, 0);
     API.drawText(API.getWorldSyncedData("horario"), resR.Width - 15, 70, 0.4, 255, 255, 255, 255, 0, 2, false, true, 0);
@@ -1326,6 +1354,14 @@ API.onKeyDown.connect(function(sender, keyEventArgs)
             }
             else API.sendNotification("~r~[ERRO] ~w~Você não tem acesso a este menu.");
         }
+        else if (API.getEntitySyncedData(API.getLocalPlayer(), "CheckpointBarbearia") == 1) {
+            if (API.getEntitySyncedData(API.getLocalPlayer(), "GTAO_HAS_CHARACTER_DATA") == true) {
+                menu_barbearia.Visible = true;
+                itemMenu = 5;
+                menu_barbearia.ResetKey(menuControl.Back);
+            }
+            else API.sendNotification("~r~[ERRO] ~w~Você não tem acesso a este menu.");
+        }
         else
         {
             API.triggerServerEvent("Player_Pressionou_Y");
@@ -1334,12 +1370,15 @@ API.onKeyDown.connect(function(sender, keyEventArgs)
     if (spamProtection != true) {
         if (keyEventArgs.KeyCode === Keys.Back) {
             if (menu_camisetas.Visible == true || menu_casmole.Visible == true || menu_bermudas.Visible == true || menu_calcas.Visible == true
-                || menu_calcado.Visible == true) {
+                || menu_calcado.Visible == true || menu_barbearia.Visible == true || menu_barbas.Visible == true || menu_cabelos.Visible == true) {
                 menu_camisetas.Visible = false;
                 menu_casmole.Visible = false;
                 menu_bermudas.Visible = false;
                 menu_calcas.Visible = false;
                 menu_calcado.Visible = false;
+                menu_barbearia.Visible = false;
+                menu_barbas.Visible = false;
+                menu_cabelos.Visible = false;
             }
             if (g_menu_confirma.Visible == true) {
                 API.triggerServerEvent("Reverter_roupa");
@@ -2482,3 +2521,83 @@ API.onLocalPlayerDamaged.connect(function (enemy, weapon, bone) {
         API.triggerServerEvent("PlayerAsDead");
     }
 })
+
+
+//==================
+//---- [BARBEARIA]
+var menu_barbearia = API.createMenu("Barbearia", "Selecione uma opção", 0, 0, 6);
+menu_barbearia.AddItem(API.createMenuItem("Cabelo", "Cortar"));
+menu_barbearia.AddItem(API.createMenuItem("Barba", "Cortar"));
+
+var lista_cabelos = new List(String);
+lista_cabelos.Add("0");
+lista_cabelos.Add("1");
+lista_cabelos.Add("2");
+lista_cabelos.Add("3");
+lista_cabelos.Add("4");
+lista_cabelos.Add("5");
+lista_cabelos.Add("6");
+lista_cabelos.Add("7");
+lista_cabelos.Add("8");
+lista_cabelos.Add("9");
+lista_cabelos.Add("10");
+lista_cabelos.Add("11");
+lista_cabelos.Add("12");
+lista_cabelos.Add("13");
+lista_cabelos.Add("14");
+lista_cabelos.Add("15");
+lista_cabelos.Add("16");
+lista_cabelos.Add("17");
+lista_cabelos.Add("18");
+lista_cabelos.Add("19");
+lista_cabelos.Add("20");
+lista_cabelos.Add("21");
+lista_cabelos.Add("22");
+lista_cabelos.Add("23");
+lista_cabelos.Add("24");
+lista_cabelos.Add("25");
+lista_cabelos.Add("26");
+lista_cabelos.Add("27");
+lista_cabelos.Add("28");
+var menu_cabelos = API.createListItem("Cabelos", "Selecione", lista_cabelos, 0);
+var menu_barbas = API.createListItem("Barbas", "Selecione", lista_cabelos, 0);
+
+menu_barbearia.OnItemSelect.connect(function (sender, item, index) {
+    switch(item)
+    {
+        case 0:
+            menu_cabelos.Visible = true;
+            break;
+        case 1:
+            menu_barbas.Visible = true;
+            break;
+    }
+    API.showCursor(false);
+    menu_barbearia.Visible = false;
+});
+
+menu_barbas.OnListChanged.connect(function (sender, new_index) {
+    API.setPlayerHeadOverlay(API.getLocalPlayer(), 1, new_index, 1);
+});
+
+menu_cabelos.OnListChanged.connect(function (sender, new_index) {
+    API.setPlayerHairStyle(API.getLocalPlayer(), new_index, 0, 0, 0, 1);
+});
+
+
+//=============================================================================
+var CountLSS;
+var Porcentagem;
+function LosSantosService(){
+    Porcentagem = 0;
+    CountLSS = API.every(2000, LosSantosService_F);
+}
+
+function LosSantosService_F(){
+    API.drawText(Porcentagem+"/100", (res.Width / 2) - 302.4000244140625, (res.Height / 2) - 66.60000610351562, 0.800000011920929, 242, 245, 242, 255, 2, 1, false, false, 0);
+    Porcentagem += 10;
+
+    if(Porcentagem == 100)
+        API.stop(CountLSS);
+}
+
