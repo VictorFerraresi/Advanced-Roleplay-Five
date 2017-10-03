@@ -416,24 +416,6 @@ public class ADRP : Script
 
         API.onEntityEnterColShape += OnEntityEnterColShapeHandler;
         API.onEntityExitColShape += OnEntityExitColShapeHandler;
-        API.onPlayerWeaponSwitch += OnPlayerWeaponSwitchHandler;
-        
-    }
-
-    private void OnPlayerWeaponSwitchHandler(Client player, WeaponHash oldWeapon)
-    {
-        if (!API.hasEntitySyncedData(player, "logado")) return;
-        int return_w = RetornarHashArmaByName(oldWeapon.ToString());
-
-        if (return_w != 99)
-        {
-            if (return_w != 0)
-            {
-                API.sendNativeToPlayer(player, Hash.SET_CURRENT_PED_WEAPON, player, return_w, 1);
-            }
-        }
-        else
-            EnviarMensagemErro(player, "deu ruim #0075");
     }
 
     public int RetornarHashArmaByName(String ArmaName)
@@ -7429,6 +7411,7 @@ public class ADRP : Script
                             switch (slot)
                             {
                                 case 1:
+                                    if (car.Inv1_q != 0){ EnviarMensagemErro(player, "Já existe algo no Slot 1"); return; }
                                     car.Inv1 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv1_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -7436,6 +7419,7 @@ public class ADRP : Script
                                     EnviarMensagemSucesso(player, "[S:1] Você guardou um(a) " + car.Inv1 + " com " + car.Inv1_q + " balas no portamalas do seu " + car.Modelo + ".");
                                     break;
                                 case 2:
+                                    if (car.Inv2_q != 0) { EnviarMensagemErro(player, "Já existe algo no Slot 2"); return; }
                                     car.Inv2 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv2_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -7443,6 +7427,7 @@ public class ADRP : Script
                                     EnviarMensagemSucesso(player, "[S:2] Você guardou um(a) " + car.Inv2 + " com " + car.Inv2_q + " balas no portamalas do seu " + car.Modelo + ".");
                                     break;
                                 case 3:
+                                    if (car.Inv3_q != 0) { EnviarMensagemErro(player, "Já existe algo no Slot 3"); return; }
                                     car.Inv3 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv3_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -7450,6 +7435,7 @@ public class ADRP : Script
                                     EnviarMensagemSucesso(player, "[S:3] Você guardou um(a) " + car.Inv3 + " com " + car.Inv3_q + " balas no portamalas do seu " + car.Modelo + ".");
                                     break;
                                 case 4:
+                                    if (car.Inv4_q != 0) { EnviarMensagemErro(player, "Já existe algo no Slot 4"); return; }
                                     car.Inv4 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv4_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -7457,6 +7443,7 @@ public class ADRP : Script
                                     EnviarMensagemSucesso(player, "[S:4] Você guardou um(a) " + car.Inv4 + " com " + car.Inv4_q + " balas no portamalas do seu " + car.Modelo + ".");
                                     break;
                                 case 5:
+                                    if (car.Inv5_q != 0) { EnviarMensagemErro(player, "Já existe algo no Slot 5"); return; }
                                     car.Inv5 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv5_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -7464,6 +7451,7 @@ public class ADRP : Script
                                     EnviarMensagemSucesso(player, "[S:5] Você guardou um(a) " + car.Inv5 + " com " + car.Inv5_q + " balas no portamalas do seu " + car.Modelo + ".");
                                     break;
                                 case 6:
+                                    if (car.Inv6_q != 0) { EnviarMensagemErro(player, "Já existe algo no Slot 6"); return; }
                                     car.Inv6 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv6_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -7471,6 +7459,7 @@ public class ADRP : Script
                                     EnviarMensagemSucesso(player, "[S:6] Você guardou um(a) " + car.Inv6 + " com " + car.Inv6_q + " balas no portamalas do seu " + car.Modelo + ".");
                                     break;
                                 case 7:
+                                    if (car.Inv7_q != 0) { EnviarMensagemErro(player, "Já existe algo no Slot 7"); return; }
                                     car.Inv7 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv7_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -7478,6 +7467,7 @@ public class ADRP : Script
                                     EnviarMensagemSucesso(player, "[S:7] Você guardou um(a) " + car.Inv7 + " com " + car.Inv7_q + " balas no portamalas do seu " + car.Modelo + ".");
                                     break;
                                 case 8:
+                                    if (car.Inv8_q != 0) { EnviarMensagemErro(player, "Já existe algo no Slot 8"); return; }
                                     car.Inv8 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv8_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -7485,6 +7475,7 @@ public class ADRP : Script
                                     EnviarMensagemSucesso(player, "[S:8] Você guardou um(a) " + car.Inv8 + " com " + car.Inv8_q + " balas no portamalas do seu " + car.Modelo + ".");
                                     break;
                                 case 9:
+                                    if (car.Inv9_q != 0) { EnviarMensagemErro(player, "Já existe algo no Slot 9"); return; }
                                     car.Inv9 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv9_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -7492,6 +7483,7 @@ public class ADRP : Script
                                     EnviarMensagemSucesso(player, "[S:9] Você guardou um(a) " + car.Inv9 + " com " + car.Inv9_q + " balas no portamalas do seu " + car.Modelo + ".");
                                     break;
                                 case 10:
+                                    if (car.Inv10_q != 0) { EnviarMensagemErro(player, "Já existe algo no Slot 10"); return; }
                                     car.Inv10 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv10_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -7506,11 +7498,6 @@ public class ADRP : Script
                         if (!API.getVehicleDoorState(veh, 5))
                         {
                             EnviarMensagemErro(player, "O portamalas não está aberto.");
-                            return;
-                        }
-                        if (API.getPlayerCurrentWeapon(player).ToString() != "Unarmed")
-                        {
-                            EnviarMensagemErro(player, "Você já tem uma arma em sua mão.");
                             return;
                         }
                         if (opcao == "") { EnviarMensagemErro(player, "Selecione uma opção: 'arma' ou 'dinheiro'.\n/portamalas [pegar] [arma] [slot]"); return; }
@@ -9093,12 +9080,6 @@ public class ADRP : Script
         if (target == null)
         {
             EnviarMensagemErro(player, "Jogador não encontrado.");
-            return;
-        }
-
-        if (API.getPlayerCurrentWeapon(target).ToString() != "Unarmed")
-        {
-            EnviarMensagemErro(player, "Este jogador já tem uma arma em mãos.");
             return;
         }
 
@@ -14223,11 +14204,6 @@ public class ADRP : Script
                 if (slot < 1 || slot > 10)
                 {
                     EnviarMensagemErro(player, "Slot inválido, use de 1 a 10.");
-                    return;
-                }
-                if (API.getPlayerCurrentWeapon(player).ToString() != "Unarmed")
-                {
-                    EnviarMensagemErro(player, "Você já tem uma arma em mãos.");
                     return;
                 }
                 inv_slot = string.Format("inv{0}", slot);
