@@ -367,41 +367,10 @@ API.onUpdate.connect(function()
     //API.drawMenu(GenderMenu);
     //API.drawMenu(criar_pers);
     //=================================================
-    if (API.isPlayerInAnyVehicle(player))
-    {
-        var car_rot = API.getEntityRotation(API.getPlayerVehicle(player));
-        
 
-        if(car_rot.Y >= 50 || car_rot.Y <= -50)
-        {
-            API.disableControlThisFrame(107);
-        }
-    }
+
     //=================================================
-
-    //VehicleFly
-    /*API.disableControlThisFrame(87);
-    API.disableControlThisFrame(88);
-    API.disableControlThisFrame(89);
-    API.disableControlThisFrame(90);
-
-    API.disableControlThisFrame(94);//VehicleStuntUpDown
-
-    //VehicleCinematic
-    API.disableControlThisFrame(95);
-    API.disableControlThisFrame(96);
-    API.disableControlThisFrame(97);
-    API.disableControlThisFrame(98);*/
-
-    //
-    API.disableControlThisFrame(107);
-    API.disableControlThisFrame(108);
-    API.disableControlThisFrame(109);
-    API.disableControlThisFrame(110);
-    API.disableControlThisFrame(111);
-    API.disableControlThisFrame(112);
-    API.disableControlThisFrame(113);
-
+    API.disableControlThisFrame(94); // VehicleStuntUpDown
     if (API.isEntityUpsidedown(API.getPlayerVehicle(player)))
     {
         API.disableControlThisFrame(59);
