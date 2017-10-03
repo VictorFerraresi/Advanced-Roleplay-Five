@@ -1,0 +1,10 @@
+<meta>
+    <info name="Armed Body" author="rootcause" type="script" />
+    
+    <!-- Files -->
+    <script src="ArmedBody.cs" type="server" lang="csharp" />
+
+    <!-- Exported Functions -->
+    <export class="ArmedBody" function="RemovePlayerWeapon" />
+    <export class="ArmedBody" function="RemoveAllPlayerWeapons" />
+</meta>
