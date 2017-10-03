@@ -433,7 +433,7 @@ public class ADRP : Script
             }
         }
         else
-            EnviarMensagemErro(player, "deu ruim #0023");
+            EnviarMensagemErro(player, "deu ruim #0075");
     }
 
     public int RetornarHashArmaByName(String ArmaName)

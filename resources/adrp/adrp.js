@@ -378,16 +378,9 @@ API.onUpdate.connect(function()
         }
     }
     //=================================================
-    //Desabilitar a troca de arma pelo Capslock ou mouse whell. (Armas Scroll)
-    API.disableControlThisFrame(12);
-    API.disableControlThisFrame(13);
-    API.disableControlThisFrame(14);
-    API.disableControlThisFrame(15);
-    API.disableControlThisFrame(16);
-    API.disableControlThisFrame(17);
 
     //VehicleFly
-    API.disableControlThisFrame(87);
+    /*API.disableControlThisFrame(87);
     API.disableControlThisFrame(88);
     API.disableControlThisFrame(89);
     API.disableControlThisFrame(90);
@@ -398,7 +391,7 @@ API.onUpdate.connect(function()
     API.disableControlThisFrame(95);
     API.disableControlThisFrame(96);
     API.disableControlThisFrame(97);
-    API.disableControlThisFrame(98);
+    API.disableControlThisFrame(98);*/
 
     //
     API.disableControlThisFrame(107);
