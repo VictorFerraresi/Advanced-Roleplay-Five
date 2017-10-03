@@ -18013,3 +18013,77 @@ Para desativar esse recurso, remova o valor do Registro [HKLM\Software\Microsoft
 2017-10-01 23:24:00.2598 |  Info | GameServer | Stopping animator 
 2017-10-01 23:24:00.4003 |  Info | GameServer | Stopped animator. 
 2017-10-01 23:24:00.4003 |  Info | GameServer | Stopping adrp 
+2017-10-02 21:49:58.6987 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-02 21:49:58.8498 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-02 21:49:58.8568 |  Info | Program |   Port:                 4499 
+2017-10-02 21:49:58.8568 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-02 21:49:58.8713 |  Info | Program |   FQDN:                      
+2017-10-02 21:49:58.8713 |  Info | Program |   Players:                20 
+2017-10-02 21:49:58.8858 |  Info | Program |   Announce:            False 
+2017-10-02 21:49:58.8858 |  Info | Program | Starting... 
+2017-10-02 21:49:59.9355 |  Info | ConstantData | Loaded Language de 
+2017-10-02 21:50:00.2007 |  Info | GameServer | Loading resources... 
+2017-10-02 21:50:00.5459 |  Info | GameServer | Starting doormanager 
+2017-10-02 21:50:02.0742 |  Info | GameServer | Resource doormanager started. 
+2017-10-02 21:50:02.0742 |  Info | GameServer | Starting adrp 
+2017-10-02 21:50:05.1958 |  Info | GameServer | Resource adrp started. 
+2017-10-02 21:50:05.1958 |  Info | GameServer | Starting animator 
+2017-10-02 21:50:06.4287 |  Info | GameServer | Resource animator started. 
+2017-10-02 21:50:06.4512 |  Info | Program | Started! Waiting for connections. 
+2017-10-02 21:50:08.1178 | Error | ScriptingEngine | EXCEPTION IN RESOURCE adrp INSIDE SCRIPTENGINE ADRP MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em ADRP.API_onResourceStart()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStart>b__26_0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-02 21:50:08.9148 |  Info | Program | Terminating... 
+2017-10-02 21:50:08.9148 |  Info | GameServer | Stopping animator 
+2017-10-02 21:50:09.0534 |  Info | GameServer | Stopped animator. 
+2017-10-02 21:50:09.0739 |  Info | GameServer | Stopping adrp 
+2017-10-02 21:50:09.2046 |  Info | ADRP | [SAVE]: Veiculos salvos. 
+2017-10-02 21:50:09.2151 |  Info | GameServer | Stopped adrp. 
+2017-10-02 21:50:09.2151 |  Info | GameServer | Stopping doormanager 
+2017-10-02 21:50:09.3276 |  Info | GameServer | Stopped doormanager. 
+2017-10-02 21:50:43.6123 |  Info | Program | Grand Theft Multiplayer Server v0.1.638.648 
+2017-10-02 21:50:43.7629 |  Info | Program |   Interface:         0.0.0.0 
+2017-10-02 21:50:43.7964 |  Info | Program |   Port:                 4499 
+2017-10-02 21:50:43.8124 |  Info | Program |   Name:      Advanced Roleplay [DEV-Stage][BR/PT] 
+2017-10-02 21:50:43.8314 |  Info | Program |   FQDN:                      
+2017-10-02 21:50:43.8469 |  Info | Program |   Players:                20 
+2017-10-02 21:50:43.8574 |  Info | Program |   Announce:            False 
+2017-10-02 21:50:43.8679 |  Info | Program | Starting... 
+2017-10-02 21:50:44.8211 |  Info | ConstantData | Loaded Language de 
+2017-10-02 21:50:45.2358 |  Info | GameServer | Loading resources... 
+2017-10-02 21:50:45.3464 |  Info | GameServer | Starting doormanager 
+2017-10-02 21:50:48.0387 |  Info | GameServer | Resource doormanager started. 
+2017-10-02 21:50:48.0387 |  Info | GameServer | Starting adrp 
+2017-10-02 21:50:49.8104 |  Info | GameServer | Resource adrp started. 
+2017-10-02 21:50:49.8104 |  Info | GameServer | Starting animator 
+2017-10-02 21:50:50.7390 |  Info | GameServer | Resource animator started. 
+2017-10-02 21:50:50.7505 |  Info | Program | Started! Waiting for connections. 
+2017-10-02 21:50:52.3236 | Error | ScriptingEngine | EXCEPTION IN RESOURCE adrp INSIDE SCRIPTENGINE ADRP MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em ADRP.API_onResourceStart()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.<InvokeResourceStart>b__26_0()
+   em GrandTheftMultiplayer.Server.Models.ScriptingEngine.MainThreadLoop()
+2017-10-02 21:51:01.3230 |  Info | Program | Terminating... 
+2017-10-02 21:51:01.3365 |  Info | GameServer | Stopping animator 
+2017-10-02 21:51:01.4701 |  Info | GameServer | Stopped animator. 
+2017-10-02 21:51:01.4801 |  Info | GameServer | Stopping adrp 
+2017-10-02 21:51:01.5977 |  Info | ADRP | [SAVE]: Veiculos salvos. 
+2017-10-02 21:51:01.6062 |  Info | GameServer | Stopped adrp. 
+2017-10-02 21:51:01.6062 |  Info | GameServer | Stopping doormanager 
+2017-10-02 21:51:01.7213 |  Info | GameServer | Stopped doormanager. 

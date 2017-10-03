@@ -540,7 +540,7 @@ public class ADRP : Script
         timerServidor.Elapsed += new ElapsedEventHandler(timerServidor_Elapsed);
         timerServidor.Interval = 60000;
         timerServidor.Enabled = true;
-        
+
         timerSegundos.Elapsed += new ElapsedEventHandler(timerSegundos_Elapsed);
         timerSegundos.Interval = 1000;
         timerSegundos.Enabled = true;
@@ -578,7 +578,7 @@ public class ADRP : Script
         doorID[2] = API.exported.doormanager.registerDoor(631614199, new Vector3(461.8065, -994.4086, 25.06443));
         doorID[3] = API.exported.doormanager.registerDoor(631614199, new Vector3(461.8065, -997.6583, 25.06443));
         doorID[4] = API.exported.doormanager.registerDoor(631614199, new Vector3(461.8065, -1001.302, 25.06443));
-        
+
 
         API.exported.doormanager.setDoorState(doorID[2], true, 0);
         API.exported.doormanager.setDoorState(doorID[3], true, 0);
@@ -634,7 +634,8 @@ public class ADRP : Script
         API.setBlipShortRange(MorsMutualBlip, true);
         API.createTextLabel("[Mors Mutual Seguros]\nUse '/v remontar [id]'", new Vector3(-202.2094, -1158.326, 23.81366), 8f, 0.6f);
 
-        
+        //Mapas
+        PrisonMap();
     }
 
     private void timerServidor_Elapsed(object source, ElapsedEventArgs e)
@@ -877,7 +878,7 @@ public class ADRP : Script
                 return;
             }
         }
-        
+
         /*if (API.hasEntitySyncedData(player, "mydog"))
         {
             if (API.getEntitySyncedData(player, "TemDog") != 0)
@@ -901,7 +902,7 @@ public class ADRP : Script
         if (veh.Modelo == "Taxi") Taxi_OnPlayerEnterVehicle(player, vehicle);
 
     }
-    
+
     private void API_onPlayerExitVehicle(Client player, NetHandle vehicle, int targetSeat)
     {
         API.setPlayerSeatbelt(player, false);
@@ -3647,7 +3648,7 @@ public class ADRP : Script
                 SpawnarVeiculo(dr, null, 0);
                 counter++;
             }
-            else if(randomCars > 0)
+            else if (randomCars > 0)
             {
                 if (isInt(dr["explodido"].ToString()) == 0)
                 {
@@ -7411,7 +7412,7 @@ public class ADRP : Script
                             switch (slot)
                             {
                                 case 1:
-                                    if (car.Inv1_q != 0){ EnviarMensagemErro(player, "Já existe algo no Slot 1"); return; }
+                                    if (car.Inv1_q != 0) { EnviarMensagemErro(player, "Já existe algo no Slot 1"); return; }
                                     car.Inv1 = API.getPlayerCurrentWeapon(player).ToString();
                                     car.Inv1_q = API.getPlayerWeaponAmmo(player, API.getPlayerCurrentWeapon(player));
 
@@ -9142,7 +9143,7 @@ public class ADRP : Script
             return;
         }
 
-        if(item == "")
+        if (item == "")
         {
             API.sendChatMessageToPlayer(player, "[Opções]: Modelo, pos, faccao, gasolina");
             API.sendChatMessageToPlayer(player, "[Outros]: /editarvcor");
@@ -13239,9 +13240,9 @@ public class ADRP : Script
                 }
             }
             //
-            for(int i = 0; i < PostoDeGasolina.Count; i++)
+            for (int i = 0; i < PostoDeGasolina.Count; i++)
             {
-                if (shape == PostoDeGasolina[i]){
+                if (shape == PostoDeGasolina[i]) {
                     if (API.isPlayerInAnyVehicle(player))
                     {
                         var vehh = recuperarVeiculo(player.vehicle);
@@ -13333,7 +13334,7 @@ public class ADRP : Script
                     int AtualTeste = atualParte - 1;
                     int rota = API.getEntitySyncedData(player.handle, "Rota");
 
-                    EnviarMensagemSucesso(player, "Parte: "+ atualParte + " | AtualTeste: "+ AtualTeste);
+                    EnviarMensagemSucesso(player, "Parte: " + atualParte + " | AtualTeste: " + AtualTeste);
 
                     if (API.getEntitySyncedData(player.handle, "Rota") > 0)
                     {
@@ -13357,7 +13358,7 @@ public class ADRP : Script
                             API.setEntitySyncedData(player.handle, "Parte", atualParte + 1);
 
                             API.triggerClientEvent(player, "remove_job_marker", "bus");
-                            
+
                             API.setEntitySyncedData(player.handle, "NaoPodePararAnim", 1);
 
                             API.playPlayerScenario(player, "WORLD_HUMAN_CONST_DRILL");
@@ -13829,7 +13830,7 @@ public class ADRP : Script
                     API.setEntitySyncedData(player, "garrafaobj", garrafa13);
                     break;
 
-            } 
+            }
 
         }
         else
@@ -14485,20 +14486,20 @@ public class ADRP : Script
 
         AutoEscola_colShape.onEntityExitColShape += (shape, entity) =>
         {
-            
-	            Client player;
-	            if ((player = API.getPlayerFromHandle(entity)) != null)
-	            {
-	                API.triggerClientEvent(player, "dentro_colshape", 0);
-	            }
+
+            Client player;
+            if ((player = API.getPlayerFromHandle(entity)) != null)
+            {
+                API.triggerClientEvent(player, "dentro_colshape", 0);
+            }
         };
         AutoEscola_colShape.onEntityEnterColShape += (shape, entity) =>
         {
-	            Client player;
-	            if ((player = API.getPlayerFromHandle(entity)) != null)
-	            {
-	                API.triggerClientEvent(player, "dentro_colshape", 1);
-	            }
+            Client player;
+            if ((player = API.getPlayerFromHandle(entity)) != null)
+            {
+                API.triggerClientEvent(player, "dentro_colshape", 1);
+            }
         };
     }
 
@@ -15205,7 +15206,7 @@ public class ADRP : Script
     {
         foreach (var veh in veiculos)
         {
-            if(veh.Veh == null) continue;
+            if (veh.Veh == null) continue;
 
             if (veh.IDFaccao == 0)
             {
@@ -15232,13 +15233,13 @@ public class ADRP : Script
             veh.Veh.delete();
         }
         API.consoleOutput("[SAVE]: Veiculos salvos.");
-        
+
     }
 
     [Command("rag")]
     public void CMD_ragdoll(Client player, int tipo)
     {
-        if(tipo == 5)
+        if (tipo == 5)
             API.triggerClientEvent(player, "player_ragdoll_c");
         else
             API.triggerClientEvent(player, "player_ragdoll", tipo);
@@ -15408,5 +15409,647 @@ public class ADRP : Script
                 API.sendNativeToAllPlayers(Hash.REQUEST_IPL, "bkr_bi_hw1_13_int");
                 break;
         }
+    }
+
+    public void PrisonMap()
+    {
+        API.createObject(-1228586030, new Vector3(1801.1886, 2478.786, -123.710838), new Vector3(1.00177576E-05, -5.00895567E-06, -93.24768), 0);
+        API.createObject(-525238304, new Vector3(1801.472, 2477.90186, -122.79863), new Vector3(2.41989237E-05, 5.00894157E-06, -89.9984741), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2477.68237, -123.771156), new Vector3(5.00870647E-06, 2.23116313E-05, 89.9989853), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2476.105, -123.771156), new Vector3(5.00867554E-06, 2.23116112E-05, 89.9988556), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2474.54346, -123.771156), new Vector3(5.008643E-06, 2.231159E-05, 89.9987259), 0);
+        API.createObject(-726591477, new Vector3(1801.47351, 2474.31177, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1799.89514, 2474.31, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.30811, 2474.31, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1796.72253, 2474.309, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.15723, 2474.3064, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1793.57715, 2474.31, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99353, 2474.31, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1790.40613, 2474.31079, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.82092, 2474.3125, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1787.23108, 2474.31274, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1785.64087, 2474.31079, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.37, 2474.54, -123.771156), new Vector3(5.008609E-06, 2.231157E-05, 89.99858), 0);
+        API.createObject(-726591477, new Vector3(1792.07, 2474.54, -123.771156), new Vector3(5.0085705E-06, 2.23115421E-05, 89.99843), 0);
+        API.createObject(-726591477, new Vector3(1788.87012, 2474.54224, -123.771156), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2474.54565, -123.771156), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1798.37122, 2476.1, -123.771118), new Vector3(5.0085705E-06, 2.23115421E-05, 89.99843), 0);
+        API.createObject(-726591477, new Vector3(1798.36914, 2477.68, -123.771118), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1792.07, 2476.1, -123.771118), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1788.86707, 2476.1, -123.771118), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2476.09985, -123.771118), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1792.07, 2477.68, -123.771118), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2477.679, -123.771118), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1798.32, 2479.2, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.15308, 2479.2002, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.81, 2479.19458, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2479.30322, -123.771118), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2480.88745, -123.771118), new Vector3(5.00829447E-06, 2.23113711E-05, 89.9973), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2482.47925, -123.771118), new Vector3(5.00823762E-06, 2.23113348E-05, 89.99708), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2484.03735, -123.77), new Vector3(5.00818169E-06, 2.23112984E-05, 89.99684), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2485.6228, -123.77), new Vector3(5.008124E-06, 2.2311262E-05, 89.9966049), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2487.20728, -123.771118), new Vector3(5.008062E-06, 2.23112256E-05, 89.99635), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2479.24561, -123.771118), new Vector3(5.00867554E-06, 2.23116112E-05, 89.9988556), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2480.83862, -123.77), new Vector3(5.008643E-06, 2.231159E-05, 89.9987259), 0);
+        API.createObject(-726591477, new Vector3(1787.23, 2491.75, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.82, 2491.75, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99, 2491.75, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1793.58, 2491.75, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.16, 2491.75, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1796.74, 2491.75, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.32, 2491.75, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1799.91, 2491.75, -123.771118), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1801.49, 2491.75, -123.77), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2482.42847, -123.771118), new Vector3(5.008609E-06, 2.231157E-05, 89.99858), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2484.02051, -123.771118), new Vector3(5.0085705E-06, 2.23115421E-05, 89.99843), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2485.60278, -123.771118), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2487.186, -123.771118), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1791.98633, 2479.2, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1801.48, 2479.2, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.23145, 2474.54, -123.771156), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1795.22827, 2476.1, -123.771156), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1795.23279, 2477.68, -123.771156), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-642608865, new Vector3(1798.45, 2479.15, -122.54), new Vector3(-0.000427114253, -0.000117934462, -178.520126), 0);
+        API.createObject(-642608865, new Vector3(1795.29, 2479.18, -122.55), new Vector3(-0.000167562524, -0.000149899017, -179.68895), 0);
+        API.createObject(-642608865, new Vector3(1792.13, 2479.21, -122.55), new Vector3(-0.00147118419, -5.96092541E-05, 179.919052), 0);
+        API.createObject(-642608865, new Vector3(1788.95, 2479.18, -122.55), new Vector3(-0.0006166313, 9.395833E-05, -179.769745), 0);
+        API.createObject(-726591477, new Vector3(1788.87024, 2477.68262, -123.771156), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-642608865, new Vector3(1785.79, 2479.21, -122.55), new Vector3(-0.000154538, -8.951603E-05, 178.450165), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2488.77686, -123.771156), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2490.36, -123.771156), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-113824571, new Vector3(1786.49, 2487.00415, -123.78), new Vector3(0, 0, -89.99872), 0);
+        API.createObject(1975282749, new Vector3(1791.75, 2478.89, -120.08), new Vector3(-89.99934, 8.362371E-09, -0.00145774346), 0);
+        API.createObject(1975282749, new Vector3(1791.75, 2487.42, -120.08), new Vector3(89.99747, -5.01845261E-06, -0.00147030363), 0);
+        API.createObject(1975282749, new Vector3(1800.48, 2478.89, -120.08), new Vector3(-89.99922, 9.857469E-09, -0.00145774207), 0);
+        API.createObject(1975282749, new Vector3(1800.48, 2487.42, -120.08), new Vector3(89.99762, 5.000316E-06, -0.00147030491), 0);
+        API.createObject(-726591477, new Vector3(1785.71826, 2488.78, -123.771156), new Vector3(5.008062E-06, 2.23112256E-05, 89.99635), 0);
+        API.createObject(-726591477, new Vector3(1785.72351, 2490.36, -123.771156), new Vector3(5.00800161E-06, 2.23111856E-05, 89.99609), 0);
+        API.createObject(-726591477, new Vector3(1801.47827, 2487.097, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.32, 2487.1, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.16, 2487.1, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99, 2487.09937, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.81, 2487.09937, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1787.22888, 2487.1, -123.771156), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1727.23, 2486.5647, -20), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1787.23, 2487.09961, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2485.62, -120.84), new Vector3(5.008062E-06, 2.23112256E-05, 89.99635), 0);
+        API.createObject(-726591477, new Vector3(1798.38, 2487.19, -123.771156), new Vector3(5.0085705E-06, 2.23115421E-05, 89.99843), 0);
+        API.createObject(-726591477, new Vector3(1798.38086, 2488.77832, -123.771156), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1798.38013, 2490.36, -123.771156), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1792.05481, 2487.19, -123.771156), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1788.88, 2487.19, -123.77), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1795.22009, 2488.77563, -123.771156), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1792.05444, 2488.78, -123.771156), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1788.87891, 2488.777, -123.771156), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1795.2207, 2490.35767, -123.771156), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1792.05237, 2490.357, -123.771156), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1788.87671, 2490.36035, -123.771156), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-642608865, new Vector3(1788.96, 2487.11, -122.55), new Vector3(9.522455E-05, -9.06136847E-05, -179.7593), 0);
+        API.createObject(-642608865, new Vector3(1792.13, 2487.1, -122.55), new Vector3(2.64395385E-06, 0.0003164354, -179.476318), 0);
+        API.createObject(-642608865, new Vector3(1795.29, 2487.12, -122.56), new Vector3(-0.0004142579, -5.499647E-05, 179.666122), 0);
+        API.createObject(-726591477, new Vector3(1795.22, 2487.19, -123.771156), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2474.54, -120.84), new Vector3(5.008609E-06, 2.231157E-05, 89.99858), 0);
+        API.createObject(-726591477, new Vector3(1801.55945, 2476.108, -120.84), new Vector3(5.008643E-06, 2.231159E-05, 89.9987259), 0);
+        API.createObject(-726591477, new Vector3(1801.55811, 2477.68, -120.84), new Vector3(5.008609E-06, 2.231157E-05, 89.99858), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2479.24, -120.84), new Vector3(5.0085705E-06, 2.23115421E-05, 89.99843), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2480.84, -120.84), new Vector3(5.008609E-06, 2.231157E-05, 89.99858), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2482.43, -120.84), new Vector3(5.0085705E-06, 2.23115421E-05, 89.99843), 0);
+        API.createObject(-726591477, new Vector3(1801.56409, 2484.02, -120.84), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2485.6, -120.84), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1801.5575, 2487.18774, -120.84), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2488.78, -120.84), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2490.36, -120.84), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1801.49, 2491.75, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1799.91, 2491.75, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.318, 2491.75, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1796.74, 2491.75, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.16, 2491.74, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1793.58, 2491.75, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99, 2491.75, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1790.41, 2491.74, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.82, 2491.752, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1787.22607, 2491.75, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1785.72461, 2490.365, -120.84), new Vector3(5.0079384E-06, 2.23111474E-05, 89.9958344), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2488.78467, -120.84), new Vector3(5.00800161E-06, 2.23111856E-05, 89.99609), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2487.21, -120.84), new Vector3(5.00800161E-06, 2.23111856E-05, 89.99609), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2484.04, -120.84), new Vector3(5.008124E-06, 2.2311262E-05, 89.9966049), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2482.48, -120.84), new Vector3(5.00818169E-06, 2.23112984E-05, 89.99684), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2480.89, -120.84), new Vector3(5.00823762E-06, 2.23113348E-05, 89.99708), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2479.3, -120.84), new Vector3(5.00829447E-06, 2.23113711E-05, 89.9973), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2477.68, -120.84), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2476.1, -120.84), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2474.54, -120.84), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1787.23, 2474.31, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.82, 2474.31, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1790.41, 2474.31, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99, 2474.30786, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1793.58, 2474.31, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.15552, 2474.31, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1796.72, 2474.31, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.31, 2474.31, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1799.9, 2474.31, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1801.47, 2474.31, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.33, 2479.2, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.15, 2479.2, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1801.48, 2479.19653, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99, 2479.2, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.81, 2479.20557, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1801.48, 2487.1, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.32, 2487.1, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.15527, 2487.102, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99, 2487.1, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.81, 2487.1, -120.84), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.38, 2487.19, -120.84), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1798.38, 2488.78076, -120.84), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1798.38, 2490.36, -120.84), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1792.06, 2487.19, -120.84), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1788.88, 2487.19, -120.84), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1795.22, 2488.78467, -120.84), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1795.22, 2490.36, -120.84), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1792.06, 2488.78, -120.84), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1788.88, 2488.78, -120.84), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1788.88, 2490.3623, -120.84), new Vector3(5.00829447E-06, 2.23113711E-05, 89.9973), 0);
+        API.createObject(-726591477, new Vector3(1788.87, 2477.68, -120.84), new Vector3(5.00829447E-06, 2.23113711E-05, 89.9973), 0);
+        API.createObject(-726591477, new Vector3(1788.87, 2476.1, -120.84), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1788.87, 2474.54, -120.84), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1792.07, 2477.68066, -120.84), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1792.07, 2476.10181, -120.84), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1792.07, 2474.542, -120.84), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1795.23, 2477.68, -120.84), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1795.23, 2476.1, -120.84), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1795.234, 2474.54, -120.84), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1798.37, 2477.68286, -120.84), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1798.37, 2476.1, -120.84), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1798.37, 2474.54, -120.84), new Vector3(5.0085705E-06, 2.23115421E-05, 89.99843), 0);
+        API.createObject(1975282749, new Vector3(1801.88, 2483.223, -120.08), new Vector3(89.99817, -1.36920344E-05, -90.0009842), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2475.42, -124.3), new Vector3(89.99782, 5.00895749E-06, 5.008918E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2476.25, -124.3), new Vector3(89.99775, 5.008958E-06, 5.00891247E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2477.24, -124.3), new Vector3(89.99768, 5.0089584E-06, 5.00890746E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2478.23, -124.3), new Vector3(89.9976, 5.00895931E-06, 5.00889928E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2479.21, -124.3), new Vector3(89.99751, 5.008959E-06, 5.008891E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2480.13, -124.3), new Vector3(89.99751, 5.008959E-06, 5.008891E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2481.12, -124.3), new Vector3(89.9974, 5.00895931E-06, 5.008882E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2482.1, -124.3), new Vector3(89.9972839, 5.00895976E-06, 5.00887245E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2484.05, -124.3), new Vector3(89.9970245, 5.00896067E-06, 5.00884971E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2485.05, -124.3), new Vector3(89.99689, 5.00896E-06, 5.008838E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2486.03, -124.3), new Vector3(89.99676, 5.00895976E-06, 5.008825E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2487.01, -124.3), new Vector3(89.99662, 5.00896E-06, 5.008813E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2488, -124.3), new Vector3(89.99648, 5.00895976E-06, 5.0088006E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2488.98, -124.3), new Vector3(89.99633, 5.00896158E-06, 5.00878832E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2489.96, -124.3), new Vector3(89.99616, 5.00896249E-06, 5.00877377E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2490.94, -124.3), new Vector3(89.99599, 5.0089634E-06, 5.00875876E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2491.662, -124.3), new Vector3(89.9958038, 5.0089634E-06, 5.00874239E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2475.38, -124.3), new Vector3(89.9956055, 5.008964E-06, 5.008726E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2476.2, -124.3), new Vector3(89.99539, 5.00896476E-06, 5.008707E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2477.18, -124.3), new Vector3(89.99516, 5.00896567E-06, 5.008687E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2478.17, -124.3), new Vector3(89.99493, 5.00896658E-06, 5.008666E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2479.16, -124.3), new Vector3(89.99467, 5.00896658E-06, 5.008644E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2480.13, -124.3), new Vector3(89.9944153, 5.008967E-06, 5.008623E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2481.12, -124.3), new Vector3(89.9941559, 5.00896749E-06, 5.008599E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2482.1, -124.3), new Vector3(89.99388, 5.00896749E-06, 5.00857459E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2483.08, -124.3), new Vector3(89.9936, 5.0089684E-06, 5.0085514E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2484.05, -124.3), new Vector3(89.99331, 5.0089684E-06, 5.008526E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2485.05, -124.3), new Vector3(89.9930344, 5.0089684E-06, 5.008501E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2488, -124.3), new Vector3(89.99214, 5.008969E-06, 5.008423E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2488.98, -124.3), new Vector3(89.9918442, 5.0089684E-06, 5.00839633E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2486.03, -124.3), new Vector3(89.99274, 5.008969E-06, 5.00847545E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2487.01, -124.3), new Vector3(89.99245, 5.008969E-06, 5.00844953E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2489.96, -124.3), new Vector3(89.99154, 5.0089684E-06, 5.00837E-06), 0);
+        API.createObject(316900990, new Vector3(1796.97742, 2490.95, -124.3), new Vector3(89.9912338, 5.00896977E-06, 5.00834449E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2491.662, -124.3), new Vector3(89.99092, 5.00897E-06, 5.008317E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2475.38, -124.3), new Vector3(89.9941559, 5.00896749E-06, 5.008599E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2476.37, -124.3), new Vector3(89.99388, 5.00896749E-06, 5.00857459E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2477.36, -124.3), new Vector3(89.9936, 5.0089684E-06, 5.0085514E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2478.34, -124.3), new Vector3(89.99331, 5.0089684E-06, 5.008526E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2479.33, -124.3), new Vector3(89.9930344, 5.0089684E-06, 5.008501E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2480.13, -124.3), new Vector3(89.99274, 5.008969E-06, 5.00847545E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2481.12, -124.3), new Vector3(89.99245, 5.008969E-06, 5.00844953E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2482.1, -124.3), new Vector3(89.99214, 5.008969E-06, 5.008423E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2483.08, -124.3), new Vector3(89.9918442, 5.0089684E-06, 5.00839633E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2484.05, -124.3), new Vector3(89.99154, 5.0089684E-06, 5.00837E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2485.04, -124.3), new Vector3(89.9912338, 5.00896977E-06, 5.00834449E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2486.03, -124.3), new Vector3(89.99092, 5.00897E-06, 5.008317E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2487.01, -124.3), new Vector3(89.99059, 5.008971E-06, 5.008289E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2488, -124.3), new Vector3(89.99024, 5.008972E-06, 5.00825763E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2488.99, -124.3), new Vector3(89.99024, 5.008972E-06, 5.00825763E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2489.97, -124.3), new Vector3(89.98988, 5.008971E-06, 5.00822534E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2490.96, -124.3), new Vector3(89.98952, 5.008972E-06, 5.008194E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2491.662, -124.3), new Vector3(89.98916, 5.008971E-06, 5.008162E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2483.09, -124.3), new Vector3(89.99716, 5.00896158E-06, 5.008862E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2475.38, -124.3), new Vector3(89.99214, 5.008969E-06, 5.008423E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2476.36, -124.3), new Vector3(89.9918442, 5.0089684E-06, 5.00839633E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2477.36, -124.3), new Vector3(89.99154, 5.0089684E-06, 5.00837E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2478.34, -124.3), new Vector3(89.9912338, 5.00896977E-06, 5.00834449E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2479.33, -124.3), new Vector3(89.99092, 5.00897E-06, 5.008317E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2480.13, -124.3), new Vector3(89.99059, 5.008971E-06, 5.008289E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2481.12, -124.3), new Vector3(89.99024, 5.008972E-06, 5.00825763E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2482.1, -124.3), new Vector3(89.98988, 5.008971E-06, 5.00822534E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2483.08, -124.3), new Vector3(89.98952, 5.008972E-06, 5.008194E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2484.05, -124.3), new Vector3(89.98916, 5.008971E-06, 5.008162E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2485.04, -124.3), new Vector3(89.98881, 5.008971E-06, 5.008131E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2486.03, -124.3), new Vector3(89.9884644, 5.00897E-06, 5.00810074E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2487.01, -124.3), new Vector3(89.98812, 5.00897067E-06, 5.008071E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2488, -124.3), new Vector3(89.98777, 5.00897E-06, 5.00804E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2488.99, -124.3), new Vector3(89.98742, 5.00897067E-06, 5.00800934E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2489.97, -124.3), new Vector3(89.98706, 5.00897067E-06, 5.00797842E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2490.96, -124.3), new Vector3(89.98671, 5.00897067E-06, 5.0079484E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2491.662, -124.3), new Vector3(89.9863739, 5.00897E-06, 5.007918E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2475.38, -124.3), new Vector3(89.98602, 5.00897067E-06, 5.007887E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2476.36, -124.3), new Vector3(89.9918442, 5.0089684E-06, 5.00839633E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2477.36, -124.3), new Vector3(89.99154, 5.0089684E-06, 5.00837E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2478.34, -124.3), new Vector3(89.9912338, 5.00896977E-06, 5.00834449E-06), 0);
+        API.createObject(316900990, new Vector3(1787.97766, 2479.33, -124.3), new Vector3(89.99092, 5.00897E-06, 5.008317E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2480.13, -124.3), new Vector3(89.99024, 5.008972E-06, 5.00825763E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2481.12, -124.3), new Vector3(89.98988, 5.008971E-06, 5.00822534E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2482.1, -124.3), new Vector3(89.98952, 5.008972E-06, 5.008194E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2483.08, -124.3), new Vector3(89.98916, 5.008971E-06, 5.008162E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2484.05, -124.3), new Vector3(89.98881, 5.008971E-06, 5.008131E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2485.04, -124.3), new Vector3(89.9884644, 5.00897E-06, 5.00810074E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2486.03, -124.3), new Vector3(89.98777, 5.00897E-06, 5.00804E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2487.01, -124.3), new Vector3(89.98742, 5.00897067E-06, 5.00800934E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2488, -124.3), new Vector3(89.98706, 5.00897067E-06, 5.00797842E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2488.99, -124.3), new Vector3(89.98742, 5.00897067E-06, 5.00800934E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2489.97, -124.3), new Vector3(89.98706, 5.00897067E-06, 5.00797842E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2490.96, -124.3), new Vector3(89.98671, 5.00897067E-06, 5.0079484E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2491.662, -124.3), new Vector3(89.98602, 5.00897067E-06, 5.007887E-06), 0);
+        API.createObject(-726591477, new Vector3(1790.41, 2491.74, -123.77), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2475.38, -124.3), new Vector3(89.98952, 5.008972E-06, 5.008194E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2476.36, -124.3), new Vector3(89.98916, 5.008971E-06, 5.008162E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2477.36, -124.3), new Vector3(89.98881, 5.008971E-06, 5.008131E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2478.34, -124.3), new Vector3(89.9884644, 5.00897E-06, 5.00810074E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2479.33, -124.3), new Vector3(89.98812, 5.00897067E-06, 5.008071E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2480.13, -124.3), new Vector3(89.98777, 5.00897E-06, 5.00804E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2481.12, -124.3), new Vector3(89.98742, 5.00897067E-06, 5.00800934E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2482.1, -124.3), new Vector3(89.98706, 5.00897067E-06, 5.00797842E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2483.08, -124.3), new Vector3(89.98671, 5.00897067E-06, 5.0079484E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2484.05, -124.3), new Vector3(89.9863739, 5.00897E-06, 5.007918E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2485.04, -124.3), new Vector3(89.98602, 5.00897067E-06, 5.007887E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2486.03, -124.3), new Vector3(89.9856644, 5.00897067E-06, 5.007856E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2487.01, -124.3), new Vector3(89.98531, 5.00897067E-06, 5.00782471E-06), 0);
+        API.createObject(924295337, new Vector3(1800.63, 2477.9, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1798.94, 2477.9, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1800.63, 2475.18, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1798.94, 2475.18, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1797.38489, 2477.9, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1795.68, 2477.9, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1797.38, 2475.18, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1795.68, 2475.18, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1794.27649, 2477.9, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1792.56, 2477.9, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1791.11, 2477.9, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1789.4, 2477.9, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1787.91626, 2477.9, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1786.21, 2477.9, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1794.28, 2475.18, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1792.56, 2475.18, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1789.4, 2475.18, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1791.11, 2475.18, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1786.21, 2475.18, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1787.92, 2475.18, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(1975282749, new Vector3(1783.15, 2478.89, -120.08), new Vector3(-89.99922, 9.857469E-09, -0.00145774207), 0);
+        API.createObject(924295337, new Vector3(1800.63, 2488.41, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1798.94, 2488.41, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1797.38, 2488.41, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1795.68, 2488.41, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1794.28, 2488.41, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1792.56, 2488.41, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1791.11, 2488.41, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1789.4, 2488.41, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1800.63, 2491.09, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1798.94, 2491.09, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1795.68, 2491.09, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1797.38, 2491.09, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1792.56, 2491.09, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1794.28, 2491.09, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1789.4, 2491.09, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(924295337, new Vector3(1791.11, 2491.09, -120.19), new Vector3(89.99585, -90, 0), 0);
+        API.createObject(-726591477, new Vector3(1792.0553, 2490.36475, -120.84), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-642608865, new Vector3(1795.3, 2487.12, -118.93), new Vector3(0.000185712168, 0.000157545728, -179.762878), 0);
+        API.createObject(-642608865, new Vector3(1792.13, 2487.12, -118.91), new Vector3(0.0002609734, 0.0005254262, -179.637482), 0);
+        API.createObject(-642608865, new Vector3(1788.96, 2487.12, -118.93), new Vector3(0.000221392576, 0.0002135571, -179.814117), 0);
+        API.createObject(-642608865, new Vector3(1785.79, 2479.21, -118.91), new Vector3(-0.000128070038, -0.000585974834, 179.727737), 0);
+        API.createObject(-642608865, new Vector3(1788.95, 2479.18, -118.93), new Vector3(-9.926508E-05, -0.000186236342, -179.898956), 0);
+        API.createObject(-642608865, new Vector3(1792.13, 2479.21, -118.93), new Vector3(0.000111402238, -0.000486764649, -179.85791), 0);
+        API.createObject(-642608865, new Vector3(1795.28, 2479.2, -118.92), new Vector3(1.169282E-05, -0.000186236342, 179.839676), 0);
+        API.createObject(-642608865, new Vector3(1798.44, 2479.21, -118.92), new Vector3(2.650543E-05, -0.000189003447, 179.892441), 0);
+        API.createObject(-726591477, new Vector3(1795.22, 2487.19, -120.84), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-1033001619, new Vector3(1801.47, 2484.43, -122.581535), new Vector3(1.00177413E-05, 5.00894066E-06, -89.99989), 0);
+        API.createObject(-340230128, new Vector3(1801.47, 2481.84, -122.5819), new Vector3(5.900734E-06, -5.008956E-06, 89.9986038), 0);
+        API.createObject(-1586270756, new Vector3(1793.175, 2482.95581, -124.890457), new Vector3(0, -0, 0), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2474.54, -117.91), new Vector3(5.0085705E-06, 2.23115421E-05, 89.99843), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2476.11, -117.91), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2477.68, -117.91), new Vector3(5.008609E-06, 2.231157E-05, 89.99858), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2479.24, -117.91), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2480.84, -117.91), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2482.43, -117.91), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2484.02, -117.91), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2485.6, -117.91), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2487.19, -117.91), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1801.56421, 2488.783, -117.91), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1801.56, 2490.36, -117.91), new Vector3(5.00829447E-06, 2.23113711E-05, 89.9973), 0);
+        API.createObject(-726591477, new Vector3(1801.49, 2491.75, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1799.91, 2491.75, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.32, 2491.75415, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1796.74, 2491.75, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.16, 2491.75, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1793.58, 2491.75, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99, 2491.75, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1790.39, 2491.75, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.82, 2491.75, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1787.23, 2491.75, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2490.36, -117.91), new Vector3(5.00786973E-06, 2.23111056E-05, 89.99556), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2488.78, -117.91), new Vector3(5.0079384E-06, 2.23111474E-05, 89.9958344), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2487.21, -117.91), new Vector3(5.0079384E-06, 2.23111474E-05, 89.9958344), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2485.62, -117.91), new Vector3(5.00800161E-06, 2.23111856E-05, 89.99609), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2484.04, -117.91), new Vector3(5.008062E-06, 2.23112256E-05, 89.99635), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2482.48, -117.91), new Vector3(5.008124E-06, 2.2311262E-05, 89.9966049), 0);
+        API.createObject(-726591477, new Vector3(1785.72021, 2480.89, -117.91), new Vector3(5.00818169E-06, 2.23112984E-05, 89.99684), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2479.3, -117.91), new Vector3(5.00823762E-06, 2.23113348E-05, 89.99708), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2476.1, -117.91), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2474.54, -117.91), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1787.23, 2474.31, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.82, 2474.31, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1790.41, 2474.31, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99, 2474.31, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1793.58, 2474.30981, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.16, 2474.31, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1796.72, 2474.31323, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.31, 2474.31, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1799.9, 2474.31, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1801.47, 2474.31, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.87, 2474.54, -117.91), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1788.87244, 2476.1, -117.91), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1788.87, 2477.68, -117.91), new Vector3(5.00823762E-06, 2.23113348E-05, 89.99708), 0);
+        API.createObject(-726591477, new Vector3(1785.72, 2477.68, -117.91), new Vector3(5.00829447E-06, 2.23113711E-05, 89.9973), 0);
+        API.createObject(-726591477, new Vector3(1792.07, 2474.54, -117.91), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1792.07, 2476.1, -117.91), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1792.07, 2477.68, -117.91), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1795.23, 2474.54, -117.91), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1795.23, 2476.1, -117.91), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1795.23, 2477.682, -117.91), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1798.37, 2474.54, -117.91), new Vector3(5.00852957E-06, 2.23115167E-05, 89.99826), 0);
+        API.createObject(-726591477, new Vector3(1798.37, 2476.1, -117.91), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1798.37, 2477.68, -117.91), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1788.81, 2479.2, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99, 2479.2, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.15, 2479.2, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.32, 2479.2, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1801.48, 2479.2, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.8811, 2487.19, -117.91), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1788.88, 2488.78, -117.91), new Vector3(5.00829447E-06, 2.23113711E-05, 89.9973), 0);
+        API.createObject(-726591477, new Vector3(1788.88, 2490.36, -117.91), new Vector3(5.00823762E-06, 2.23113348E-05, 89.99708), 0);
+        API.createObject(-726591477, new Vector3(1792.06, 2487.19, -117.91), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1792.06, 2488.78, -117.91), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1792.06, 2490.36, -117.91), new Vector3(5.00829447E-06, 2.23113711E-05, 89.9973), 0);
+        API.createObject(-726591477, new Vector3(1795.22, 2487.19, -117.91), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1795.22, 2488.78, -117.91), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1795.22, 2490.36, -117.91), new Vector3(5.00834676E-06, 2.23114021E-05, 89.99751), 0);
+        API.createObject(-726591477, new Vector3(1798.38, 2487.19, -117.91), new Vector3(5.00848728E-06, 2.23114912E-05, 89.99809), 0);
+        API.createObject(-726591477, new Vector3(1798.38, 2488.78, -117.91), new Vector3(5.008444E-06, 2.23114639E-05, 89.99792), 0);
+        API.createObject(-726591477, new Vector3(1798.38, 2490.36, -117.91), new Vector3(5.008398E-06, 2.2311433E-05, 89.99773), 0);
+        API.createObject(-726591477, new Vector3(1787.22913, 2487.1, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1788.81, 2487.1, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1791.99, 2487.1, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1795.16, 2487.1, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1798.32, 2487.1, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(-726591477, new Vector3(1801.48, 2487.1, -117.91), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(2000998394, new Vector3(1800.31, 2479.24, -120.33), new Vector3(1.49987185, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1797.14, 2479.24, -120.33), new Vector3(1.49987185, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1793.97, 2479.24, -120.33), new Vector3(1.49987185, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1790.78, 2479.24, -120.33), new Vector3(1.49987185, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1787.63, 2479.24, -120.33), new Vector3(1.49987185, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1800.28, 2487.09, -120.33), new Vector3(-0.5002007, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1797.13, 2487.1, -120.35), new Vector3(-0.2501884, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1793.97, 2487.12, -120.33), new Vector3(1.49987185, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1790.79, 2487.11, -120.33), new Vector3(0.749849558, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1800.3, 2487.09, -116.7), new Vector3(-0.2501884, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1797.12, 2487.11, -116.72), new Vector3(0.4998424, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1793.97, 2487.1, -116.7), new Vector3(0.4998424, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1790.78, 2487.11, -116.71), new Vector3(0.249825969, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1797.13, 2479.22, -116.7), new Vector3(-0.000171981563, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1793.96, 2479.23, -116.7), new Vector3(-0.00018622537, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1790.79, 2479.21, -116.71), new Vector3(-0.000171981563, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1787.62, 2479.24, -116.7), new Vector3(-0.000171981563, -90, 0), 0);
+        API.createObject(2000998394, new Vector3(1800.31, 2479.23, -116.7), new Vector3(0.249798656, -90, 0), 0);
+        API.createObject(1417093281, new Vector3(1799.07019, 2474.65, -123.8), new Vector3(0, -0, -179.999054), 0);
+        API.createObject(637724453, new Vector3(1793.96069, 2480.74023, -120.046516), new Vector3(0, -0, 0), 0);
+        API.createObject(637724453, new Vector3(1793.96, 2480.74, -120.05), new Vector3(0, -0, 179.998917), 0);
+        API.createObject(-928338834, new Vector3(1787.92285, 2480.73755, -120.046516), new Vector3(0, -5.00895567E-06, 180), 0);
+        API.createObject(409652213, new Vector3(1787.49731, 2485.51147, -120.046455), new Vector3(0, -0, 179.998917), 0);
+        API.createObject(-208600510, new Vector3(1789.53284, 2485.51, -120.046455), new Vector3(0, -0, 0), 0);
+        API.createObject(-208600510, new Vector3(1793.56348, 2485.51, -120.046455), new Vector3(0, -0, 0), 0);
+        API.createObject(-928338834, new Vector3(1797.18274, 2485.51, -120.046455), new Vector3(0, -0, 0), 0);
+        API.createObject(-856050416, new Vector3(1798.93042, 2485.51, -120.046455), new Vector3(0, -0, 0), 0);
+        API.createObject(-856050416, new Vector3(1799.92627, 2485.484, -120.046455), new Vector3(-5.292704E-12, -5.0089493E-06, -89.99989), 0);
+        API.createObject(-208600510, new Vector3(1799.92566, 2484.72461, -120.046463), new Vector3(-5.292704E-12, -5.0089493E-06, -89.99989), 0);
+        API.createObject(-642608865, new Vector3(1798.45, 2487.12, -118.92), new Vector3(0.000185712168, 0.000157545728, -179.762878), 0);
+        API.createObject(-642608865, new Vector3(1798.45, 2487.14, -122.54), new Vector3(-0.0002655417, 0.000124707818, 178.890854), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2475.42, -116.11), new Vector3(89.99782, 5.00895749E-06, 5.008918E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2476.25, -116.11), new Vector3(89.99775, 5.008958E-06, 5.00891247E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2477.24, -116.11), new Vector3(89.99768, 5.0089584E-06, 5.00890746E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2478.23, -116.11), new Vector3(89.9976, 5.00895931E-06, 5.00889928E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2479.21, -116.11), new Vector3(89.99751, 5.008959E-06, 5.008891E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2480.13, -116.11), new Vector3(89.99751, 5.008959E-06, 5.008891E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2481.12, -116.11), new Vector3(89.9974, 5.00895931E-06, 5.008882E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2482.1, -116.11), new Vector3(89.9972839, 5.00895976E-06, 5.00887245E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2484.05, -116.11), new Vector3(89.9970245, 5.00896067E-06, 5.00884971E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2485.05, -116.11), new Vector3(89.99689, 5.00896E-06, 5.008838E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2486.03, -116.11), new Vector3(89.99676, 5.00895976E-06, 5.008825E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2487.01, -116.11), new Vector3(89.99662, 5.00896E-06, 5.008813E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2488, -116.11), new Vector3(89.99648, 5.00895976E-06, 5.0088006E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2488.98, -116.11), new Vector3(89.99633, 5.00896158E-06, 5.00878832E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2489.96, -116.11), new Vector3(89.99616, 5.00896249E-06, 5.00877377E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2490.94, -116.11), new Vector3(89.99599, 5.0089634E-06, 5.00875876E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2491.662, -116.11), new Vector3(89.9958038, 5.0089634E-06, 5.00874239E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2475.38, -116.11), new Vector3(89.9956055, 5.008964E-06, 5.008726E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2476.2, -116.11), new Vector3(89.99539, 5.00896476E-06, 5.008707E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2477.18, -116.11), new Vector3(89.99516, 5.00896567E-06, 5.008687E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2478.17, -116.11), new Vector3(89.99493, 5.00896658E-06, 5.008666E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2479.16, -116.11), new Vector3(89.99467, 5.00896658E-06, 5.008644E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2480.13, -116.11), new Vector3(89.9944153, 5.008967E-06, 5.008623E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2481.12, -116.11), new Vector3(89.9941559, 5.00896749E-06, 5.008599E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2482.1, -116.11), new Vector3(89.99388, 5.00896749E-06, 5.00857459E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2483.08, -116.11), new Vector3(89.9936, 5.0089684E-06, 5.0085514E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2484.05, -116.11), new Vector3(89.99331, 5.0089684E-06, 5.008526E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2485.05, -116.11), new Vector3(89.9930344, 5.0089684E-06, 5.008501E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2488, -116.11), new Vector3(89.99214, 5.008969E-06, 5.008423E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2488.98, -116.11), new Vector3(89.9918442, 5.0089684E-06, 5.00839633E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2486.03, -116.11), new Vector3(89.99274, 5.008969E-06, 5.00847545E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2487.01, -116.11), new Vector3(89.99245, 5.008969E-06, 5.00844953E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2489.96, -116.11), new Vector3(89.99154, 5.0089684E-06, 5.00837E-06), 0);
+        API.createObject(316900990, new Vector3(1796.97742, 2490.95, -116.11), new Vector3(89.9912338, 5.00896977E-06, 5.00834449E-06), 0);
+        API.createObject(316900990, new Vector3(1796.98, 2491.662, -116.11), new Vector3(89.99092, 5.00897E-06, 5.008317E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2475.38, -116.11), new Vector3(89.9941559, 5.00896749E-06, 5.008599E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2476.37, -116.11), new Vector3(89.99388, 5.00896749E-06, 5.00857459E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2477.36, -116.11), new Vector3(89.9936, 5.0089684E-06, 5.0085514E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2478.34, -116.11), new Vector3(89.99331, 5.0089684E-06, 5.008526E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2479.33, -116.11), new Vector3(89.9930344, 5.0089684E-06, 5.008501E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2480.13, -116.11), new Vector3(89.99274, 5.008969E-06, 5.00847545E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2481.12, -116.11), new Vector3(89.99245, 5.008969E-06, 5.00844953E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2482.1, -116.11), new Vector3(89.99214, 5.008969E-06, 5.008423E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2483.08, -116.11), new Vector3(89.9918442, 5.0089684E-06, 5.00839633E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2484.05, -116.11), new Vector3(89.99154, 5.0089684E-06, 5.00837E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2485.04, -116.11), new Vector3(89.9912338, 5.00896977E-06, 5.00834449E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2486.03, -116.11), new Vector3(89.99092, 5.00897E-06, 5.008317E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2487.01, -116.11), new Vector3(89.99059, 5.008971E-06, 5.008289E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2488, -116.11), new Vector3(89.99024, 5.008972E-06, 5.00825763E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2488.99, -116.11), new Vector3(89.99024, 5.008972E-06, 5.00825763E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2489.97, -116.11), new Vector3(89.98988, 5.008971E-06, 5.00822534E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2490.96, -116.11), new Vector3(89.98952, 5.008972E-06, 5.008194E-06), 0);
+        API.createObject(316900990, new Vector3(1793.98, 2491.662, -116.11), new Vector3(89.98916, 5.008971E-06, 5.008162E-06), 0);
+        API.createObject(316900990, new Vector3(1799.98, 2483.09, -116.11), new Vector3(89.99716, 5.00896158E-06, 5.008862E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2475.38, -116.11), new Vector3(89.99214, 5.008969E-06, 5.008423E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2476.36, -116.11), new Vector3(89.9918442, 5.0089684E-06, 5.00839633E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2477.36, -116.11), new Vector3(89.99154, 5.0089684E-06, 5.00837E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2478.34, -116.11), new Vector3(89.9912338, 5.00896977E-06, 5.00834449E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2479.33, -116.11), new Vector3(89.99092, 5.00897E-06, 5.008317E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2480.13, -116.11), new Vector3(89.99059, 5.008971E-06, 5.008289E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2481.12, -116.11), new Vector3(89.99024, 5.008972E-06, 5.00825763E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2482.1, -116.11), new Vector3(89.98988, 5.008971E-06, 5.00822534E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2483.08, -116.11), new Vector3(89.98952, 5.008972E-06, 5.008194E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2484.05, -116.11), new Vector3(89.98916, 5.008971E-06, 5.008162E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2485.04, -116.11), new Vector3(89.98881, 5.008971E-06, 5.008131E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2486.03, -116.11), new Vector3(89.9884644, 5.00897E-06, 5.00810074E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2487.01, -116.11), new Vector3(89.98812, 5.00897067E-06, 5.008071E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2488, -116.11), new Vector3(89.98777, 5.00897E-06, 5.00804E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2488.99, -116.11), new Vector3(89.98742, 5.00897067E-06, 5.00800934E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2489.97, -116.11), new Vector3(89.98706, 5.00897067E-06, 5.00797842E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2490.96, -116.11), new Vector3(89.98671, 5.00897067E-06, 5.0079484E-06), 0);
+        API.createObject(316900990, new Vector3(1790.98, 2491.662, -116.11), new Vector3(89.9863739, 5.00897E-06, 5.007918E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2475.38, -116.11), new Vector3(89.98602, 5.00897067E-06, 5.007887E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2476.36, -116.11), new Vector3(89.9918442, 5.0089684E-06, 5.00839633E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2477.36, -116.11), new Vector3(89.99154, 5.0089684E-06, 5.00837E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2478.34, -116.11), new Vector3(89.9912338, 5.00896977E-06, 5.00834449E-06), 0);
+        API.createObject(316900990, new Vector3(1787.97766, 2479.33, -116.11), new Vector3(89.99092, 5.00897E-06, 5.008317E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2480.13, -116.11), new Vector3(89.99024, 5.008972E-06, 5.00825763E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2481.12, -116.11), new Vector3(89.98988, 5.008971E-06, 5.00822534E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2482.1, -116.11), new Vector3(89.98952, 5.008972E-06, 5.008194E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2483.08, -116.11), new Vector3(89.98916, 5.008971E-06, 5.008162E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2484.05, -116.11), new Vector3(89.98881, 5.008971E-06, 5.008131E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2485.04, -116.11), new Vector3(89.9884644, 5.00897E-06, 5.00810074E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2486.03, -116.11), new Vector3(89.98777, 5.00897E-06, 5.00804E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2487.01, -116.11), new Vector3(89.98742, 5.00897067E-06, 5.00800934E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2488, -116.11), new Vector3(89.98706, 5.00897067E-06, 5.00797842E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2488.99, -116.11), new Vector3(89.98742, 5.00897067E-06, 5.00800934E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2489.97, -116.11), new Vector3(89.98706, 5.00897067E-06, 5.00797842E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2490.96, -116.11), new Vector3(89.98671, 5.00897067E-06, 5.0079484E-06), 0);
+        API.createObject(316900990, new Vector3(1787.98, 2491.662, -116.11), new Vector3(89.98602, 5.00897067E-06, 5.007887E-06), 0);
+        API.createObject(-726591477, new Vector3(1790.41, 2491.74, -123.77), new Vector3(5.00895567E-06, -6.329292E-05, -180), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2475.38, -116.11), new Vector3(89.98952, 5.008972E-06, 5.008194E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2476.36, -116.11), new Vector3(89.98916, 5.008971E-06, 5.008162E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2477.36, -116.11), new Vector3(89.98881, 5.008971E-06, 5.008131E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2478.34, -116.11), new Vector3(89.9884644, 5.00897E-06, 5.00810074E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2479.33, -116.11), new Vector3(89.98812, 5.00897067E-06, 5.008071E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2480.13, -116.11), new Vector3(89.98777, 5.00897E-06, 5.00804E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2481.12, -116.11), new Vector3(89.98742, 5.00897067E-06, 5.00800934E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2482.1, -116.11), new Vector3(89.98706, 5.00897067E-06, 5.00797842E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2483.08, -116.11), new Vector3(89.98671, 5.00897067E-06, 5.0079484E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2484.05, -116.11), new Vector3(89.9863739, 5.00897E-06, 5.007918E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2485.04, -116.11), new Vector3(89.98602, 5.00897067E-06, 5.007887E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2486.03, -116.11), new Vector3(89.9856644, 5.00897067E-06, 5.007856E-06), 0);
+        API.createObject(316900990, new Vector3(1784.98, 2487.01, -116.11), new Vector3(89.98531, 5.00897067E-06, 5.00782471E-06), 0);
+        API.createObject(-642608865, new Vector3(1790.44, 2479.18481, -122.55), new Vector3(-0.00147118419, -5.96092541E-05, 179.919052), 0);
+        API.createObject(-642608865, new Vector3(1787.28, 2479.18, -122.55), new Vector3(-0.000126585845, -0.00024087778, 179.582077), 0);
+        API.createObject(-642608865, new Vector3(1793.63, 2479.21, -122.55), new Vector3(-0.00146530278, -6.329292E-05, -179.330917), 0);
+        API.createObject(-642608865, new Vector3(1796.79, 2479.19, -122.55), new Vector3(-0.00146530278, -6.329292E-05, -179.330917), 0);
+        API.createObject(-642608865, new Vector3(1799.95, 2479.19, -122.54), new Vector3(-0.00146530324, -6.329295E-05, -179.830887), 0);
+        API.createObject(1976979908, new Vector3(1797.88, 2483.28, -116.69), new Vector3(0, -0, 0), 0);
+        API.createObject(1976979908, new Vector3(1791.26, 2483.28, -116.69), new Vector3(0, -0, 0), 0);
+        API.createObject(305924745, new Vector3(1800.63623, 2479.80029, -120.113472), new Vector3(0, -0, 0), 0);
+        API.createObject(305924745, new Vector3(1794.469, 2479.96631, -120.113472), new Vector3(0, -0, 0), 0);
+        API.createObject(305924745, new Vector3(1794.473, 2486.169, -120.113426), new Vector3(0, -0, 0), 0);
+        API.createObject(305924745, new Vector3(1788.16736, 2486.08667, -120.113426), new Vector3(0, -0, 0), 0);
+        API.createObject(305924745, new Vector3(1800.67053, 2486.35645, -120.113441), new Vector3(0, -0, 0), 0);
+        API.createObject(305924745, new Vector3(1788.17029, 2480.07, -120.113472), new Vector3(0, -0, 0), 0);
+        API.createObject(-1228586030, new Vector3(1797.93079, 2478.75, -123.710083), new Vector3(1.00177576E-05, -5.00895567E-06, -92.2476654), 0);
+        API.createObject(-525238304, new Vector3(1798.28113, 2477.9, -122.922852), new Vector3(2.41989183E-05, 5.00893157E-06, -89.99844), 0);
+        API.createObject(-642608865, new Vector3(1793.63, 2487.11, -122.55), new Vector3(-4.46236081E-05, -9.06137138E-05, -179.739075), 0);
+        API.createObject(-642608865, new Vector3(1796.77, 2487.11, -122.56), new Vector3(-0.00039979344, -9.061373E-05, 179.700317), 0);
+        API.createObject(-642608865, new Vector3(1790.46, 2487.12, -122.55), new Vector3(9.522455E-05, -9.06136847E-05, -179.7593), 0);
+        API.createObject(-642608865, new Vector3(1790.44, 2479.18, -118.93), new Vector3(-9.926508E-05, -0.000186236372, -179.898956), 0);
+        API.createObject(-642608865, new Vector3(1787.28, 2479.21, -118.91), new Vector3(-9.926508E-05, -0.000186236386, -179.898956), 0);
+        API.createObject(-642608865, new Vector3(1793.62, 2479.21, -118.93), new Vector3(-9.926508E-05, -0.000186236386, -179.898956), 0);
+        API.createObject(-642608865, new Vector3(1796.78, 2479.19, -118.92), new Vector3(-9.926508E-05, -0.0001862364, -179.898956), 0);
+        API.createObject(-642608865, new Vector3(1799.94, 2479.21, -118.92), new Vector3(2.65054314E-05, -0.000189003447, 179.892441), 0);
+        API.createObject(-642608865, new Vector3(1790.44, 2487.12, -118.93), new Vector3(0.000221392576, 0.0002135571, -179.814117), 0);
+        API.createObject(-642608865, new Vector3(1793.62, 2487.13, -118.91), new Vector3(0.000260973378, 0.000514085463, 179.8625), 0);
+        API.createObject(-642608865, new Vector3(1796.8, 2487.12, -118.93), new Vector3(0.000185712168, 0.000157545728, -179.762878), 0);
+        API.createObject(-642608865, new Vector3(1799.94, 2487.12, -118.92), new Vector3(0.000185712168, 0.000157545728, -179.762878), 0);
+        API.createObject(-363675173, new Vector3(1798.28, 2489.581, -118.763618), new Vector3(0, -0, -91.9996262), 0);
+        API.createObject(-1795175708, new Vector3(1795.44873, 2483.185, -123.709633), new Vector3(0, -0, 0), 0);
+        API.createObject(-1795175708, new Vector3(1791.6405, 2483.14844, -123.708725), new Vector3(0, -0, 0), 0);
+        API.createObject(548760764, new Vector3(1801.28149, 2479.28784, -117.252525), new Vector3(0, -0, -158.99913), 0);
+        API.createObject(-354221800, new Vector3(1785.80811, 2486.75757, -120.589371), new Vector3(0, -0, 99.99979), 0);
+        API.createObject(-354221800, new Vector3(1785.80811, 2486.85449, -117.149879), new Vector3(0, -0, 92.9996948), 0);
+        API.createObject(1964400974, new Vector3(1801.472, 2483.23633, -117.59407), new Vector3(0, 0, -88.9997253), 0);
+        API.createObject(1964400974, new Vector3(1791.30554, 2487.01147, -120.841667), new Vector3(0, 0, -2.99944139), 0);
+        API.createObject(-525238304, new Vector3(1795.14478, 2477.9, -122.92), new Vector3(2.4198911E-05, 5.00891929E-06, -89.9984), 0);
+        API.createObject(-525238304, new Vector3(1791.98193, 2477.9, -122.92), new Vector3(2.41989E-05, 5.00890565E-06, -89.99835), 0);
+        API.createObject(-525238304, new Vector3(1788.78223, 2477.9, -122.92), new Vector3(2.419889E-05, 5.008891E-06, -89.9983), 0);
+        API.createObject(-525238304, new Vector3(1788.782, 2477.9, -119.11), new Vector3(2.41988782E-05, 5.00887472E-06, -89.9982452), 0);
+        API.createObject(-1228586030, new Vector3(1794.846, 2478.65625, -123.709816), new Vector3(1.00177576E-05, -5.00895567E-06, -92.2476654), 0);
+        API.createObject(-1228586030, new Vector3(1791.705, 2478.67456, -123.7094), new Vector3(1.00177576E-05, -5.00895567E-06, -92.2476654), 0);
+        API.createObject(-1228586030, new Vector3(1788.463, 2478.61719, -123.708717), new Vector3(1.00177567E-05, -5.00895567E-06, -91.24766), 0);
+        API.createObject(-1228586030, new Vector3(1788.44019, 2478.59717, -120.040047), new Vector3(1.00177567E-05, -5.00895567E-06, -91.24766), 0);
+        API.createObject(-1228586030, new Vector3(1791.6825, 2478.682, -120.029938), new Vector3(1.00177567E-05, -5.00895567E-06, -91.24766), 0);
+        API.createObject(-1228586030, new Vector3(1794.80225, 2478.68433, -120.029938), new Vector3(1.00177558E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-1228586030, new Vector3(1798.014, 2478.65381, -120.030052), new Vector3(1.00177576E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-1228586030, new Vector3(1801.19226, 2478.62231, -120.032364), new Vector3(1.00177576E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-1228586030, new Vector3(1801.19116, 2487.50879, -120.030037), new Vector3(1.00177576E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-1228586030, new Vector3(1798.0094, 2487.54858, -120.030037), new Vector3(1.00177576E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-1228586030, new Vector3(1794.85632, 2487.50513, -120.02993), new Vector3(1.00177576E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-1228586030, new Vector3(1791.6875, 2487.54614, -120.02993), new Vector3(1.00177576E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-1228586030, new Vector3(1791.69519, 2487.443, -123.709358), new Vector3(1.00177576E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-1228586030, new Vector3(1794.83154, 2487.52417, -123.709778), new Vector3(1.00177576E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-1228586030, new Vector3(1797.99927, 2487.52881, -123.710258), new Vector3(1.00177576E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-1228586030, new Vector3(1801.1958, 2487.57251, -123.710854), new Vector3(1.00177576E-05, -5.008956E-06, -90.24765), 0);
+        API.createObject(-642608865, new Vector3(1799.95, 2487.12, -122.54), new Vector3(-0.000399793527, -6.329292E-05, 179.38588), 0);
+        API.createObject(-525238304, new Vector3(1791.98193, 2477.83179, -119.11), new Vector3(2.41989183E-05, 5.00893157E-06, -89.99844), 0);
+        API.createObject(-525238304, new Vector3(1795.142, 2477.79443, -119.11), new Vector3(2.4198911E-05, 5.00891929E-06, -89.9984), 0);
+        API.createObject(-525238304, new Vector3(1798.282, 2477.79, -119.11), new Vector3(2.41989E-05, 5.00890565E-06, -89.99835), 0);
+        API.createObject(-525238304, new Vector3(1801.47009, 2477.79883, -119.11), new Vector3(2.419889E-05, 5.008891E-06, -89.9983), 0);
+        API.createObject(-525238304, new Vector3(1801.46948, 2488.51147, -119.11), new Vector3(2.41988782E-05, 5.00887472E-06, -89.9982452), 0);
+        API.createObject(-525238304, new Vector3(1798.292, 2488.47485, -119.11), new Vector3(2.419887E-05, 5.00885835E-06, -89.9981842), 0);
+        API.createObject(-525238304, new Vector3(1795.132, 2488.328, -119.11), new Vector3(2.41988564E-05, 5.00884E-06, -89.9981155), 0);
+        API.createObject(-525238304, new Vector3(1791.972, 2488.29028, -119.11), new Vector3(2.41988437E-05, 5.008823E-06, -89.99805), 0);
+        API.createObject(-525238304, new Vector3(1791.9668, 2488.26416, -122.92), new Vector3(2.41988346E-05, 5.0088056E-06, -89.99798), 0);
+        API.createObject(-525238304, new Vector3(1795.132, 2488.2688, -122.92), new Vector3(2.41988218E-05, 5.00878559E-06, -89.9979), 0);
+        API.createObject(-525238304, new Vector3(1798.292, 2488.32422, -122.92), new Vector3(2.41988055E-05, 5.008763E-06, -89.99782), 0);
+        API.createObject(-525238304, new Vector3(1801.472, 2488.31, -122.92), new Vector3(2.41987909E-05, 5.008739E-06, -89.99773), 0);
+        API.createObject(314496444, new Vector3(1797.64771, 2490.51172, -123.709274), new Vector3(0, 0, 89.99962), 0);
+        API.createObject(314496444, new Vector3(1800.83716, 2490.472, -123.709839), new Vector3(5.088887E-13, -5.008956E-06, 89.24969), 0);
+        API.createObject(314496444, new Vector3(1794.52869, 2490.46655, -123.708908), new Vector3(1.71908971E-12, -5.00895567E-06, 90.24965), 0);
+        API.createObject(314496444, new Vector3(1791.334, 2490.429, -123.708336), new Vector3(0, 0, 89.9996262), 0);
+        API.createObject(314496444, new Vector3(1791.3269, 2490.52466, -120.040016), new Vector3(0, 0, 89.9996262), 0);
+        API.createObject(314496444, new Vector3(1794.48669, 2490.447, -120.040016), new Vector3(0, 0, 89.9996262), 0);
+        API.createObject(314496444, new Vector3(1797.6853, 2490.47437, -120.040024), new Vector3(0, -0, 90.99962), 0);
+        API.createObject(314496444, new Vector3(1800.82288, 2490.49316, -120.040016), new Vector3(0, -0, 90.99961), 0);
+        API.createObject(314496444, new Vector3(1800.78711, 2475.57129, -120.040016), new Vector3(0, -0, -90.00033), 0);
+        API.createObject(314496444, new Vector3(1797.63062, 2475.50952, -120.040024), new Vector3(0, -0, -90.00031), 0);
+        API.createObject(314496444, new Vector3(1794.48242, 2475.611, -120.040024), new Vector3(0, -0, -90.00031), 0);
+        API.createObject(314496444, new Vector3(1791.36108, 2475.52319, -120.040024), new Vector3(0, -0, -90.00031), 0);
+        API.createObject(314496444, new Vector3(1788.116, 2475.551, -120.040024), new Vector3(0, -0, -90.00031), 0);
+        API.createObject(314496444, new Vector3(1788.116, 2475.54419, -123.707726), new Vector3(0, 0, -89.00031), 0);
+        API.createObject(314496444, new Vector3(1791.31287, 2475.60034, -123.70829), new Vector3(0, 0, -89.00025), 0);
+        API.createObject(314496444, new Vector3(1794.49084, 2475.47363, -123.708794), new Vector3(0, 0, -89.00025), 0);
+        API.createObject(314496444, new Vector3(1797.60046, 2475.61157, -123.70916), new Vector3(0, 0, -89.00025), 0);
+        API.createObject(314496444, new Vector3(1800.80688, 2475.53687, -123.709755), new Vector3(0, 0, -89.00025), 0);
+        API.createObject(1417093281, new Vector3(1796.0321, 2474.63281, -123.8), new Vector3(0, -0, -179.999054), 0);
+        API.createObject(1417093281, new Vector3(1792.92554, 2474.64551, -123.8), new Vector3(0, -0, -178.998978), 0);
+        API.createObject(1417093281, new Vector3(1789.72485, 2474.67456, -123.8), new Vector3(0, -0, -179.999), 0);
+        API.createObject(1417093281, new Vector3(1786.57166, 2474.63159, -123.8), new Vector3(0, -0, -179.999), 0);
+        API.createObject(1417093281, new Vector3(1786.51208, 2474.6582, -120.13), new Vector3(0, -0, -179.999), 0);
+        API.createObject(1417093281, new Vector3(1789.78052, 2474.659, -120.13), new Vector3(0, -0, -179.999), 0);
+        API.createObject(1417093281, new Vector3(1792.9, 2474.66, -120.13), new Vector3(0, -0, -179.999), 0);
+        API.createObject(1417093281, new Vector3(1796.07, 2474.66, -120.13), new Vector3(0, -0, -179.999), 0);
+        API.createObject(1417093281, new Vector3(1799.26, 2474.65, -120.13), new Vector3(0, -0, -179.999), 0);
+        API.createObject(1417093281, new Vector3(1789.87793, 2491.414, -123.8), new Vector3(0, 0, 0.00215184665), 0);
+        API.createObject(1417093281, new Vector3(1793.04993, 2491.38916, -123.8), new Vector3(0, 0, 1.00215149), 0);
+        API.createObject(1417093281, new Vector3(1796.17, 2491.39, -123.79), new Vector3(0, 0, 0.00215136982), 0);
+        API.createObject(1417093281, new Vector3(1799.36865, 2491.385, -123.79), new Vector3(0, 0, 0.00215136958), 0);
+        API.createObject(1417093281, new Vector3(1799.33484, 2491.39, -120.13), new Vector3(0, 0, 1.00215149), 0);
+        API.createObject(1417093281, new Vector3(1796.105, 2491.39624, -120.13), new Vector3(0, 0, 0.00215154863), 0);
+        API.createObject(1417093281, new Vector3(1792.97534, 2491.39673, -120.13), new Vector3(0, 0, 0.00215154863), 0);
+        API.createObject(1417093281, new Vector3(1789.8219, 2491.40259, -120.13), new Vector3(0, 0, 0.002151489), 0);
     }
 }
