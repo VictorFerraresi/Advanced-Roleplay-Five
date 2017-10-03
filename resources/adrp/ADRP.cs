@@ -15413,7 +15413,6 @@ public class ADRP : Script
 
     public void PrisonMap()
     {
-        1801.1886 2478.786 -123.710838
         API.createObject(-1228586030, new Vector3(1801.1886, 2478.786, -123.710838), new Vector3(1.00177576E-05, -5.00895567E-06, -93.24768), 0);
         API.createObject(-525238304, new Vector3(1801.472, 2477.90186, -122.79863), new Vector3(2.41989237E-05, 5.00894157E-06, -89.9984741), 0);
         API.createObject(-726591477, new Vector3(1801.56, 2477.68237, -123.771156), new Vector3(5.00870647E-06, 2.23116313E-05, 89.9989853), 0);
