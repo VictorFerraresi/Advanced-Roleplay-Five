@@ -11,3 +11,4 @@ NLog.config
 server.txt
 settings.xml
 vehicleData.json
+*.log
